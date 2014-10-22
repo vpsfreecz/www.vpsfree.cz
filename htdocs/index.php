@@ -1,0 +1,605 @@
+<?php
+header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">    
+    <title>vpsFree.cz - Virtuální Privátní Servery svobodně</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta name="keywords" content="VPS, hosting, virtualni server, linux, server, privatni server, virtual, virtualny">    
+    <meta name="description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
+
+	<!-- Meta tagy pre socialne siete-->
+	<meta property="og:site_name" content="vpsFree.cz">
+	<meta property="og:url" content="https://www.vpsfree.cz">	
+	<meta property="og:title" content="vpsFree.cz - Virtuální Privátní Servery svobodně">
+	<meta property="og:description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
+	<meta name="author" content="vpsFree.cz"/>
+	<meta property="og:type" content="article">
+	<!--<meta property="og:image" content="/assets/linka-na-konkretny-obrazok-predvoleny-pre-facebook.jpg">-->
+	<meta property="og:image:type" content="image/jpeg" />
+
+
+	<meta name="robots" content="index,follow">
+	<!--<meta name="google-site-verification" content="SEM_DAT_KOD_AK_CHCETE_WEBMASTERS_TOOLS">-->
+	
+	<!-- CSS -->
+	<link href='https://fonts.googleapis.com/css?family=Oswald:300,400,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>	
+	
+	<!-- potom zmenit link na serverovy, ak by neslo -->
+    <link rel="stylesheet" href="css/c.css" type="text/css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/d.js"></script>
+    
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    
+</head>
+
+<body>
+	<header>
+		<section>
+		<h1><a href="/"><span>vpsFree.cz - Virtuální Privátní Servery svobodně</span></a></h1>
+		<a href="#" class="menu-btn">Menu</a>
+		<nav>
+			<ul class="clearfix">
+				<li><a href="#about" title="O vpsFree.cz">O vpsFree.cz</a></li>
+				<li><a href="#howto" title="Jak začít">Jak začít</a></li>
+				<li><a href="#order" title="Přihláška">Přihláška</a></li>
+				<li><a href="#faq" title="Časté dotazy">Časté dotazy</a></li>
+				<li><a href="#contacts" title="Kontakty">Kontakty</a></li>
+			</ul>
+		</nav>
+		<div class="c"> </div>
+		</section>
+	</header>
+
+	<section class="pg page1">
+		<div class="in">
+			<div class="hearth"> </div>
+			<h2>Milujeme servery</h2>
+			<p>Pokud chceš mít sůj vlastní <strong>virtuální server</strong>, který si přizpůsobíš svým potřebám
+a&nbsp;nechceš se trápit hardwarovým a technickým řešením, chceš sdílet
+naši <strong>společnou infrastrukturu</strong> a společný hardware, pojď k nám! Nejsme klasický komerční 
+webhosting, jsme občanské sdružení, jehož členem se můžeš stát i ty&hellip;</p>
+		</div>
+	</section>
+	
+	
+	
+	<a id="about"></a>	
+	<section class="pg page2">
+		
+		<div class="dots">
+		 <ul>
+		  <li><a href="#" class="yes" title="Naše filozofie"><span class="n">0</span></a></li>
+		  <li><a href="#" class="no" title="Prostředky"><span class="n">1</span></a></li>
+		  <li><a href="#" class="no" title="Kdo je za tím vším"><span class="n">2</span></a></li>
+		  <li><a href="#" class="no" title="Komunita"><span class="n">3</span></a></li>
+		  <li><a href="#" class="no" title="Jsme vidět"><span class="n">4</span></a></li>
+		  <li><a href="#" class="no" title="Komunita"><span class="n">5</span></a></li>
+		 </ul>
+		</div>
+		
+		
+		<!-- PANELY CO SA SKRYVAJU - Zaciatok -->
+		
+		
+		
+		<div class="ab ab1 ">
+			<div class="in">
+			<h2>Proč to děláme?</h2>
+			
+			<div class="filozofia">
+			 <em> Sdružení vzniklo jako </em>
+			 <strong>přímá reakce</strong>
+			 <em>na nepružnost a přemrštěné ceny komerčních hostingů v ČR</em>
+			 <span> a ještě horší situaci v SR</span>
+			</div>
+		
+		<div class="principy">			 
+			 <span>svobodný software</span> <em>+</em> 
+			 <span>samostatnost</span> <em>+</em>
+			 <span>otevřená komunita</span>
+			</div>
+			
+			<div class="c"> </div>
+			<p>
+			Naprostá většina informací o <strong>vpsFree.cz</strong> je veřejná.<br />
+			Chceme, aby členové i veřejnost měli přehled o dění v našem sdružení,<br />
+			sleduj naše informační kanály a sociální síte:<br />
+			</p>
+			
+			
+			
+			
+			<div class="social">
+				<a href="http://lists.vpsfree.cz/" class="newsletter" title="Newsletter"><span>Newsletter</span></a>
+				<a href="https://www.facebook.com/vpsfree" class="facebook" title="Facebook"><span>Facebook</span></a>
+				<a href="https://www.twitter.com/vpsfree_cz" class="twitter" title="Twitter"><span>Twitter</span></a>
+				<div class="c"> </div>
+			</div>
+			<div class="c"></div>
+		</div>
+			
+		</div><!--ab1-->
+		
+		<div class="ab ab2 n">
+		    <div class="in">
+			<h2>Prostředky</h2>
+			<p>které členstvím získáte</p>
+			
+			
+			<div class="prostriedky m-t-20">
+			 <div class="pr pr1">
+			  	<h3>Virtuální server</h3>
+
+				<table>
+					<tr>
+						<td class="doprava">CPU:</td>
+						<td class="dolava"><strong>8 jader</strong></td>
+					</tr>
+					<tr>
+						<td class="doprava">RAM:</td>
+						<td class="dolava"><strong>4096 MB</strong></td>
+					</tr>
+
+					<tr>
+						<td class="doprava">HDD:</td>
+						<td class="dolava"><strong>60 GB</strong></td>
+					</tr>
+					<tr>
+						<td class="doprava">adresa</td>
+						<td class="dolava"><strong>IPv4</strong></td>
+					</tr>
+					<tr>
+						<td class="doprava">adresa</td>
+						<td class="dolava"><strong>IPv6</strong></td>
+					</tr>
+					
+					<tr>
+						<td class="doprava">konektivita</td>
+						<td class="dolava"><strong>1 Gbit</strong></td>
+					</tr>
+					
+					<tr>
+						<td class="doprava"><strong>Vzdálená</strong></td>
+						<td class="dolava"><strong>konzole</strong></td>
+					</tr>
+					<tr>
+						<td class="doprava"><strong>On-line</strong></td>
+						<td class="dolava"><strong>podpora</strong></td>
+					</tr>				
+				</table>
+			 </div>
+			 <div class="pr pr2">
+			 	<h3>NAS Storage</h3>
+			 	<p>V době cloud computingu a obecně trendu přesouvat data z desktopů do 
+datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem svým členům 
+<strong>250 GB prostoru</strong> jako standardní součást členských výhod.<br /><br /> V blízké budoucnosti přibude možnost rozšířít kapacitu externího úložiště až na <strong>2 TB</strong> a také možnost jeho pravidelného zálohování.</p>
+			 </div>
+			 <div class="pr pr3">
+			 	<h3>Playground VPS</h3>
+			 	<p>Playground VPS jsou virtuální servery v podobné konfiguraci, jako klasické námi poskytované virtuální servery, jen mají životnost omezenou na 
+<strong>jeden měsíc</strong>. Běží na post-produkčním hardware a mají jiné rozsahy <strong>IP adres</strong>.<br /><br /> Do Playgroundu lze naklonovat produkční virtuální server, není tedy  nutné jej nastavovat od nuly, když potřebujete vyzkoušet jenom drobnou změnu konfigurace.</p>
+			 </div>
+			<div class="c"> </div>
+			</div><!--prostriedky-->
+			
+			
+			</div>
+			
+		</div><!--ab2-->
+		
+		
+		
+		<div class="ab ab3 n">
+		    <div class="in">
+			<h2>Kdo je za tím vším</h2>
+			
+			
+			<div class="who m-t-20">
+			 <div class="whoe">
+			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
+			   <h3>Pavel Šnajdr</h3>
+			   <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a technickým ředitelem společnosti Relbit. Zabývá se kontejnerovou virtualizací, ZFS a enterprise linuxovými distribucemi. Má rád otevřené prostředí a aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
+			 </div>
+			 
+			 
+			 <div class="whoe">
+			   <img src="i/tomas-srnka.jpg" alt="Tomáš Srnka" class="avatar">
+			   <h3>Tomáš Srnka</h3>
+			   <p>Tomáš Srnka je členem rady spolku vpsFree.cz od samého počátku. Zajímá se zejména o vysokou dostupnost a škálovatelnost. Spolu s Pavlem Šnajdrem založil společnost Relbit. Kromě technického směru se stará o ekonomickou stránku věci.</p>			  
+			 </div>
+			 
+			 <div class="whoe">
+			   <img src="i/jiri-medved.jpg" alt="Jiří Medvěd" class="avatar">
+			   <h3>Jiří Medvěd</h3>
+			   <p>Jiří Medvěd pracuje jako system administrátor v Seznam.cz a má rád otevřené technologie, které zvýší dostupnost služeb. Ve vpsFree.cz má na starosti technickou podporu, servery a správu templates pro VPS.</p>			  
+			 </div>
+
+			 <div class="whoe">
+			   <img src="i/jakub-skokan.jpg" alt="Jakub Skokan" class="avatar">
+			   <h3>Jakub Skokan</h3>
+			   <p>Jakub Skokan je programátor a systémový administrátor. Ve vpsFree.cz vyvíjí administrační rozhraní vpsAdmin společně s dalšími projekty. Stará se o jeho provoz a odpovídá na podpoře. Ve volném čase studuje na vysoké škole.</p>
+			 </div>
+			 
+			 <div class="whoe">
+			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
+			   <h3>Pavel Šnajdr</h3>
+			   <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a technickým ředitelem společnosti Relbit. Zabývá se kontejnerovou virtualizací, ZFS a enterprise linuxovými distribucemi. Má rád otevřené prostředí a aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
+			 </div>
+			 
+			 
+			 <div class="whoe">
+			   <img src="i/petr-krcmar.jpg" alt="Petr Krčmář" class="avatar">
+			   <h3>Petr Krčmář</h3>
+			   <p>Petr Krčmář je šéfredaktorem serveru Root.cz a Linuxem se zabývá přes šestnáct let. Má rád otevřený software a transparentní přístup ke světu. Ve vpsFree.cz má na starosti především komunitu a propagaci.</p>
+			 </div>
+
+			 
+			<div class="c"> </div>
+			</div><!--prostriedky-->
+			
+			
+			</div>
+			
+		</div><!--ab3-->
+		
+		
+		
+		<div class="ab ab4 n">
+		    <div class="in">
+			<h2>Komunita</h2>
+			<p>která vas neodmítne</p>
+			
+			<div class="komunity m-t-20">
+			
+			 <div class="km mailinglist">
+			   <span> </span>
+			   <h3>Mailing listy</h3>
+			   <p>Většina komunikace ve vpsFree.cz se odehrává po mailu. Vše je otevřené a čitelné pro všechny. Najdete tu informace i lidi ochotné poradit. Mailing listy se nacházejí na adrese <a href="http://lists.vpsfree.cz">lists.vpsfree.cz</a>.</p>			  
+			 </div>
+			 
+			 
+			 <div class="km jabber">
+			   <span> </span>
+			   <h3>Jabber multi user chat</h3>
+			   <p>Pro rychlou komunikaci používáme Jabber MUC chat. Hodí se, pokud potřebujete rychlou radu nebo se na něco jednoduše zeptat.</p>
+			   <br />
+			   <p>host: conference.vpsfree.cz<br />místnost: vpsFree.cz</p><p>Heslo najdete <a href="http://lists.vpsfree.cz/pipermail/community-list/2012-August/000815.html">tady</a></p>			  
+			   <br />
+			 </div>
+			 
+			 
+			 <div class="km srazy">
+			   <span> </span>
+			   <h3>Děláme srazy</h3>
+			   <p>Pravidelně se potkáváme na srazech, kde se dozvíte o směřování sdružení, ale popovídáte si i o denních problémech ostatních adminů.</p>			  
+			 </div>
+			 
+			<div class="c"> </div>
+			</div><!--komunity-->
+			
+			
+			</div>
+			
+		</div><!--ab4-->
+		
+		
+		<div class="ab ab5 n">
+		    <div class="in">
+			<h2>Jsme vidět</h2>
+			<p>Kde se můžeme příště potkat?</p>
+			
+			<div class="videt">
+			
+			 <div class="mapcontainer"> 
+			 	<iframe src="https://www.google.com/maps/embed/v1/place?q=Bo%C5%BEet%C4%9Bchova%202A%2C%20Brno%2C%20Czech%20Republic&amp;key=AIzaSyBVGe6gxyoMu1HNWbR7y213-z26o_cYowM&amp;zoom=16;ll=49.226726,16.595277" width="400" height="400" style="border:0"></iframe>
+<!--<iframe width="425" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=14.423847198486326%2C50.061850048296876%2C14.447193145751951%2C50.07439740796158&amp;layer=mapnik&amp;marker=50.06812413845372%2C14.43552017211914" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=50.0681&amp;mlon=14.4355#map=16/50.0681/14.4355">Zobrazit větší mapu</a></small>-->
+			  <!--<div class="marker" style="top:80px;left:140px;"> </div>-->
+			 </div>
+			 
+			 
+			 <div class="kde">
+			   <span> </span>
+			   <h3>Nejbližší akce</h3>
+			   <p>
+			   1. 11. 2014 - 2. 11. 2014
+			   <br />
+			   <br />OpenAlt 2014
+			   <br />FIT VUT v Brně
+			   <br />Božetěchova 2
+			   <br />Brno
+			   <br />
+			   <br /><a href="http://www.openalt.cz/" target="_blank">www.openalt.cz</a>
+			   
+			   </p>	  
+			 </div>
+			 
+			 
+			 
+			<div class="c"> </div>
+			</div><!--videt-->
+			
+			
+			</div>
+			
+		</div><!--ab5-->
+		
+		
+		
+		<div class="ab ab6 n">
+		    <div class="in">
+			<h2>Pomáhame</h2>
+			<p>tyto projekty sponzorujeme</p>
+			
+			<div class="sponzoring">
+			
+				<a href="https://www.archlinux.org" target="_blank"><img src="i/logo-archlinux.png" alt="Archlinux.org"></a>
+				<a href="https://www.liberix.cz" target="_blank"><img src="i/logo-liberix.png" alt="Liberix.cz"></a>
+				<a href="https://www.linuxdays.cz" target="_blank"><img src="i/linuxdays.png" alt="LinuxDays.cz"></a>
+				<a href="http://www.linuxos.sk" target="_blank"><img src="i/linuxos_sk.png" alt="LinuxOS.sk"></a>
+				<a href="http://tech.su.cvut.cz/" target="_blank"><img src="i/tech_su.png" alt="tech@su"></a>
+			 
+			 
+			 
+			<div class="c"> </div>
+			</div><!--sponzoring-->
+			
+			
+			</div>
+			
+		</div><!--ab6-->
+		
+		
+		
+		<!-- PANELY CO SA SKRYVAJU - Koniec -->
+		
+	</section>
+	
+	
+	
+	<a id="howto"></a>
+	<section class="pg page3">
+		<div class="in">
+		
+			<h2>Jak začít</h2>
+			<p>Staň se členem sdružení <strong><span class="orange">vps</span>Free<span class="orange">.cz</span></strong>, které poskytuje hosting virtuálních serverů</p>
+			<div class="boxes">
+			
+			<a href="#order" class="box b1">
+				<div class="ico"> </div>
+				<p>
+					<strong>
+						<span class="orange">Vyplň</span><br />
+						Přihlášku<br />
+					</strong>
+				</p>	
+				<span class="circleButton">Teď hned</span>	
+			</a>
+			
+			<div class="box b2">
+				<div class="ico"> </div>
+				<p><strong><span class="orange">Do 24 hodin</span><br />
+				ti připravíme<br />
+				virtuální server</strong><br />
+				v naší síti</p>			
+			</div>
+			
+			<div class="box b3">
+				<div class="ico">
+					<em>900&nbsp;Kč</em>
+					<em>na tři měsíce</em>
+				</div>
+				<p><strong><span class="orange">Do 7 dní zaplať</span><br />
+				čtvrtletní členský<br />
+				poplatek</strong><br />
+				900&nbsp;Kč nebo 36&nbsp;&euro;</p>
+			</div>
+			
+			<div class="box b4">
+				<div class="ico"> </div>
+				<p><strong><span class="orange">Užívej si</span><br />
+				svůj nový<br />
+				VPS server</strong><br />
+				jak potřebuješ</p>			
+			</div>
+			
+			<div class="c"> </div>
+			
+			</div>
+			
+		</div>
+	</section>
+
+
+	<a id="order"></a>
+	<section class="pg page4">
+		<div class="in">
+			<h2>Přihláška</h2>
+			<p>Vyplň údaje úplně a pravdivě. Uvedené informace nikde nezveřejňujeme, 
+pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
+
+			<form method="post">
+			 <input type="text" name="" value="" placeholder="Přezdívka člena">
+			 <input type="text" name="" value="" placeholder="Jméno">
+			 <input type="text" name="" value="" placeholder="Příjmení">
+			 <input type="text" name="" value="" placeholder="Rok narození">
+			 
+			 <textarea placeholder="Adresa trvalého bydlište"></textarea>
+			 <input type="text" name="" value="" placeholder="Město">
+			 <input type="text" name="" value="" placeholder="PSČ">
+			 <input type="text" name="" value="" placeholder="Stát">
+			 <input class="error" type="text" name="" value="" placeholder="E-mail">
+			 <input type="text" name="" value="" placeholder="Jabber">			 
+			 <textarea placeholder="Jak ses o nás dozvědel?"></textarea>
+			 <textarea placeholder="Poznámky"></textarea>
+			 
+			 <span>Distribuce 64bit:</span>
+ 		 	 <select name="distribuce">
+			 	 <option value="26">Scientific Linux 6</option>
+			 	 <option value="24">CentOS 6</option>
+			 	 <option value="20">Debian 6</option>
+			 	 <option value="31">Debian 7.0</option>
+			 	 <option value="33">Fedora 20</option>
+			 	 <option value="14">Gentoo 13.0</option>
+			 	 <option value="32">OpenSUSE 12.3</option>
+			 	 <option value="30">Ubuntu 12.04</option>
+			  	 <option value="35">Ubuntu 14.04</option>
+		 	 </select>
+
+			 <span>Preferovaná lokace pro VPS:</span>
+			 <select name="lokace">
+			 	<option value="3">Master Internet Praha</option>
+			 	<option value="4">Master Internet Brno</option>
+			 </select>
+			 <span>Měna platby:</span>
+			 <select>
+ 			   <option>členský poplatek 900&nbsp;Kč na tři měsíce</option>
+ 			   <option>členský poplatek 36&nbsp;eur na tři měsíce</option>			 
+			 </select>
+			 
+			 <input type="submit" class="largeButton" value="Odeslat">
+			</form>
+		</div>
+	</section>
+
+	
+	<a id="faq"></a>
+	<section class="pg page5">
+		<div class="in">
+			<h2>Časté dotazy</h2>
+			
+			<div class="buttons">
+			<a href="https://vpsadmin.vpsfree.cz" target="_blank" class="mediumButton1">vpsAdmin</a>
+			<a href="https://prasiatko.vpsfree.cz/munin" target="_blank" class="mediumButton2">Grafy provozu</a>
+			<a href="http://kb.vpsfree.cz" target="_blank" class="mediumButton3">Wiki</a>
+			</div>
+			
+			<div class="c"> </div>
+			<h3>Jak je to u nás s platbou?</h3>
+
+<p>Z rozhodnutí Rady sdružení se platí vždy na období minimálně tří měsíců dopředu, číslo účtu je uvedeno v sekci Kontakt, jako variabilní symbol se uvádí členské číslo, které člen vidí ve vpsAdminu, sekce Admin Členů jako první sloupeček (ID) (Ne ID virtuálního serveru!).</p>
+
+<h3>Proč tolik prosazujete OpenVZ?</h3>
+
+<p>To, co aktuálně umí plná virtualizace dostupná pod Linuxem (KVM, Xen), pro nás v porovnání s OpenVZ kontejnery není dostatečné. U nás například nelimitujeme CPU, což by s jakoukoliv jinou technologií nebylo možné. Ze všech zmíněných možností virtualizace má OpenVZ také nejmenší režii (zejména proto, že jde o kontejnery.)</p>
+
+<h3>Co pro mě znamená použití OpenVZ?</h3>
+
+<p><strong class="faq-subtitle">Co je stejné?</strong>
+VPS se ve většině situací chová stejně jako fyzický linuxový server (nebo plně virtualizovaný virtuální server) s danou distribucí. Má svoje účty, svoje aplikace, svoje data.<br />
+<br />
+<strong class="faq-subtitle">Co je jiné?</strong>
+U plné virtualizace má virtuální server z pohledu operačního systému svůj vlastní (virtualizovaný nebo paravirtualizovaný) hardware. Na tomto hardwaru je následně spuštěno jádro, přičemž každý virtuální server může mít jiné. U OpenVZ toto neplatí; virtuální server nemá svůj hardware, nemá žádné PCI ani jiné sběrnice, ani svojí síťovou kartu. Také nemá vlastní jádro; aplikace běží pod jádrem hostitelského stroje.<br />
+<br />
+<strong class="faq-subtitle">Co mi na OpenVZ nebude fungovat?</strong>
+V podstatě je problém s každou aplikací, která by chtěla pracovat ve velmi těsné vazbě na hardware (což platí pro většinu způsobů virtualizace) nebo využívat speciální vlastnosti jádra. Problémy tak můžete mít, pokud budete chtít používat pokročilý routing, shaper, některé pokročilé využití iptables (hlavně IPv6, IPv4 NAT je možný pouze s workaroundem).<br />
+<br />
+Na druhou stranu u nás narazíte na pravděpodobně nejlépe vyladěné nasazení OpenVZ, které máte šanci potkat. Nechceme se tím chvástat, ale ladění OpenVZ na našich serverech věnujeme opravdu hodně nocí :-)<br />
+<br />
+Za celou historii vpsFree.cz nás opustili pouze dva členové, kterým OpenVZ nevyhovovalo. Pro několik dalších jsme udělali výjimky v některých nastaveních.</p>
+
+<h3>Kde mohu najít další informace?</h3>
+<p>Další informace o vpsFree.cz můžeš najít v naší wiki - <a href="http://kb.vpsfree.cz/" target="_blank">Knowledge Base</a> nebo nám můžeš kdykoliv napsat.</p> 
+
+<br />
+			<p>Pokud máš další otázky:</p>
+			<a href="#" class="largeButton">Napiš nám</a>
+		</div>
+	</section>
+	
+	
+	
+	
+	<a id="contacts"></a>
+	<section class="pg page6">
+		<div class="in">
+			<h2>Kontakty</h2>
+			
+			<a href="mailto:podpora@vpsfree.cz" class="support">podpora@vpsFree.cz</a>
+			
+<!--
+				
+			<h3>Předseda rady / Správce serverů</h3>
+			
+			<div class="predseda">
+			   
+			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
+			   <div class="vizitka">
+			   <strong>Pavel Šnajdr</strong><br />
+			   Jabber: snajpa (zavináč) snajpa.net<br />
+			   E-mail: pavel.snajdr (zavináč) vpsfree.cz<br />
+			   Lokace: Bratislava<br />
+			   Mobil: +421 948 816 186<br />
+			   </div>
+			   <div class="c"> </div>
+			</div>
+	-->		
+						
+			<div class="ceskoslovensko"> </div>
+			
+			<h3>Bankovní účet (Fio Banka)</h3>
+			
+			<div class="banks">
+			<div class="bank">
+			<strong>2200041594/2010</strong><br />
+			(CZ)
+			</div>
+			<div class="bank">
+			<strong>2200041594/8330</strong><br />
+			(SK)
+			</div>
+			<div class="c"> </div>
+			</div>
+			
+
+			
+			
+			<h3>Poštovní adresa</h3>
+			
+			<div class="address">
+
+			<address>
+				<strong>vpsFree.cz o.s.</strong><br />
+				Nad Dalejským údolím 2699/9<br />
+				155 00 Praha-Stodůlky<br />
+				Česká republika<br />
+			</address>
+			
+			</div>
+			
+			<span class="info">
+				Prosíme, na obálku uvádějte celou adresu, předejte tak možnému nedoručení zásilky.
+			</span>
+
+			<h3>Údaje sdružení</h3>
+			
+			<div class="business">
+				<strong>IČ:</strong> 26568055<br />
+				<strong>DIČ:</strong> CZ26568055<br />
+				Nejsme plátci <strong>DPH</strong>.<br />
+			</div>
+
+
+
+			
+		</div>
+	</section>
+
+	<footer>
+		<div>
+			Copyright &copy; vpsFree.cz o.s. 2009-2014. vpsFree na <a href="httpss://www.facebook.com/vpsfree">Facebooku</a> a <a href="httpss://twitter.com/vpsfree_cz">Twitteri</a> &bull;
+			
+			Web site by <a href="https://www.abaffydesign.com/">Abaffy Design</a>
+		</div>
+
+	</footer>
+</body>
+</html>

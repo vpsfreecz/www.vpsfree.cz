@@ -1,0 +1,1639 @@
+/*  
+Theme Name:  
+Theme URI: http://www.abaffydesign.com
+Author: Tomas Abaffy, AbaffyDesign.com
+Date: 2014-July-29
+*/
+
+
+
+/************************************************************************************
+  RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset, article, footer, header, nav, section {
+	margin: 0;
+	padding: 0;
+}
+img, fieldset {
+	border: 0;
+}
+img {
+	max-width: 98%;
+	height: auto;
+}
+.ie8 img {
+	width: auto;
+	height: auto;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display:block;
+}
+ul, ol, li {
+	list-style-type:none;
+}
+
+/************************************************************************************
+  VSEOBECNE VECI
+*************************************************************************************/
+html {
+	background: #ecf0f1;
+	height: 100%;
+}
+body {
+	font: 14px/1.5em 'Open Sans',Verdana,Arial,sans-serif;
+	color: #eee;
+	min-height: 100%;
+	outline:none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans',Verdana,Arial,sans-serif;
+	line-height: 130%;
+	font-weight: bold;
+	color: #222;
+	margin: .3em 0 .2em;
+}
+p {
+	line-height:1.6em;
+}
+a {
+	text-decoration: none;
+	outline: none;
+	color: #008fbd;
+}
+a:hover {
+	color: #ce0039;
+	text-decoration: underline;
+}
+.c {
+	clear:both;
+}
+.n {
+	display:none;
+}
+.nobo {
+	border:none !important;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.dolava {
+	text-align: left;
+}
+
+.doprava {
+	text-align: right;
+}
+.text-center {
+  text-align: center !important;
+}
+.clearfix:before,
+.clearfix:after {
+  content: ".";    
+  display: block;    
+  height: 0;    
+  overflow: hidden; 
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE < 8 */
+/************************************************************************************
+  PAGE STRUCTURE
+*************************************************************************************/
+
+header section {
+ width: 100%;
+ max-width: 1000px;
+ margin: 0 auto;
+}
+
+
+/************************************************************************************
+  HEADER
+*************************************************************************************/
+header, footer {
+ background: #16273f;
+ padding: 11px 0;
+}
+header h1, header strong.h1 {
+ margin: 0;
+}
+header h1 a, header strong.h1 {
+ display: block;
+ background: url('../i/vps.png') 0 0 no-repeat;
+ width:320px;
+ height:88px;
+ float: left;
+ margin-right: 20px;
+}
+
+header h1 a span, header strong.h1 span {
+ display: none;
+}
+.menu-btn {
+  float: right;
+  display: none;
+  width: 52px;
+  height: 52px;
+  color: transparent;
+  background: url('../i/vps.png') -460px -345px no-repeat;
+  text-indent: -9999px;
+}
+.menu-btn:hover {
+  color: transparent;
+  background-position: -512px -345px;
+  text-indent: -9999px;
+}
+header nav {
+ float: right;
+}
+header nav li {
+ float: left;
+}
+header nav {
+ margin-top: 10px;
+}
+nav li a {
+ display: block;
+ font:400 18px 'Oswald';
+ text-transform: uppercase;
+ color:#fff;
+ padding:27px 16px 17px 16px;
+}
+
+/************************************************************************************
+  GENERAL
+*************************************************************************************/
+
+.in {
+ text-align: center;
+}
+.page1 .in p {
+ text-align: left;
+}
+.circleButton {
+    background:#f6914b;
+    width: 56px;
+    height: 56px;
+    border: none;
+    color: #fff !important;
+    cursor: pointer;
+    display : block;
+    text-align : center;
+    text-decoration : none;
+    text-transform: uppercase;
+    font:400 18px/24px 'Oswald';
+    padding:15px 10px 5px 10px;
+    letter-spacing: 1px;
+    transition: background-color 0.5s ease 0s;
+    -webkit-appearance: none;
+    
+    -webkit-border-radius: 56px;
+	-moz-border-radius: 56px;
+	border-radius:56px;
+	margin: 12px auto 0 auto;
+}
+.circleButton:hover {
+	background:#ffb17b;
+}
+.largeButton, .page4 input.largeButton {
+    background:#f6914b;
+    max-width: 220px !important;
+    border: none;
+    color: #16273f !important;
+    cursor: pointer;
+    display : block;
+    text-align : center;
+    text-decoration : none;
+    text-transform: uppercase;
+    font:400 26px 'Oswald';
+    padding:9px 15px;
+    letter-spacing: 1px;
+    transition: background-color 0.5s ease 0s;
+    -webkit-appearance: none;
+    
+    -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border-bottom:6px solid #de7024;
+	margin: 0 auto;
+}
+.largeButton:hover, .page4 input.largeButton:hover {
+	background:#ffb17b;
+  text-decoration: underline;
+}
+.buttons {
+ width: 620px;
+ margin: 30px auto;
+}
+.mediumButton1, .mediumButton2, .mediumButton3 {
+    background:#f6914b;
+    max-width: 220px !important;
+    border: none;
+    width: 160px;
+    color: #16273f !important;
+    cursor: pointer;
+    display : block;
+    text-align : center;
+    text-decoration : none;
+    text-transform: uppercase;
+    font:300 20px 'Oswald';
+    padding:8px 14px;
+    letter-spacing: 1px;
+    transition: background-color 0.5s ease 0s;
+    -webkit-appearance: none;
+    
+    -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin: 5px;
+	float: left;
+}
+.mediumButton1:hover {
+  background: #ffb17b;
+}
+.mediumButton2 {
+	background: #37567b;
+	color:#fff !important;
+}
+.mediumButton2:hover {
+  background: #58789f;
+}
+.mediumButton3 {
+	background: #16273f;
+	color:#fff !important;
+}
+.mediumButton3:hover {
+  background: #3c5475;
+}
+
+.page4 .largeButton {
+    font:400 32px 'Oswald';
+    padding:14px 36px;
+}
+
+.orange, nav li a:hover, .page1 p strong {
+ color:#f6914b;
+}
+
+.pg {
+ padding: 50px 0;
+}
+.pg h2 {
+ font:400 45px 'Oswald';
+ padding: 8px 16px;
+ text-transform: uppercase;
+ border:3px solid #1f3959;
+ color: #1f3959;
+ width: 400px;
+ margin: 0px auto;
+ text-align: center;
+}
+
+section.page1 h2, section.page4 h2, section.page6 h2 {
+ color: #fff;
+ border: 3px solid #fff;
+}
+.pg p { 
+ font:400 16px/26px 'Open Sans';
+}
+
+/************************************************************************************
+  PAGE 1 - Milujeme servery
+*************************************************************************************/
+
+section.page1 {
+ background: #1f3959;
+ padding:60px 0 80px 0;
+}
+section.page1 h2 {
+ font-size:65px;
+ border: none;
+}
+section.page1 h2, .pg p {
+ width: 700px;
+ margin: 5px auto;
+}
+div.hearth {
+ width:430px;
+ height: 160px;
+ background: url('../i/vps.png') 0 -89px no-repeat;
+ margin: 0px auto;
+}
+.page1 p {
+ font:300 19px/32px 'Open Sans';
+ color:#fff;
+}
+.page1 p strong {
+ font-weight: 300;
+}
+/************************************************************************************
+  PAGE 2 - Nasa filozofia, Prostriedky, Komunita, etc.
+*************************************************************************************/
+
+section.page2 {
+ height:780px;
+ position: relative;
+ background: #f6914b;
+ padding: 0px !important;
+}
+section.page2 .ab {
+ position: absolute;
+ background: #f6914b;
+ width: 100%;
+ padding: 50px 0;
+ z-index: 2;
+}
+
+section.page2 .ab0, section.page2 .ab2, section.page2 .ab4, section.page2 .ab6 {
+ background: #fff;
+}
+.dots {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index:4;
+}
+.dots li {
+  float: left;
+}
+.dots li a {
+ display: block;
+ width: 20px;
+ height: 20px;
+}
+.dots a.yes { 
+background: url('../i/vps.png') -431px -184px no-repeat;
+}
+.dots a.no { 
+background: url('../i/vps.png') -431px -206px no-repeat;
+}
+
+.page2 .ab1 p {
+ color: #16273f;
+}
+
+.principy {
+width: 900px;
+margin: 0px auto;
+}
+.principy strong {
+ font:400 50px/80px 'Oswald';
+ color:#f6914b;
+ letter-spacing: 3px;
+ text-transform: uppercase;
+
+}
+
+.principy span, .principy em {
+ display: block;
+ float: left;
+ font-style: normal;
+ color: #1f3959;
+ padding: 12px 0;
+ font-size:22px;
+ font-weight: 300;
+ width: 5%;
+ margin:20px 0;
+}
+
+.principy span {
+ width: calc(30% - 4px);
+ border: 2px solid #1f3959;
+}
+.filozofia {
+ width: 900px;
+ color: #16273f;
+ margin: 0px auto;
+ padding: 50px 0;
+}
+.filozofia em, .filozofia i, .filozofia strong, .filozofia span {
+ display: block;
+ font-style: normal;
+ font-weight: 300;
+}
+
+.filozofia em {
+ font:300 16px/18px 'Open Sans';
+ text-align: left;
+}
+.filozofia strong {
+ font:400 120px/140px 'Oswald';
+ color:#fff;
+ letter-spacing: 3px;
+ text-transform: uppercase;
+
+}
+.filozofia span {
+ font:300 16px/30px 'Open Sans';
+ text-align: right;
+}
+.social {
+ width: 240px;
+ margin: 20px auto;
+}
+.social a {
+ display: block;
+ width: 70px;
+ height: 70px;
+ margin:0px 5px;
+ float: left;
+}
+
+a.newsletter {
+ background: url('../i/vps.png') -328px -14px no-repeat;
+}
+a.facebook {
+ background: url('../i/vps.png') -411px -14px no-repeat;
+}
+a.twitter {
+ background: url('../i/vps.png') -494px -14px no-repeat;
+}
+.social a span {
+ display: none;
+}
+
+
+
+.prostriedky, .who {
+ width: 1000px;
+ margin: 0px auto;
+}
+
+
+
+.prostriedky .pr {
+ float: left;
+ width: 32%;
+ margin-left: 2%;
+ margin-top:40px;
+ padding-bottom: 40px;
+ height: 430px;
+ color:#fff;
+ background: #1f3959;
+ text-align: center;
+ font:400 15px 'Open Sans';
+}
+.prostriedky .pr h3 {
+ width: 100%;
+ border: 0;
+ margin:0px !important;
+ padding: 20px 0;
+ color:#1f3959;
+ background: #f6914b;
+ font:400 24px 'Oswald';
+ text-transform: uppercase;
+}
+section.page2 .ab2 .prostriedky .pr p {
+ width: 80%;
+ padding:20px 10%;
+ color: #fff; 
+ font:400 15px/1.6em 'Open Sans';
+}
+
+.prostriedky .pr table {
+ width: 90%;
+ margin: 0 auto;
+ padding: 20px 0;
+}
+.pr td {
+ padding: 3px;
+}
+.prostriedky .pr1 {
+ margin-left: 0px !important;
+}
+
+
+.whoe {
+ float: left;
+ width: 32%;
+ margin-left: 1%;
+ margin-top:40px;
+ height: 430px;
+ text-align: center;
+ font:400 14px 'Open Sans';
+ color:#1f3959;
+}
+
+.whoe img.avatar {
+ width: 150px;
+ height: 150px;
+ -webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+border-radius: 150px;
+border:4px solid #1f3959;
+float: none;
+margin:10px auto 0 auto;
+}
+.whoe img.avatar:hover {
+border:4px solid #fff;
+}
+
+section.page2 .whoe h3, .whoe p {
+ width:94%;
+ margin:10px 3%;
+ padding:0px;
+ color:#1f3959;
+}
+section.page2 .whoe h3 {
+ border-bottom: none;
+}
+
+
+section.page2 .whoe p { 
+ font-size: 14px;
+}
+
+
+.komunity {
+ width: 1000px;
+ margin: 0px auto;
+}
+.km  {
+ float: left;
+ width: 32%;
+ margin-left: 1%;
+ margin-top:40px;
+ height: 430px;
+ text-align: center;
+ font:400 14px 'Open Sans';
+ color:#1f3959;
+}
+section.page2 .ab h3, section.page2 .ab  p , section.page2 .ab .km p {
+ width: 90%;
+ color:#1f3959;
+}
+
+section.page2 .ab .pr h3 {
+ width: 100%;
+} 
+section.page2 .ab4 .km  p {
+ font-size:16px;
+ font-weight:400;
+ line-height: 1.5em;
+}
+.km span {
+ display: block;
+ width: 125px;
+ height: 110px;
+ background: #1f3959;
+ border: 35px solid #1f3959;
+ border-top: 40px solid #1f3959;
+ border-bottom: 50px solid #1f3959;
+ margin: 0px auto;
+}
+
+.komunity .mailinglist span {
+ background: #1f3959 url('../i/vps.png') -26px -402px no-repeat;
+}
+
+.komunity .jabber span {
+ background: #1f3959 url('../i/vps.png') -150px -398px no-repeat;
+}
+
+.komunity .srazy span {
+ background: #1f3959 url('../i/vps.png') -280px -394px no-repeat;
+}
+
+.videt {
+width: 800px;
+margin: 30px auto;
+}
+.mapcontainer, .kde {
+ width: 400px;
+ height: 400px;
+ float: left;
+ position: relative;
+}
+
+.marker {
+ position: absolute;
+ width: 110px;
+ height: 120px;
+ top:60px;
+ left:155px;
+ z-index: 3;
+ background: transparent url('../i/vps.png') -410px -394px no-repeat;
+}
+
+.kde {
+ background: #1f3959;
+ color:#fff;
+ height:400px;
+}
+
+section.page2 .kde h3, section.page2 .kde p {
+ color:#fff;
+ border-bottom: none;
+}
+
+section.page2 .kde p  {
+ width: 90% !important;
+ color:#fff !important;
+ font-size:16px !important;
+ line-height:1.5em !important;
+}
+
+.sponzoring {
+ width: 1000px;
+ margin: 0px auto;
+ padding: 60px 0;
+}
+
+.sponzoring a img {
+ margin: 20px;
+}
+/************************************************************************************
+  PAGE 3 - Ako zacat
+*************************************************************************************/
+
+section.page3 {
+ background: #ecf0f1;
+ color:#16273f;
+ border-top: 1px solid #1f3959;
+ 
+}
+
+.page3 p, section.page2 .ab4 p, section.page2 .ab5 p, section.page2 .ab6 p {
+ font:300 19px/32px 'Open Sans';
+ color:#16273f;
+ width: 900px;
+}
+.page5 p {
+  text-align: left;
+}
+.page3 p strong, .page5 p strong {
+ font-weight: 700;
+}
+.boxes {
+ max-width: 1200px;
+ margin: 30px auto 0 auto;
+}
+.box {
+ position: relative;
+ float: left;
+ width: 24%;
+ margin-left: 1%;
+ text-align: center;
+}
+.box p {
+ width: 100%;
+ font: 400 14px/1.3em 'Open Sans';
+ margin-top:7px;
+}
+.box p strong {
+ font: 400 22px/33px 'Oswald';
+ text-transform: uppercase;
+
+}
+.box .ico {
+ display: block;
+ width:140px;
+ height: 140px;
+ margin: 0px auto;
+}
+.b1 {
+  display: block;
+  margin-left: 0px !important;
+}
+
+.b1 .ico {
+ background: url('../i/vps.png') -5px -255px no-repeat;
+}
+.b2 .ico {
+ background: url('../i/vps.png') -140px -255px no-repeat;
+ width:170px;
+}
+.b4 .ico {
+ background: url('../i/vps.png') -312px -255px no-repeat;
+}
+.b3 .ico {
+ padding-top: 20px;
+  width:170px;
+ height: 120px;
+}
+.b3 em, .b3 i {
+ display: block;
+ text-align: center;
+}
+.b3 em {
+ font:100 40px/40px 'Open Sans';
+}
+.b3 i {
+ font:100 24px/24px 'Open Sans';
+}
+.page3 .box p {
+  text-align: center;
+}
+
+/************************************************************************************
+  PAGE 4 - Form
+*************************************************************************************/
+
+section.page4 {
+ background: #16273f;
+}
+
+.page4 p {
+ padding: 10px 0;
+ text-align: center;
+}
+.page4 form {
+ width:360px;
+ text-align: center;
+ margin: 0px auto;
+}
+.page4 input, .page4 textarea {
+  display: block;
+ width: 320px;
+ font:400 17px 'Open Sans';
+ padding: 10px 18px;
+ border: 2px solid #16273f;
+background: #cddee2;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+ margin: 3px 0;
+}
+.page4 input::-webkit-input-placeholder,
+.page4 textarea::-webkit-input-placeholder {
+   color: #666;
+}
+
+.page4 input:-moz-placeholder,
+.page4 textarea:-moz-placeholder { /* Firefox 18- */
+   color: #666;
+}
+
+.page4 input::-moz-placeholder,
+.page4 textarea::-moz-placeholder {  /* Firefox 19+ */
+   color: #666;
+}
+
+.page4 input:-ms-input-placeholder,
+.page4 textarea:-ms-input-placeholder, {  
+   color: #666;
+}
+.page4 textarea {
+  resize: vertical;
+}
+.page4 input.largeButton {
+ margin-top:25px;
+ clear: both;
+}
+
+.page4 input:focus, .page4 textarea:focus {
+ background: #fff;
+}
+
+.page4 input.error, .page4 textarea.error {
+ border: 2px solid #ff0000;
+
+}
+
+.page4 form span {
+ color:#fff;
+ font-size:20px;
+ display: block;
+ padding:8px 0 0 0;
+}
+.page4 select {
+  width: 360px;
+ font:400 17px 'Open Sans';
+ padding: 10px 0 10px 18px;
+ border: 2px solid #16273f;
+ background: #cddee2;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+ margin: 3px 0;
+}
+
+/************************************************************************************
+  PAGE 5 - Podrobnosti
+*************************************************************************************/
+
+section.page5 {
+ background: #ecf0f1;
+}
+section.page5 .in {
+ width: 1000px;
+ margin: 0px auto;
+}
+section.page5 .in, section.page5 .in p, section.page5 h3 {
+ color: #1f3959;
+}
+section.page5 h3 {
+ border-bottom: 1px solid #1f3959;
+}
+.faq-subtitle {
+  display: block;
+  text-align: center;
+}
+/************************************************************************************
+  PAGE 6 - Kontakt
+*************************************************************************************/
+
+section.page6 {
+ background: #37567b;
+}
+.pg h3 {
+ font:400 25px 'Oswald';
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ width: 500px;
+ margin: 44px auto 8px auto;
+ color: #fff;
+ border-bottom:1px solid #fff;
+}
+.page6 h2 {
+ margin-bottom:18px;
+}
+a.support {
+ font:400 70px 'Oswald';
+ color: #ecf0f1;
+}
+a.support:hover {
+ color: #fff;
+}
+div.ceskoslovensko {
+ width:550px;
+ height: 280px;
+ background: url('../i/vps.png') 0 -510px no-repeat;
+ margin: 20px auto;
+}
+.banks,.predseda {
+ width: 440px;
+ margin: 0px auto 30px auto;
+}
+.bank {
+ float: left;
+ width:220px;
+ text-align: center;
+}
+.bank b {
+ font:300 22px 'Oswald';
+ letter-spacing: 1px;
+}
+
+.predseda {
+ width: 510px;
+ text-align: left;
+}
+img.avatar {
+ width: 120px;
+ height: 120px;
+ -webkit-border-radius: 120px;
+-moz-border-radius: 120px;
+border-radius: 120px;
+border:3px solid #fff;
+}
+.predseda img.avatar {
+ float: left;
+ margin:18px 18px 0 12px;
+}
+.vizitka {
+ font-size:16px;
+ line-height: 26px;
+ padding: 15px 0 0 5px;
+}
+
+.address { 
+ background: url('../i/vps.png') -460px -95px no-repeat;
+ width: 300px;
+ padding: 20px 20px 20px 120px;
+ text-align: left;
+ margin: 0px auto;
+}
+.address, address {
+ font: 400 20px 'Open Sans';
+}
+
+.business { 
+ width: 300px;
+ padding: 20px 20px 20px 120px;
+ text-align: left;
+ margin: 0px auto;
+ font: 400 20px 'Open Sans';
+}
+
+/************************************************************************************
+  FOOTER
+*************************************************************************************/
+
+footer {
+ color: #37567b;
+ text-align: center;
+ font:400 13px 'Open Sans';
+}
+
+footer a {
+ color: #52749d;
+}
+footer a:hover {
+ color: #7091b9;
+}
+/************************************************************************************
+  MEDIA QUERIES
+*************************************************************************************/
+
+@media screen and (max-width: 1200px) {
+
+}
+
+/* 2 column layout */
+@media screen and (max-width: 1024px) {
+  .filozofia,
+  .principy,
+  .prostriedky,
+  .who,
+  .komunity,
+  .videt,
+  .sponzoring,
+  .predseda,
+  .page3 p,
+  .page5 p,
+  section.page2 .ab2 p,
+  section.page2 .ab4 p,
+  section.page2 .ab5 p,
+  section.page2 .ab6 p, 
+  section.page5 .in {
+    width: 94%;
+  }	
+  .prostriedky .pr {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  header h1 a, header strong.h1 {
+    float: none;
+    margin: 0 auto;
+  }
+  header nav, header nav ul {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  header nav li {
+    float: none;
+    display: inline-block;
+  }
+  .filozofia strong {
+    margin-top: 20px;
+    font-size: 96px;
+    line-height: 1.2em;
+  }
+  section.page1 h2 {
+    font-size: 48px;
+    line-height: 1.3em;
+  }
+  .pg h2 {
+    font-size: 32px;
+    width: 300px;
+  }
+  .filozofia em {
+    font-size: 22px;
+  }
+  .prostriedky .pr {
+    height: 520px;
+
+  }
+  .mapcontainer,
+  .kde {
+    float: none;
+    margin: 0 auto !important;
+  }
+  section.page2 .kde h3, section.page2 .kde p {
+    display: inline-block;
+  }
+  div.hearth {
+   width: 242px;
+   height: 90px;
+   background: url('../i/vps.png') 0 -50px no-repeat;
+   background-size: 340px;
+   margin: 0px auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .prostriedky .pr {
+    height: 560px;
+  }  	
+  .box .ico {
+    width: 90px;
+    height: 95px;
+    background-size: 400px;
+  }
+  .b1 .ico {
+    background-position: -5px -169px;
+  }
+  .b2 .ico {
+    background-position: -94px -170px;
+    width: 115px;
+  }
+  .b3 .ico {
+    padding: 0;
+  }
+  .b3 em {
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .b3 i {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .b4 .ico {
+    background-position: -210px -170px;
+  }
+}
+@media screen and (max-width: 787px) {
+  .prostriedky .pr {
+    height: 580px;
+  }
+}
+
+/* 1 column layout */
+@media screen and (max-width: 760px) {	
+  .m-t-20 {
+    margin-top: 30px;
+  }
+  .page1 .in p,
+  .page3 p,
+  .page5 p,
+  section.page2 .ab2 p,
+  section.page2 .ab4 p,
+  section.page2 .ab5 p {
+    font-size: 16px;
+    line-height: 1.8em;
+  }
+  section.page2 {
+    height: auto !important;
+  }
+  section.page2 .ab {
+    height: auto !important;
+    position: static;
+  }
+	section.page1 h2, .pg p {
+   width: 90%;
+   margin: 5px auto;
+  }
+  .principy span, .principy em {
+    float: none;
+    margin: 0 auto;
+    width: 250px;
+  }
+  .filozofia strong {
+    font-size: 72px;
+  }
+  .pg h2 {
+    font-size: 26px;
+    width: 200px;
+  }
+  .prostriedky .pr,
+  .whoe,
+  .km {
+    float: none;
+    width: 60%;
+    height: auto;
+    margin: 0 auto 10px !important;
+  }
+  .mapcontainer,
+  .kde {
+    float: none;
+    margin: 0 auto !important;
+  }
+  .boxes {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .box {
+    width: 50%;
+    height: 350px;
+    margin: 0;  
+  }
+  .b3,
+  .b4 {
+    height: 280px;
+  }
+  a.support {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  header h1 {
+    float: left;
+    position: relative;
+    width: 320px;
+    left: calc(50% - 160px);
+  }
+  .menu-btn {
+    display: inline-block;
+    margin: 15px 10px 0 0;
+  }
+  header nav {
+    display: none;
+    clear: both;
+    padding-top: 10px;
+  }
+  header nav li {
+    display: block;
+  }
+  header nav li a {
+    padding: 10px;
+  }
+  .filozofia strong {
+    font-size: 65px;
+  }
+  .filozofia em {
+    font-size: 20px;
+    line-height: 1.3em;
+  }
+  .buttons {
+    width: 94%;
+  }
+  .mediumButton1, 
+  .mediumButton2, 
+  .mediumButton3 {
+    float: none;
+    margin: 0 auto 5px;
+  }
+}
+
+/* small 1 column */
+@media screen and (max-width: 600px) {
+  
+}
+
+@media screen and (max-width: 540px) {
+
+  .dots {
+    width: 180px;
+  }
+  .dots li {
+    padding: 0 5px;
+  }
+  .ab4 p {
+    text-align: center !important;
+  }
+  .prostriedky .pr,
+  .whoe,
+  .km {
+    width: 100%;
+  }
+	.boxes {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .box {
+    width: 100%;
+    height: auto;
+    margin: 0 0 40px;  
+  } 
+  .pg h3 {
+    width: 90%;
+    font-size: 22px;
+  }
+  a.support {
+    font-size: 32px;
+  }
+  div.ceskoslovensko {
+    width: 255px;
+    height: 135px;
+    background-position: -3px -242px;
+    background-size: 285px;
+  }
+  .banks {
+    width: 90%;
+  }
+  .bank {
+    float: none;
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  .address {
+    padding: 10px 0 0;
+    background: none;
+    width: 90%;
+    text-align: center;
+  }
+  .address::before {
+    content: " ";
+    display: block;
+    width: 70px;
+    height: 40px;
+    margin: 0 auto;
+    background: url('../i/vps.png') -288px -73px/385px no-repeat;
+  }
+  .address address {
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0 20px;
+    text-align: left;
+  }
+  .info {
+    display: block;
+    width: 90%;
+  }
+}
+
+/* iphone landscape */
+@media screen and (max-width: 480px) {
+  .filozofia,
+  .principy,
+  .prostriedky,
+  .who,
+  .komunity,
+  .videt,
+  .sponzoring,
+  .predseda,
+  .page3 p,
+  .page5 p,
+  section.page2 .ab2 p,
+  section.page2 .ab4 p,
+  section.page2 .ab5 p, 
+  section.page5 .in {
+    width: 90%;
+  } 
+  header h1 {
+    width: 184px;
+    left: calc(50% - 92px);
+  }
+  header h1 a {
+    background-size: 355px;
+    width: 184px;
+    height: 52px;
+  }
+  .menu-btn {
+    margin-top: 0px;
+  }
+  .pg h2 {
+    font-size: 24px;
+    width: 180px;
+    padding: 4px;
+  }
+  div.hearth {
+    width: 184px;
+    height: 70px;
+    background-position: 0 -38px;
+    background-size: 260px;
+  }
+  .filozofia {
+    padding: 20px;
+  }
+  .filozofia strong {
+    font-size: 52px;
+  }
+  .social {
+    width: 210px;
+  }
+  .social a {
+    width: 60px;
+    height: 60px;
+  }
+  a.newsletter,
+  a.facebook,
+  a.twitter {
+    background-size: 480px;
+  }
+  a.newsletter {
+    background-position: -260px -10px;
+  }
+  a.twitter {
+    background-position: -327px -10px;
+  }
+  a.facebook {
+    background-position: -393px -10px;
+  }
+  .mapcontainer,
+  .kde {
+    width: 94%;
+    height: 360px;
+  }
+
+
+  .page4 form {
+    width: 90%;
+  }
+  .page4 input, .page4 textarea {
+    width: calc(100% - 40px);
+  }
+  .page4 select {
+    width: 100%;
+  }
+  .predseda {
+    text-align: center;
+  }
+  .predseda img.avatar {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 96px;
+    height: 96px;
+  }
+  .vizitka {
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+  }
+}
+
+
+/* iphone portrait */
+@media screen and (max-width: 320px) {
+  header h1 {
+    left: 10px;
+  }
+}
+
+
+/************************************************************************************
+  RETINA 
+*************************************************************************************/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 319px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 319px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 319px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 319px),
+only screen and (                min-resolution: 192dpi) and (min-width: 319px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 319px) { 
+
+
+	
+header h1 a, header strong.h1 {
+ background: url('../i/vps@2x.png') 0 0 no-repeat;
+ background-size:355px;
+}
+div.hearth {
+ background: url('../i/vps@2x.png') 0 -38px no-repeat;
+ background-size:260px;
+}
+.dots a.yes { 
+background: url('../i/vps@2x.png') -431px -184px no-repeat;
+ background-size:600px 800px;
+}
+.dots a.no { 
+background: url('../i/vps@2x.png') -431px -206px no-repeat;
+ background-size:600px 800px;
+}
+a.newsletter {
+ background: url('../i/vps@2x.png') -260px -10px no-repeat;
+ background-size:480px;
+}
+a.facebook {
+ background: url('../i/vps@2x.png') -327px -10px no-repeat;
+ background-size:480px;
+}
+a.twitter {
+ background: url('../i/vps@2x.png') -393px -10px no-repeat;
+ background-size:480px;
+}
+.komunity .mailinglist span {
+ background: #1f3959 url('../i/vps@2x.png') -26px -402px no-repeat;
+ background-size:600px 800px;
+}
+.komunity .jabber span {
+ background: #1f3959 url('../i/vps@2x.png') -150px -398px no-repeat;
+ background-size:600px 800px;
+}
+.komunity .srazy span {
+ background: #1f3959 url('../i/vps@2x.png') -280px -394px no-repeat;
+ background-size:600px 800px;
+}
+.marker {
+ background: transparent url('../i/vps@2x.png') -410px -394px no-repeat;
+ background-size:600px 800px;
+}
+.b1 .ico {
+ background: url('../i/vps@2x.png') -5px -169px no-repeat;
+ background-size:400px;
+}
+.b2 .ico {
+ background: url('../i/vps@2x.png') -94px -170px no-repeat;
+ background-size:400px;
+ width:115px;
+}
+.b4 .ico {
+ background: url('../i/vps@2x.png') -210px -170px no-repeat;
+ background-size:400px;
+}
+div.ceskoslovensko {
+ background: url('../i/vps@2x.png') -3px -242px no-repeat;
+ background-size:285px;
+}
+.address { 
+ background: none;
+/* background: url('../i/vps@2x.png') -460px -95px no-repeat;
+ background-size:600px 800px;*/
+}
+.address::before {
+ background: url('../i/vps@2x.png') -288px -73px / 385px no-repeat;
+}	
+
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 481px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 481px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 481px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 481px),
+only screen and (                min-resolution: 192dpi) and (min-width: 481px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 481px) { 
+
+
+header h1 a, header strong.h1 {
+ background: url('../i/vps@2x.png') 0 0 no-repeat;
+ background-size:600px 800px;
+}
+div.hearth {
+ background: url('../i/vps@2x.png') 0 -50px no-repeat;
+ background-size:340px;
+}
+/*
+.dots a.yes { 
+background: url('../i/vps@2x.png') -431px -184px no-repeat;
+ background-size:600px 800px;
+}
+.dots a.no { 
+background: url('../i/vps@2x.png') -431px -206px no-repeat;
+ background-size:600px 800px;
+}*/
+a.newsletter {
+ background: url('../i/vps@2x.png') -328px -14px no-repeat;
+ background-size:600px 800px;
+}
+a.facebook {
+ background: url('../i/vps@2x.png') -411px -14px no-repeat;
+ background-size:600px 800px;
+}
+a.twitter {
+ background: url('../i/vps@2x.png') -494px -14px no-repeat;
+ background-size:600px 800px;
+}
+/*
+.komunity .mailinglist span {
+ background: #1f3959 url('../i/vps@2x.png') -26px -402px no-repeat;
+ background-size:600px 800px;
+}
+.komunity .jabber span {
+ background: #1f3959 url('../i/vps@2x.png') -150px -398px no-repeat;
+ background-size:600px 800px;
+}
+.komunity .srazy span {
+ background: #1f3959 url('../i/vps@2x.png') -280px -394px no-repeat;
+ background-size:600px 800px;
+}
+.marker {
+ background: transparent url('../i/vps@2x.png') -410px -394px no-repeat;
+ background-size:600px 800px;
+}
+*/
+/*
+.b1 .ico {
+ background: url('../i/vps@2x.png') -5px -255px no-repeat;
+ background-size:600px 800px;
+}
+.b2 .ico {
+ background: url('../i/vps@2x.png') -140px -255px no-repeat;
+ background-size:600px 800px;
+}
+.b4 .ico {
+ background: url('../i/vps@2x.png') -312px -255px no-repeat;
+ background-size:600px 800px;
+}
+*/
+/*
+div.ceskoslovensko {
+ background: url('../i/vps@2x.png') 0 -510px no-repeat;
+ background-size:600px 800px;
+}
+*/
+
+
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 541px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 541px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 541px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 541px),
+only screen and (                min-resolution: 192dpi) and (min-width: 541px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 541px) { 
+
+
+div.ceskoslovensko {
+ background: url('../i/vps@2x.png') 0 -510px no-repeat;
+ background-size:600px 800px;
+}
+
+.address { 
+ background: url('../i/vps@2x.png') -460px -95px no-repeat;
+ background-size:600px 800px;
+}
+.address::before {
+ background: none;
+}
+
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 901px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 901px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 901px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 901px),
+only screen and (                min-resolution: 192dpi) and (min-width: 901px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 901px) { 
+
+.b1 .ico {
+ background: url('../i/vps@2x.png') -5px -255px no-repeat;
+ background-size:600px 800px;
+}
+.b2 .ico {
+ background: url('../i/vps@2x.png') -140px -255px no-repeat;
+ background-size:600px 800px;
+}
+.b4 .ico {
+ background: url('../i/vps@2x.png') -312px -255px no-repeat;
+ background-size:600px 800px;
+}
+
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 961px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 961px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 961px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 961px),
+only screen and (                min-resolution: 192dpi) and (min-width: 961px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 961px) { 
+
+/*
+header h1 a, header strong.h1 {
+ background: url('../i/vps@2x.png') 0 0 no-repeat;
+ background-size:600px 800px;
+}*/
+div.hearth {
+ background: url('../i/vps@2x.png') 0 -89px no-repeat;
+ background-size:600px 800px;
+}
+/*
+.dots a.yes { 
+background: url('../i/vps@2x.png') -431px -184px no-repeat;
+ background-size:600px 800px;
+}
+.dots a.no { 
+background: url('../i/vps@2x.png') -431px -206px no-repeat;
+ background-size:600px 800px;
+}
+*/
+/*
+a.newsletter {
+ background: url('../i/vps@2x.png') -328px -14px no-repeat;
+ background-size:600px 800px;
+}
+a.facebook {
+ background: url('../i/vps@2x.png') -411px -14px no-repeat;
+ background-size:600px 800px;
+}
+a.twitter {
+ background: url('../i/vps@2x.png') -494px -14px no-repeat;
+ background-size:600px 800px;
+}
+*/
+/*
+.komunity .mailinglist span {
+ background: #1f3959 url('../i/vps@2x.png') -26px -402px no-repeat;
+ background-size:600px 800px;
+}
+.komunity .jabber span {
+ background: #1f3959 url('../i/vps@2x.png') -150px -398px no-repeat;
+ background-size:600px 800px;
+}
+.komunity .srazy span {
+ background: #1f3959 url('../i/vps@2x.png') -280px -394px no-repeat;
+ background-size:600px 800px;
+}
+*/
+/*
+.marker {
+ background: transparent url('../i/vps@2x.png') -410px -394px no-repeat;
+ background-size:600px 800px;
+}
+*/
+
+	
+
+#map {
+	height: 400px;
+}
+
