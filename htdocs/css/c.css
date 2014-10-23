@@ -276,7 +276,7 @@ nav li a {
     padding:14px 36px;
 }
 
-.orange, nav li a:hover, .page1 p strong {
+.orange, nav li a:hover, .page1 p b {
  color:#f6914b;
 }
 
@@ -328,7 +328,7 @@ div.hearth {
  font:300 19px/32px 'Open Sans';
  color:#fff;
 }
-.page1 p strong {
+.page1 p b {
  font-weight: 300;
 }
 /************************************************************************************
@@ -353,11 +353,11 @@ section.page2 .ab0, section.page2 .ab2, section.page2 .ab4, section.page2 .ab6 {
  background: #fff;
 }
 .dots {
-  position: absolute;
+  position: relative;
   top: 15px;
-  left: 50%;
-  transform: translateX(-50%);
+  margin:0 auto;
   z-index:4;
+  width: 120px;
 }
 .dots li {
   float: left;
@@ -368,7 +368,7 @@ section.page2 .ab0, section.page2 .ab2, section.page2 .ab4, section.page2 .ab6 {
  height: 20px;
 }
 .dots a.yes { 
-background: url('../i/vps.png') -431px -184px no-repeat;
+background: url('../i/vps.png') -431px -183px no-repeat;
 }
 .dots a.no { 
 background: url('../i/vps.png') -431px -206px no-repeat;
@@ -419,6 +419,9 @@ margin: 0px auto;
 }
 
 .filozofia em {
+ font:300 25px/29px 'Open Sans';
+}
+.filozofia i {
  font:300 16px/18px 'Open Sans';
  text-align: left;
 }
@@ -448,11 +451,20 @@ margin: 0px auto;
 a.newsletter {
  background: url('../i/vps.png') -328px -14px no-repeat;
 }
-a.facebook {
- background: url('../i/vps.png') -494px -14px no-repeat;
+a.newsletter:hover {
+  background-position: -457px -204px;
 }
 a.twitter {
  background: url('../i/vps.png') -411px -14px no-repeat;
+}
+a.twitter:hover {
+  background-position: -457px -274px;
+}
+a.facebook {
+ background: url('../i/vps.png') -494px -14px no-repeat;
+}
+a.facebook:hover {
+  background-position: -528px -242px;
 }
 .social a span {
  display: none;
@@ -604,9 +616,8 @@ section.page2 .ab4 .km  p {
 width: 800px;
 margin: 30px auto;
 }
-.mapcontainer, .kde {
+.map, .kde {
  width: 400px;
- height: 400px;
  float: left;
  position: relative;
 }
@@ -667,7 +678,7 @@ section.page3 {
 .page5 p {
   text-align: left;
 }
-.page3 p strong, .page5 p strong {
+.page3 p b, .page5 p b {
  font-weight: 700;
 }
 .boxes {
@@ -686,7 +697,7 @@ section.page3 {
  font: 400 14px/1.3em 'Open Sans';
  margin-top:7px;
 }
-.box p strong {
+.box p b {
  font: 400 22px/33px 'Oswald';
  text-transform: uppercase;
 
@@ -722,7 +733,7 @@ section.page3 {
  text-align: center;
 }
 .b3 em {
- font:100 40px/40px 'Open Sans';
+ font:100 75px/75px 'Open Sans';
 }
 .b3 i {
  font:100 24px/24px 'Open Sans';
@@ -904,21 +915,13 @@ border:3px solid #fff;
 }
 
 .address { 
- background: url('../i/vps.png') -460px -95px no-repeat;
+ background: url('../i/vps.png') -460px -89px no-repeat;
  width: 300px;
- padding: 20px 20px 20px 120px;
+ padding: 0 20px 0 120px;
  text-align: left;
- margin: 0px auto;
+ margin: 20px auto;
 }
 .address, address {
- font: 400 20px 'Open Sans';
-}
-
-.business { 
- width: 300px;
- padding: 20px 20px 20px 120px;
- text-align: left;
- margin: 0px auto;
  font: 400 20px 'Open Sans';
 }
 
@@ -1004,7 +1007,7 @@ footer a:hover {
     height: 520px;
 
   }
-  .mapcontainer,
+  .map,
   .kde {
     float: none;
     margin: 0 auto !important;
@@ -1102,7 +1105,7 @@ footer a:hover {
     height: auto;
     margin: 0 auto 10px !important;
   }
-  .mapcontainer,
+  .map,
   .kde {
     float: none;
     margin: 0 auto !important;
@@ -1228,7 +1231,7 @@ footer a:hover {
     width: 70px;
     height: 40px;
     margin: 0 auto;
-    background: url('../i/vps.png') -288px -73px/385px no-repeat;
+    background: url('../i/vps.png') -288px -59px/385px no-repeat;
   }
   .address address {
     display: inline-block;
@@ -1290,11 +1293,11 @@ footer a:hover {
     font-size: 52px;
   }
   .social {
-    width: 210px;
+    width: 200px;
   }
   .social a {
-    width: 60px;
-    height: 60px;
+    width: 56px;
+    height: 56px;
   }
   a.newsletter,
   a.facebook,
@@ -1302,20 +1305,32 @@ footer a:hover {
     background-size: 480px;
   }
   a.newsletter {
-    background-position: -260px -10px;
+    background-position: -262px -12px;
+  }
+  a.newsletter:hover {
+    background-position: -365px -164px;
   }
   a.twitter {
-    background-position: -327px -10px;
+    background-position: -329px -12px;
+  }
+  a.twitter:hover {
+    background-position: -366px -220px;
   }
   a.facebook {
-    background-position: -393px -10px;
+    background-position: -395px -12px;
   }
-  .mapcontainer,
+  a.facebook:hover {
+    background-position: -422px -195px;
+  }
+  .map,
   .kde {
     width: 94%;
     height: 360px;
   }
-
+  .map iframe {
+    width: 100%;
+    height: 100%;
+  }
 
   .page4 form {
     width: 90%;
@@ -1375,7 +1390,7 @@ div.hearth {
  background-size:260px;
 }
 .dots a.yes { 
-background: url('../i/vps@2x.png') -431px -184px no-repeat;
+background: url('../i/vps@2x.png') -431px -183px no-repeat;
  background-size:600px 800px;
 }
 .dots a.no { 
@@ -1386,14 +1401,25 @@ a.newsletter {
  background: url('../i/vps@2x.png') -260px -10px no-repeat;
  background-size:480px;
 }
-a.facebook {
+a.twitter {
  background: url('../i/vps@2x.png') -327px -10px no-repeat;
  background-size:480px;
 }
-a.twitter {
- background: url('../i/vps@2x.png') -393px -10px no-repeat;
+a.facebook {
+ background: url('../i/vps@2x.png') -394px -10px no-repeat;
  background-size:480px;
 }
+
+  a.newsletter:hover {
+    background-position: -365px -164px;
+  }
+  a.facebook:hover {
+    background-position: -421px -192px;
+  }
+  a.twitter:hover {
+      background-position: -364px -218px;
+  }
+
 .komunity .mailinglist span {
  background: #1f3959 url('../i/vps@2x.png') -26px -402px no-repeat;
  background-size:600px 800px;
@@ -1469,14 +1495,40 @@ a.newsletter {
  background: url('../i/vps@2x.png') -328px -14px no-repeat;
  background-size:600px 800px;
 }
-a.facebook {
+a.twitter {
  background: url('../i/vps@2x.png') -411px -14px no-repeat;
  background-size:600px 800px;
 }
-a.twitter {
+a.facebook {
  background: url('../i/vps@2x.png') -494px -14px no-repeat;
  background-size:600px 800px;
 }
+
+/*
+a.newsletter {
+ background: url('../i/vps@2x.png') -260px -10px no-repeat;
+ background-size:600px 800px;
+}
+a.twitter {
+ background: url('../i/vps@2x.png') -327px -10px no-repeat;
+ background-size:600px 800px;
+}
+a.facebook {
+ background: url('../i/vps@2x.png') -394px -10px no-repeat;
+ background-size:600px 800px;
+}*/
+
+  a.newsletter:hover {
+    background-position: -457px -206px;
+  }
+  a.facebook:hover {
+    background-position: -528px -241px;
+  }
+  a.twitter:hover {
+      background-position: -457px -275px;
+  }
+
+
 /*
 .komunity .mailinglist span {
  background: #1f3959 url('../i/vps@2x.png') -26px -402px no-repeat;
@@ -1560,6 +1612,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 901px) 
 .b2 .ico {
  background: url('../i/vps@2x.png') -140px -255px no-repeat;
  background-size:600px 800px;
+ width: 170px;
 }
 .b4 .ico {
  background: url('../i/vps@2x.png') -312px -255px no-repeat;
@@ -1633,7 +1686,9 @@ a.twitter {
 
 	
 
+
+}
+
 #map {
 	height: 400px;
 }
-

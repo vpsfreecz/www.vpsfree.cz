@@ -397,16 +397,16 @@ datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem sv
 				v naší síti</p>			
 			</div>
 			
-			<div class="box b3">
-				<div class="ico">
-					<em>900&nbsp;Kč</em>
-					<em>na tři měsíce</em>
-				</div>
-				<p><strong><span class="orange">Do 7 dní zaplať</span><br />
-				čtvrtletní členský<br />
-				poplatek</strong><br />
-				900&nbsp;Kč nebo 36&nbsp;&euro;</p>
-			</div>
+            <div class="box b3">
+                    <div class="ico">
+                            <em>900&nbsp;Kč</em>
+                            <i>na tři měsíce</i>
+                    </div>
+                    <p><b><span class="orange">Do 7 dní zaplať</span><br />
+                    čtvrtletní členský<br />
+                    poplatek</b><br />
+                    36&euro; nebo 900 Kč</p>
+            </div>
 			
 			<div class="box b4">
 				<div class="ico"> </div>
