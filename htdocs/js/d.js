@@ -28,6 +28,66 @@ function show_slide(i, settimer) {
 }
 
 
+function signup() {
+	var nick			= $("#nick").val();
+	var name			= $("#name").val();
+	var surname			= $("#surname").val();
+	var birth			= $("#birth").val();
+	var address			= $("#address").val();
+	var city			= $("#city").val();
+	var zip				= $("#zip").val();
+	var country			= $("#country").val();
+	var email			= $("#email").val();
+	var jabber			= $("#jabber").val();
+	var how				= $("#how").val();
+	var notes			= $("#notes").val();
+	var distribution	= $("#distribution").val();
+	var location		= $("#location").val();
+	var currency		= $("#currency").val();
+	
+	$.ajax({
+		type : "POST",
+		url : "/prihlaska.php",
+		data : {
+			'nick'			:nick,
+			'name'			:name,
+			'surname'		:surname,
+			'birth'			:birth,
+			'address'		:address,
+			'city'			:city,
+			'zip'			:zip,
+			'country'		:country,
+			'email'			:email,
+			'jabber'		:jabber,
+			'how'			:how,
+			'notes'			:notes,
+			'distribution'	:distribution,
+			'location'		:location,
+			'currency'		:currency
+			
+		},
+		success: function(data, status, jqxhr) {
+			if(data.length == 0) {
+				console.log("DONE");
+		//		$('#support').hide().html('<div class="inside"><h2><Strong>Thank you for contacting us.</strong> <br/> We will do our best to write you back in a few moments.</h2></div>').fadeIn('slow');
+			} else {
+				var errors = jQuery.parseJSON(data);
+
+				for (var i in errors) {
+					$('#' + errors[i]).addClass("error");
+				}		
+			}
+		},
+		error: function(jqxhr, status, error) {
+			alert("Error during POST request,  status:" + status + ", message:" + error);
+		}
+	});	
+	
+	return false;
+}
+
+
+
 $(document).ready(function() {
     var navigation_dots = $("section.page2 div.dots");
     var anchors = navigation_dots.find("li a");
