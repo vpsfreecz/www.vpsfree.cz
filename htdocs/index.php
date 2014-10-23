@@ -68,7 +68,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 		<div class="in">
 			<div class="hearth"> </div>
 			<h2>Milujeme servery</h2>
-			<p>Pokud chceš mít sůj vlastní <strong>virtuální server</strong>, který si přizpůsobíš svým potřebám
+			<p>Pokud chceš mít svůj vlastní <strong>virtuální server</strong>, který si přizpůsobíš svým potřebám
 a&nbsp;nechceš se trápit hardwarovým a technickým řešením, chceš sdílet
 naši <strong>společnou infrastrukturu</strong> a společný hardware, pojď k nám! Nejsme klasický komerční 
 webhosting, jsme občanské sdružení, jehož členem se můžeš stát i ty&hellip;</p>
