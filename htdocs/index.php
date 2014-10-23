@@ -14,8 +14,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
     <title>vpsFree.cz - Virtuální Privátní Servery svobodně</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <meta name="keywords" content="VPS, hosting, virtualni server, linux, server, privatni server, virtual, virtualny">    
+	<meta name="keywords" content="VPS, hosting, virtualni server, linux, server, privatni server, virtual, virtualny">    
     <meta name="description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
 
 	<!-- Meta tagy pre socialne siete-->
@@ -30,8 +29,9 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 
 	<meta name="robots" content="index,follow">
-	<!--<meta name="google-site-verification" content="SEM_DAT_KOD_AK_CHCETE_WEBMASTERS_TOOLS">-->
-	
+	<meta http-equiv="content-language" content="cz" />
+	<meta name="verify-v1" content="VFP8KLvL6aSAgDSLKjMidGlun/+Kfw+Vb7CImUqU6do=" />
+	<meta name="google-site-verification" content="OMMaumGl7mwK1mr9Sr0SjHU7AbeXL95Fl8Lrm07M3NI" />	
 	<!-- CSS -->
 	<link href='https://fonts.googleapis.com/css?family=Oswald:300,400,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>	
