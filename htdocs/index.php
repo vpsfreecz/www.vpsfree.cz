@@ -503,9 +503,7 @@ U plné virtualizace má virtuální server z pohledu operačního systému svů
 <strong class="faq-subtitle">Co mi na OpenVZ nebude fungovat?</strong>
 V podstatě je problém s každou aplikací, která by chtěla pracovat ve velmi těsné vazbě na hardware (což platí pro většinu způsobů virtualizace) nebo využívat speciální vlastnosti jádra. Problémy tak můžete mít, pokud budete chtít používat pokročilý routing, shaper, některé pokročilé využití iptables (hlavně IPv6, IPv4 NAT je možný pouze s workaroundem).<br />
 <br />
-Na druhou stranu u nás narazíte na pravděpodobně nejlépe vyladěné nasazení OpenVZ, které máte šanci potkat. Nechceme se tím chvástat, ale ladění OpenVZ na našich serverech věnujeme opravdu hodně nocí :-)<br />
-<br />
-Za celou historii vpsFree.cz nás opustili pouze dva členové, kterým OpenVZ nevyhovovalo. Pro několik dalších jsme udělali výjimky v některých nastaveních.</p>
+Na druhou stranu u nás narazíte na pravděpodobně nejlépe vyladěné nasazení OpenVZ, které máte šanci potkat. Nechceme se tím chvástat, ale ladění OpenVZ na našich serverech věnujeme opravdu hodně nocí :-).</p>
 
 <h3>Kde mohu najít další informace?</h3>
 <p>Další informace o vpsFree.cz můžeš najít v naší wiki - <a href="http://kb.vpsfree.cz/" target="_blank">Knowledge Base</a> nebo nám můžeš kdykoliv napsat.</p> 
