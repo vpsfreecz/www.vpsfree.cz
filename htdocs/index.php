@@ -68,10 +68,10 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 		<div class="in">
 			<div class="hearth"> </div>
 			<h2>Milujeme servery</h2>
-			<p>Pokud chceš mít svůj vlastní <strong>virtuální server</strong>, který si přizpůsobíš svým potřebám
-a&nbsp;nechceš se trápit hardwarovým a technickým řešením, chceš sdílet
-naši <strong>společnou infrastrukturu</strong> a společný hardware, pojď k nám! Nejsme klasický komerční 
-webhosting, jsme občanské sdružení, jehož členem se můžeš stát i ty&hellip;</p>
+			<p>Pokud chceš mít svůj vlastní <strong>virtuální server</strong>, který si&nbsp;přizpůsobíš svým potřebám
+a&nbsp;nechceš se&nbsp;trápit hardwarovým a&nbsp;technickým řešením, chceš sdílet
+naši <strong>společnou infrastrukturu</strong> a&nbsp;společný hardware, pojď k&nbsp;nám! Nejsme klasický komerční 
+webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&nbsp;ty&hellip;</p>
 		</div>
 	</section>
 	
@@ -103,8 +103,8 @@ webhosting, jsme občanské sdružení, jehož členem se můžeš stát i ty&he
 			<div class="filozofia">
 			 <em> Sdružení vzniklo jako </em>
 			 <strong>přímá reakce</strong>
-			 <em>na nepružnost a přemrštěné ceny komerčních hostingů v ČR</em>
-			 <span> a ještě horší situaci v SR</span>
+			 <em>na nepružnost a&nbsp;přemrštěné ceny komerčních hostingů v&nbsp;ČR</em>
+			 <span> a&nbsp;ještě horší situaci v&nbsp;SR</span>
 			</div>
 		
 		<div class="principy">			 
@@ -115,9 +115,9 @@ webhosting, jsme občanské sdružení, jehož členem se můžeš stát i ty&he
 			
 			<div class="c"> </div>
 			<p>
-			Naprostá většina informací o <strong>vpsFree.cz</strong> je veřejná.<br />
-			Chceme, aby členové i veřejnost měli přehled o dění v našem sdružení,<br />
-			sleduj naše informační kanály a sociální sítě:<br />
+			Naprostá většina informací o&nbsp;<strong>vpsFree.cz</strong> je veřejná.<br />
+			Chceme, aby členové i&nbsp;veřejnost měli přehled o&nbsp;dění v&nbsp;našem sdružení,<br />
+			sleduj naše informační kanály a&nbsp;sociální sítě:<br />
 			</p>
 			
 			
@@ -147,16 +147,16 @@ webhosting, jsme občanské sdružení, jehož členem se můžeš stát i ty&he
 				<table>
 					<tr>
 						<td class="doprava">CPU:</td>
-						<td class="dolava"><strong>8 jader</strong></td>
+						<td class="dolava"><strong>8&nbsp;jader</strong></td>
 					</tr>
 					<tr>
 						<td class="doprava">RAM:</td>
-						<td class="dolava"><strong>4096 MB</strong></td>
+						<td class="dolava"><strong>4096&nbsp;MB</strong></td>
 					</tr>
 
 					<tr>
 						<td class="doprava">HDD:</td>
-						<td class="dolava"><strong>60 GB</strong></td>
+						<td class="dolava"><strong>60&nbsp;GB</strong></td>
 					</tr>
 					<tr>
 						<td class="doprava">adresa</td>
@@ -169,7 +169,7 @@ webhosting, jsme občanské sdružení, jehož členem se můžeš stát i ty&he
 					
 					<tr>
 						<td class="doprava">konektivita</td>
-						<td class="dolava"><strong>1 Gbit</strong></td>
+						<td class="dolava"><strong>1&nbsp;Gbit</strong></td>
 					</tr>
 					
 					<tr>
@@ -184,14 +184,14 @@ webhosting, jsme občanské sdružení, jehož členem se můžeš stát i ty&he
 			 </div>
 			 <div class="pr pr2">
 			 	<h3>NAS Storage</h3>
-			 	<p>V době cloud computingu a obecně trendu přesouvat data z desktopů do 
-datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem svým členům 
-<strong>250 GB prostoru</strong> jako standardní součást členských výhod.<br /><br /> V blízké budoucnosti přibude možnost rozšířít kapacitu externího úložiště až na <strong>2 TB</strong> a také možnost jeho pravidelného zálohování.</p>
+			 	<p>V&nbsp;době cloud computingu a&nbsp;obecně trendu přesouvat data z&nbsp;desktopů do&nbsp;
+datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme všem svým členům 
+<strong>250&nbsp;GB prostoru</strong> jako standardní součást členských výhod.<br /><br /> V&nbsp;blízké budoucnosti přibude možnost rozšířít kapacitu externího úložiště až na <strong>2&nbsp;TB</strong> a&nbsp;také možnost jeho pravidelného zálohování.</p>
 			 </div>
 			 <div class="pr pr3">
 			 	<h3>Playground VPS</h3>
-			 	<p>Playground VPS jsou virtuální servery v podobné konfiguraci, jako klasické námi poskytované virtuální servery, jen mají životnost omezenou na 
-<strong>jeden měsíc</strong>. Běží na post-produkčním hardware a mají jiné rozsahy <strong>IP adres</strong>.<br /><br /> Do Playgroundu lze naklonovat produkční virtuální server, není tedy  nutné jej nastavovat od nuly, když potřebujete vyzkoušet jenom drobnou změnu konfigurace.</p>
+			 	<p>Playground VPS jsou virtuální servery v&nbsp;podobné konfiguraci, jako klasické námi poskytované virtuální servery, jen mají životnost omezenou na 
+<strong>jeden měsíc</strong>. Běží na post-produkčním hardware a&nbsp;mají jiné rozsahy <strong>IP adres</strong>.<br /><br /> Do&nbsp;Playgroundu lze naklonovat produkční virtuální server, není tedy nutné jej nastavovat od&nbsp;nuly, když potřebujete vyzkoušet jenom drobnou změnu konfigurace.</p>
 			 </div>
 			<div class="c"> </div>
 			</div><!--prostriedky-->
@@ -212,26 +212,26 @@ datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem sv
 			 <div class="whoe">
 			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
 			   <h3>Pavel Šnajdr</h3>
-			   <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a technickým ředitelem společnosti Relbit. Zabývá se kontejnerovou virtualizací, ZFS a enterprise linuxovými distribucemi. Má rád otevřené prostředí a aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
+			   <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a&nbsp;technickým ředitelem společnosti Relbit. Zabývá se&nbsp;kontejnerovou virtualizací, ZFS a&nbsp;enterprise linuxovými distribucemi. Má rád otevřené prostředí a&nbsp;aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
 			 </div>
 			 
 			 
 			 <div class="whoe">
 			   <img src="i/tomas-srnka.jpg" alt="Tomáš Srnka" class="avatar">
 			   <h3>Tomáš Srnka</h3>
-			   <p>Tomáš Srnka je členem rady spolku vpsFree.cz od samého počátku. Zajímá se zejména o vysokou dostupnost a škálovatelnost. Spolu s Pavlem Šnajdrem založil společnost Relbit. Kromě technického směru se stará o ekonomickou stránku věci.</p>			  
+			   <p>Tomáš Srnka je členem rady spolku vpsFree.cz od&nbsp;samého počátku. Zajímá se&nbsp;zejména o&nbsp;vysokou dostupnost a&nbsp;škálovatelnost. Spolu s&nbsp;Pavlem Šnajdrem založil společnost Relbit. Kromě technického směru se&nbsp;stará o&nbsp;ekonomickou stránku věci.</p>			  
 			 </div>
 			 
 			 <div class="whoe">
 			   <img src="i/jiri-medved.jpg" alt="Jiří Medvěd" class="avatar">
 			   <h3>Jiří Medvěd</h3>
-			   <p>Jiří Medvěd pracuje jako system administrátor v Seznam.cz a má rád otevřené technologie, které zvýší dostupnost služeb. Ve vpsFree.cz má na starosti technickou podporu, servery a správu templates pro VPS.</p>			  
+			   <p>Jiří Medvěd pracuje jako system administrátor v&nbsp;Seznam.cz a&nbsp;má rád otevřené technologie, které zvýší dostupnost služeb. Ve vpsFree.cz má na starosti technickou podporu, servery a&nbsp;správu templates pro VPS.</p>			  
 			 </div>
 
 		<!--	 <div class="whoe">
 			   <img src="i/jakub-skokan.jpg" alt="Jakub Skokan" class="avatar">
 			   <h3>Jakub Skokan</h3>
-			   <p>Jakub Skokan je programátor a systémový administrátor. Ve vpsFree.cz vyvíjí administrační rozhraní vpsAdmin společně s dalšími projekty. Stará se o jeho provoz a odpovídá na podpoře. Ve volném čase studuje na vysoké škole.</p>
+			   <p>Jakub Skokan je programátor a&nbsp;systémový administrátor. Ve vpsFree.cz vyvíjí administrační rozhraní vpsAdmin společně s&nbsp;dalšími projekty. Stará se&nbsp;o&nbsp;jeho provoz a&nbsp;odpovídá na podpoře. Ve&nbsp;volném čase studuje na vysoké škole.</p>
 			 </div>
 			 
 			 <div class="whoe">
@@ -244,7 +244,7 @@ datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem sv
 			 <div class="whoe">
 			   <img src="i/petr-krcmar.jpg" alt="Petr Krčmář" class="avatar">
 			   <h3>Petr Krčmář</h3>
-			   <p>Petr Krčmář je šéfredaktorem serveru Root.cz a Linuxem se zabývá přes šestnáct let. Má rád otevřený software a transparentní přístup ke světu. Ve vpsFree.cz má na starosti především komunitu a propagaci.</p>
+			   <p>Petr Krčmář je šéfredaktorem serveru Root.cz a&nbsp;Linuxem se&nbsp;zabývá přes šestnáct let. Má rád otevřený software a&nbsp;transparentní přístup ke&nbsp;světu. Ve&nbsp;vpsFree.cz má na starosti především komunitu a&nbsp;propagaci.</p>
 			 </div>
 --> 
 			 
@@ -268,7 +268,7 @@ datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem sv
 			 <div class="km mailinglist">
 			   <span> </span>
 			   <h3>Mailing listy</h3>
-			   <p>Většina komunikace ve vpsFree.cz se odehrává po mailu. Vše je otevřené a čitelné pro všechny. Najdete tu informace i lidi ochotné poradit. Mailing listy se nacházejí na adrese <a href="http://lists.vpsfree.cz">lists.vpsfree.cz</a>.</p>			  
+			   <p>Většina komunikace ve&nbsp;vpsFree.cz se&nbsp;odehrává po mailu. Vše je otevřené a&nbsp;čitelné pro všechny. Najdete tu informace i&nbsp;lidi ochotné poradit. Mailing listy se nacházejí na adrese <a href="http://lists.vpsfree.cz">lists.vpsfree.cz</a>.</p>			  
 			 </div>
 			 
 			 
@@ -285,7 +285,7 @@ datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem sv
 			 <div class="km srazy">
 			   <span> </span>
 			   <h3>Děláme srazy</h3>
-			   <p>Pravidelně se potkáváme na srazech, kde se dozvíte o směřování sdružení, ale popovídáte si i o denních problémech ostatních adminů.</p>			  
+			   <p>Pravidelně se&nbsp;potkáváme na srazech, kde se&nbsp;dozvíte o&nbsp;směřování sdružení, ale popovídáte si&nbsp;i&nbsp;o&nbsp;denních problémech ostatních adminů.</p>			  
 			 </div>
 			 
 			<div class="c"> </div>
@@ -394,7 +394,7 @@ datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem sv
 				<p><strong><span class="orange">Do 24 hodin</span><br />
 				ti připravíme<br />
 				virtuální server</strong><br />
-				v naší síti</p>			
+				v&nbsp;naší síti</p>			
 			</div>
 			
             <div class="box b3">
@@ -402,7 +402,7 @@ datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem sv
                             <em>900&nbsp;Kč</em>
                             <i>na tři měsíce</i>
                     </div>
-                    <p><b><span class="orange">Do 7 dní zaplať</span><br />
+                    <p><b><span class="orange">Do 7&nbsp;dní zaplať</span><br />
                     čtvrtletní členský<br />
                     poplatek</b><br />
                     36&euro; nebo 900 Kč</p>
@@ -484,29 +484,29 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 			</div>
 			
 			<div class="c"> </div>
-			<h3>Jak je to u nás s platbou?</h3>
+			<h3>Jak je to u nás s&nbsp;platbou?</h3>
 
-<p>Z rozhodnutí Rady sdružení se platí vždy na období minimálně tří měsíců dopředu, číslo účtu je uvedeno v sekci Kontakt, jako variabilní symbol se uvádí členské číslo, které člen vidí ve vpsAdminu, sekce Admin Členů jako první sloupeček (ID) (Ne ID virtuálního serveru!).</p>
+<p>Z rozhodnutí Rady sdružení se&nbsp;platí vždy na období minimálně tří měsíců dopředu, číslo účtu je uvedeno v&nbsp;sekci Kontakt, jako variabilní symbol se&nbsp;uvádí členské číslo, které člen vidí ve&nbsp;vpsAdminu, sekce Admin Členů jako první sloupeček (ID) (Ne ID virtuálního serveru!).</p>
 
 <h3>Proč tolik prosazujete OpenVZ?</h3>
 
-<p>To, co aktuálně umí plná virtualizace dostupná pod Linuxem (KVM, Xen), pro nás v porovnání s OpenVZ kontejnery není dostatečné. U nás například nelimitujeme CPU, což by s jakoukoliv jinou technologií nebylo možné. Ze všech zmíněných možností virtualizace má OpenVZ také nejmenší režii (zejména proto, že jde o kontejnery.)</p>
+<p>To, co aktuálně umí plná virtualizace dostupná pod Linuxem (KVM, Xen), pro nás v&nbsp;porovnání s&nbsp;OpenVZ kontejnery není dostatečné. U&nbsp;nás například nelimitujeme CPU, což by s&nbsp;jakoukoliv jinou technologií nebylo možné. Ze&nbsp;všech zmíněných možností virtualizace má OpenVZ také nejmenší režii (zejména proto, že jde o kontejnery.)</p>
 
 <h3>Co pro mě znamená použití OpenVZ?</h3>
 
 <p><strong class="faq-subtitle">Co je stejné?</strong>
-VPS se ve většině situací chová stejně jako fyzický linuxový server (nebo plně virtualizovaný virtuální server) s danou distribucí. Má svoje účty, svoje aplikace, svoje data.<br />
+VPS se&nbsp;ve&nbsp;většině situací chová stejně jako fyzický linuxový server (nebo plně virtualizovaný virtuální server) s&nbsp;danou distribucí. Má svoje účty, svoje aplikace, svoje data.<br />
 <br />
 <strong class="faq-subtitle">Co je jiné?</strong>
-U plné virtualizace má virtuální server z pohledu operačního systému svůj vlastní (virtualizovaný nebo paravirtualizovaný) hardware. Na tomto hardwaru je následně spuštěno jádro, přičemž každý virtuální server může mít jiné. U OpenVZ toto neplatí; virtuální server nemá svůj hardware, nemá žádné PCI ani jiné sběrnice, ani svojí síťovou kartu. Také nemá vlastní jádro; aplikace běží pod jádrem hostitelského stroje.<br />
+U&nbsp;plné virtualizace má virtuální server z&nbsp;pohledu operačního systému svůj vlastní (virtualizovaný nebo paravirtualizovaný) hardware. Na tomto hardwaru je následně spuštěno jádro, přičemž každý virtuální server může mít jiné. U&nbsp;OpenVZ toto neplatí; virtuální server nemá svůj hardware, nemá žádné PCI ani jiné sběrnice, ani svojí síťovou kartu. Také nemá vlastní jádro; aplikace běží pod jádrem hostitelského stroje.<br />
 <br />
 <strong class="faq-subtitle">Co mi na OpenVZ nebude fungovat?</strong>
-V podstatě je problém s každou aplikací, která by chtěla pracovat ve velmi těsné vazbě na hardware (což platí pro většinu způsobů virtualizace) nebo využívat speciální vlastnosti jádra. Problémy tak můžete mít, pokud budete chtít používat pokročilý routing, shaper, některé pokročilé využití iptables (hlavně IPv6, IPv4 NAT je možný pouze s workaroundem).<br />
+V&nbsp;podstatě je problém s&nbsp;každou aplikací, která by chtěla pracovat ve&nbsp;velmi těsné vazbě na hardware (což platí pro většinu způsobů virtualizace) nebo využívat speciální vlastnosti jádra. Problémy tak můžete mít, pokud budete chtít používat pokročilý routing, shaper, některé pokročilé využití iptables (hlavně IPv6, IPv4 NAT je možný pouze s&nbsp;workaroundem).<br />
 <br />
-Na druhou stranu u nás narazíte na pravděpodobně nejlépe vyladěné nasazení OpenVZ, které máte šanci potkat. Nechceme se tím chvástat, ale ladění OpenVZ na našich serverech věnujeme opravdu hodně nocí :-).</p>
+Na druhou stranu u&nbsp;nás narazíte na pravděpodobně nejlépe vyladěné nasazení OpenVZ, které máte šanci potkat. Nechceme se tím chvástat, ale ladění OpenVZ na našich serverech věnujeme opravdu hodně nocí :-).</p>
 
 <h3>Kde mohu najít další informace?</h3>
-<p>Další informace o vpsFree.cz můžeš najít v naší wiki - <a href="http://kb.vpsfree.cz/" target="_blank">Knowledge Base</a> nebo nám můžeš kdykoliv napsat.</p> 
+<p>Další informace o&nbsp;vpsFree.cz můžeš najít v naší wiki - <a href="http://kb.vpsfree.cz/" target="_blank">Knowledge Base</a> nebo nám můžeš kdykoliv napsat.</p> 
 
 <br />
 			<p>Pokud máš další otázky:</p>
