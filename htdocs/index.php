@@ -8,7 +8,7 @@ require "lib/db.lib.php";
 $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">    
     <title>vpsFree.cz - Virtuální Privátní Servery svobodně</title>
@@ -29,7 +29,6 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 
 	<meta name="robots" content="index,follow">
-	<meta http-equiv="content-language" content="cz" />
 	<meta name="verify-v1" content="VFP8KLvL6aSAgDSLKjMidGlun/+Kfw+Vb7CImUqU6do=" />
 	<meta name="google-site-verification" content="OMMaumGl7mwK1mr9Sr0SjHU7AbeXL95Fl8Lrm07M3NI" />	
 	<!-- CSS -->
