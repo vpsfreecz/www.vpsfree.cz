@@ -510,7 +510,7 @@ Na druhou stranu u&nbsp;nás narazíte na pravděpodobně nejlépe vyladěné na
 
 <br />
 			<p>Pokud máš další otázky:</p>
-			<a href="#" class="largeButton">Napiš nám</a>
+			<a href="#contacts" class="largeButton">Napiš nám</a>
 		</div>
 	</section>
 	
