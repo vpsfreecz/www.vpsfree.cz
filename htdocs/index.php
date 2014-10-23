@@ -169,7 +169,7 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 					
 					<tr>
 						<td class="doprava">konektivita</td>
-						<td class="dolava"><strong>1&nbsp;Gbit</strong></td>
+						<td class="dolava"><strong>300&nbsp;Mbps</strong></td>
 					</tr>
 					
 					<tr>
