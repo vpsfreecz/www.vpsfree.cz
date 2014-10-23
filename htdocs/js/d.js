@@ -118,7 +118,7 @@ $(document).ready(function() {
     pages.height(max_height);
 
     $('a.menu-btn').click(function() {
-        $('header section nav').slideToogle();
+        $('header section nav').slideToggle();
         return false;
     });
 
