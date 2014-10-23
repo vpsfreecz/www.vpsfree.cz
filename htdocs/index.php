@@ -1,6 +1,7 @@
 <?php
 header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -231,7 +232,7 @@ datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem sv
 			 
 			 <div class="whoe">
 			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
-			   <h3>Pavel Šnajdr</h3>
+			   <h3>Michal Janoušek</h3>
 			   <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a technickým ředitelem společnosti Relbit. Zabývá se kontejnerovou virtualizací, ZFS a enterprise linuxovými distribucemi. Má rád otevřené prostředí a aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
 			 </div>
 			 
@@ -426,23 +427,23 @@ datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem sv
 			<p>Vyplň údaje úplně a pravdivě. Uvedené informace nikde nezveřejňujeme, 
 pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 
-			<form method="post">
-			 <input type="text" name="" value="" placeholder="Přezdívka člena">
-			 <input type="text" name="" value="" placeholder="Jméno">
-			 <input type="text" name="" value="" placeholder="Příjmení">
-			 <input type="text" name="" value="" placeholder="Rok narození">
+			<form method="" action="">
+			 <input type="text" id="nick" name="nick" value="" placeholder="Přezdívka člena">
+			 <input type="text" id="name" name="name" value="" placeholder="Jméno">
+			 <input type="text" id="surname" name="surname" value="" placeholder="Příjmení">
+			 <input type="text" id="birth" name="birth" value="" placeholder="Rok narození">
 			 
-			 <textarea placeholder="Adresa trvalého bydlište"></textarea>
-			 <input type="text" name="" value="" placeholder="Město">
-			 <input type="text" name="" value="" placeholder="PSČ">
-			 <input type="text" name="" value="" placeholder="Stát">
-			 <input class="error" type="text" name="" value="" placeholder="E-mail">
-			 <input type="text" name="" value="" placeholder="Jabber">			 
-			 <textarea placeholder="Jak ses o nás dozvědel?"></textarea>
-			 <textarea placeholder="Poznámky"></textarea>
+			 <textarea name="address" id="address" placeholder="Adresa trvalého bydlište"></textarea>
+			 <input type="text" id="city" name="city" value="" placeholder="Město">
+			 <input type="text" id="zip" name="zip" value="" placeholder="PSČ">
+			 <input type="text" id="country" name="country" value="" placeholder="Stát">
+			 <input type="text" id="email" name="email" value="" placeholder="E-mail">
+			 <input type="text" id="jabber" name="jabber" value="" placeholder="Jabber">			 
+			 <textarea name="how" id="how" placeholder="Jak ses o nás dozvědel?"></textarea>
+			 <textarea name="notes" id="notes" placeholder="Poznámky"></textarea>
 			 
 			 <span>Distribuce 64bit:</span>
- 		 	 <select name="distribuce">
+ 		 	 <select name="distribution" id="distribution">
 			 	 <option value="26">Scientific Linux 6</option>
 			 	 <option value="24">CentOS 6</option>
 			 	 <option value="20">Debian 6</option>
@@ -455,17 +456,17 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 		 	 </select>
 
 			 <span>Preferovaná lokace pro VPS:</span>
-			 <select name="lokace">
+			 <select name="location" id="location">
 			 	<option value="3">Master Internet Praha</option>
 			 	<option value="4">Master Internet Brno</option>
 			 </select>
 			 <span>Měna platby:</span>
-			 <select>
+			 <select name="currency" id="currency">
  			   <option>členský poplatek 900&nbsp;Kč na tři měsíce</option>
  			   <option>členský poplatek 36&nbsp;eur na tři měsíce</option>			 
 			 </select>
 			 
-			 <input type="submit" class="largeButton" value="Odeslat">
+			 <input type="submit" name="send" class="largeButton" value="Odeslat" onclick="signup(); return false;">
 			</form>
 		</div>
 	</section>
@@ -553,8 +554,7 @@ Za celou historii vpsFree.cz nás opustili pouze dva členové, kterým OpenVZ n
 			(CZ)
 			</div>
 			<div class="bank">
-			<strong>2200041594/8330</strong><br />
-			(SK)
+			<strong>SK15 8330 0000 0022 0004 1594 &nbsp; FIOBCZPPXXX</strong><br />
 			</div>
 			<div class="c"> </div>
 			</div>
