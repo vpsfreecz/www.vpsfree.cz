@@ -442,7 +442,6 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 			 <input type="text" id="zip" name="zip" value="" placeholder="PSČ">
 			 <input type="text" id="country" name="country" value="" placeholder="Stát">
 			 <input type="text" id="email" name="email" value="" placeholder="E-mail">
-			 <input type="text" id="jabber" name="jabber" value="" placeholder="Jabber">			 
 			 <textarea name="how" id="how" placeholder="Jak ses o nás dozvědel?"></textarea>
 			 <textarea name="notes" id="notes" placeholder="Poznámky"></textarea>
 			 

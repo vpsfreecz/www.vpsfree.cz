@@ -38,7 +38,6 @@ function signup() {
 	var zip				= $("#zip").val();
 	var country			= $("#country").val();
 	var email			= $("#email").val();
-	var jabber			= $("#jabber").val();
 	var how				= $("#how").val();
 	var notes			= $("#notes").val();
 	var distribution	= $("#distribution").val();
@@ -58,7 +57,6 @@ function signup() {
 			'zip'			:zip,
 			'country'		:country,
 			'email'			:email,
-			'jabber'		:jabber,
 			'how'			:how,
 			'notes'			:notes,
 			'distribution'	:distribution,
@@ -114,7 +112,7 @@ $(document).ready(function() {
         max_height = Math.max(max_height, $(this).height());
     });
 
-    $("section.page2").height(max_height + 100);
+    $("section.page2").height(max_height + 50);
     pages.height(max_height);
 
     $('a.menu-btn').click(function() {

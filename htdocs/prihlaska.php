@@ -26,7 +26,6 @@ function cfg_get($key) {
 			'zip'			:zip,
 			'country'		:country,
 			'email'			:email,
-			'jabber'		:jabber,
 			'how'			:how,
 			'notes'			:notes,
 			'distribution'	:distribution,
@@ -71,10 +70,6 @@ if ($_POST) {
 		$errors[] = 'email';
 	}
 	
-	if (strlen($_POST['jabber']) < 3) {
-		$errors[] = 'jabber';
-	}
-	
 	if (!isset($_POST['distribution'])) {
 		$errors[] = 'distribution';
 	}
@@ -105,7 +100,7 @@ if ($_POST) {
 				            m_mail = '".$db->check($_POST["email"])."',
 				            m_address = '".$db->check($_POST["address"].", ".$_POST["zip"]." ".$_POST["city"].", ".$_POST["country"])."',
 				            m_year = '".$db->check($_POST["birth"])."',
-				            m_jabber = '".$db->check($_POST["jabber"])."',
+				            m_jabber = '',
 				            m_how = '".$db->check($_POST["how"])."',
 				            m_note = '".$db->check($_POST["note"])."',
 				            m_distribution = '".$db->check($_POST["distribution"])."',
@@ -154,7 +149,7 @@ if ($_POST) {
         Email: '.$_POST["email"].'
        Adresa: '.$_POST["address"].", ".$_POST["zip"]." ".$_POST["city"].", ".$_POST["country"].'
 Year of birth: '.$_POST["birth"].'
-       Jabber: '.$_POST["jabber"].'
+       Jabber: 
           How: '.$_POST["how"].'
          Note: '.$_POST["note"].'
      Currency: '.$_POST["currency"].'
