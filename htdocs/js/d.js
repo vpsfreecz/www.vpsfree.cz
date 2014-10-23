@@ -69,6 +69,7 @@ function signup() {
 			if(data.length == 0) {
 				$('section.pg.page4 > div.in').hide().html('<h2>Děkujeme - Odesláno</h2>Měl bys obdržet e-mail potvrzující přijetí přihlášky - pokud se tak nestane do deseti minut, pošli přihlášku prosím znova.<br />Pokud ani přes to nic nepřichází, obrať se prosím na podporu - podpora @ vpsfree.cz<br /><br/>Děkujeme za Tvůj zájem přidat se k nám.').fadeIn('slow');
 			} else {
+				$('input[type=text]').removeClass("error");
 				var errors = jQuery.parseJSON(data);
 				$("#send").attr("value", "Odeslat");
 
@@ -111,10 +112,14 @@ $(document).ready(function() {
 
     var pages = $("div.ab");
     pages.each(function() {
-        max_height = Math.max(max_height, $(this).height());
+    	max_this = $(this).height();
+    	if (max_this > 700) {
+	    	max_this = 700;
+    	}
+        max_height = Math.max(max_height, max_this);
     });
 
-    $("section.page2").height(max_height + 50);
+    $("section.page2").height(max_height + 100);
     pages.height(max_height);
 
     $('a.menu-btn').click(function() {

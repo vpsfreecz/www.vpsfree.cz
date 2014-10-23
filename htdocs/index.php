@@ -228,25 +228,25 @@ datacenter se hodí úložný prostor navíc.<br /><br /> My nabízíme všem sv
 			   <p>Jiří Medvěd pracuje jako system administrátor v Seznam.cz a má rád otevřené technologie, které zvýší dostupnost služeb. Ve vpsFree.cz má na starosti technickou podporu, servery a správu templates pro VPS.</p>			  
 			 </div>
 
-			 <div class="whoe">
+		<!--	 <div class="whoe">
 			   <img src="i/jakub-skokan.jpg" alt="Jakub Skokan" class="avatar">
 			   <h3>Jakub Skokan</h3>
 			   <p>Jakub Skokan je programátor a systémový administrátor. Ve vpsFree.cz vyvíjí administrační rozhraní vpsAdmin společně s dalšími projekty. Stará se o jeho provoz a odpovídá na podpoře. Ve volném čase studuje na vysoké škole.</p>
 			 </div>
 			 
-		<!--	 <div class="whoe">
+			 <div class="whoe">
 			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
 			   <h3>Michal Janoušek</h3>
 			   <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a technickým ředitelem společnosti Relbit. Zabývá se kontejnerovou virtualizací, ZFS a enterprise linuxovými distribucemi. Má rád otevřené prostředí a aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
 			 </div>
-		--> 
+		
 			 
 			 <div class="whoe">
 			   <img src="i/petr-krcmar.jpg" alt="Petr Krčmář" class="avatar">
 			   <h3>Petr Krčmář</h3>
 			   <p>Petr Krčmář je šéfredaktorem serveru Root.cz a Linuxem se zabývá přes šestnáct let. Má rád otevřený software a transparentní přístup ke světu. Ve vpsFree.cz má na starosti především komunitu a propagaci.</p>
 			 </div>
-
+--> 
 			 
 			<div class="c"> </div>
 			</div><!--prostriedky-->
