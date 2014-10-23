@@ -261,7 +261,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		<div class="ab ab4 n">
 		    <div class="in">
 			<h2>Komunita</h2>
-			<p>která vas neodmítne</p>
+			<p>která vás neodmítne</p>
 			
 			<div class="komunity m-t-20">
 			
@@ -402,7 +402,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
                             <em>900&nbsp;Kč</em>
                             <i>na tři měsíce</i>
                     </div>
-                    <p><b><span class="orange">Do 7&nbsp;dní zaplať</span><br />
+                    <p><b><span class="orange">Do 7&nbsp;dnů zaplať</span><br />
                     čtvrtletní členský<br />
                     poplatek</b><br />
                     36&euro; nebo 900 Kč</p>
