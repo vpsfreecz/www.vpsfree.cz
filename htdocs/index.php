@@ -442,7 +442,7 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 			 <input type="text" id="zip" name="zip" value="" placeholder="PSČ">
 			 <input type="text" id="country" name="country" value="" placeholder="Stát">
 			 <input type="text" id="email" name="email" value="" placeholder="E-mail">
-			 <textarea name="how" id="how" placeholder="Jak ses o nás dozvědel?"></textarea>
+			 <textarea name="how" id="how" placeholder="Jak ses o nás dozvěděl?"></textarea>
 			 <textarea name="notes" id="notes" placeholder="Poznámky"></textarea>
 			 
 			 <span>Distribuce 64bit:</span>
