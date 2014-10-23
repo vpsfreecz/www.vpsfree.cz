@@ -466,7 +466,7 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
  			   <option value="EUR">členský poplatek 36&nbsp;eur na tři měsíce</option>			 
 			 </select>
 			 
-			 <input type="submit" name="send" class="largeButton" value="Odeslat" onclick="signup(); return false;">
+			 <input type="submit" name="send" id="send" class="largeButton" value="Odeslat" onclick="signup(); return false;">
 			</form>
 		</div>
 	</section>

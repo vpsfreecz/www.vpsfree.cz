@@ -29,6 +29,7 @@ function show_slide(i, settimer) {
 
 
 function signup() {
+	$("#send").attr("value", "Prosím, čekej...");
 	var nick			= $("#nick").val();
 	var name			= $("#name").val();
 	var surname			= $("#surname").val();
@@ -69,6 +70,7 @@ function signup() {
 				$('section.pg.page4 > div.in').hide().html('<h2>Děkujeme - Odesláno</h2>Měl bys obdržet e-mail potvrzující přijetí přihlášky - pokud se tak nestane do deseti minut, pošli přihlášku prosím znova.<br />Pokud ani přes to nic nepřichází, obrať se prosím na podporu - podpora @ vpsfree.cz<br /><br/>Děkujeme za Tvůj zájem přidat se k nám.').fadeIn('slow');
 			} else {
 				var errors = jQuery.parseJSON(data);
+				$("#send").attr("value", "Odeslat");
 
 				for (var i in errors) {
 					$('#' + errors[i]).addClass("error");
