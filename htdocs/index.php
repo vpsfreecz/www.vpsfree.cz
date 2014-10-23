@@ -430,7 +430,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			<p>Vyplň údaje úplně a pravdivě. Uvedené informace nikde nezveřejňujeme, 
 pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 
-			<form method="" action="">
+			<form method="POST" action="/prihlaska.php">
 			 <input type="text" id="nick" name="nick" value="" placeholder="Přezdívka člena">
 			 <input type="text" id="name" name="name" value="" placeholder="Jméno">
 			 <input type="text" id="surname" name="surname" value="" placeholder="Příjmení">
