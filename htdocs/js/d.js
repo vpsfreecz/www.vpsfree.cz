@@ -68,8 +68,7 @@ function signup() {
 		},
 		success: function(data, status, jqxhr) {
 			if(data.length == 0) {
-				console.log("DONE");
-		//		$('#support').hide().html('<div class="inside"><h2><Strong>Thank you for contacting us.</strong> <br/> We will do our best to write you back in a few moments.</h2></div>').fadeIn('slow');
+				$('section.pg.page4 > div.in').hide().html('<h2>Děkujeme - Odesláno</h2>Měl bys obdržet e-mail potvrzující přijetí přihlášky - pokud se tak nestane do deseti minut, pošli přihlášku prosím znova.<br />Pokud ani přes to nic nepřichází, obrať se prosím na podporu - podpora @ vpsfree.cz<br /><br/>Děkujeme za Tvůj zájem přidat se k nám.').fadeIn('slow');
 			} else {
 				var errors = jQuery.parseJSON(data);
 

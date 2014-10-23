@@ -2,6 +2,10 @@
 header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 
+require "config.php";
+require "lib/db.lib.php";
+
+$db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 ?>
 <!DOCTYPE html>
 <html>
@@ -113,7 +117,7 @@ webhosting, jsme občanské sdružení, jehož členem se můžeš stát i ty&he
 			<p>
 			Naprostá většina informací o <strong>vpsFree.cz</strong> je veřejná.<br />
 			Chceme, aby členové i veřejnost měli přehled o dění v našem sdružení,<br />
-			sleduj naše informační kanály a sociální síte:<br />
+			sleduj naše informační kanály a sociální sítě:<br />
 			</p>
 			
 			
@@ -433,7 +437,7 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 			 <input type="text" id="surname" name="surname" value="" placeholder="Příjmení">
 			 <input type="text" id="birth" name="birth" value="" placeholder="Rok narození">
 			 
-			 <textarea name="address" id="address" placeholder="Adresa trvalého bydlište"></textarea>
+			 <input type="text" id="address" name="address" placeholder="Ulice, č.p.">
 			 <input type="text" id="city" name="city" value="" placeholder="Město">
 			 <input type="text" id="zip" name="zip" value="" placeholder="PSČ">
 			 <input type="text" id="country" name="country" value="" placeholder="Stát">
@@ -444,26 +448,23 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 			 
 			 <span>Distribuce 64bit:</span>
  		 	 <select name="distribution" id="distribution">
-			 	 <option value="26">Scientific Linux 6</option>
-			 	 <option value="24">CentOS 6</option>
-			 	 <option value="20">Debian 6</option>
-			 	 <option value="31">Debian 7.0</option>
-			 	 <option value="33">Fedora 20</option>
-			 	 <option value="14">Gentoo 13.0</option>
-			 	 <option value="32">OpenSUSE 12.3</option>
-			 	 <option value="30">Ubuntu 12.04</option>
-			  	 <option value="35">Ubuntu 14.04</option>
+				<?php
+				  while($tpl = $db->findByColumn("cfg_templates", "templ_supported", "1", "templ_order, templ_label"))
+					echo '<option value="'.$tpl["templ_id"].'">'.$tpl["templ_label"].'</option>';
+				?>
 		 	 </select>
 
 			 <span>Preferovaná lokace pro VPS:</span>
 			 <select name="location" id="location">
-			 	<option value="3">Master Internet Praha</option>
-			 	<option value="4">Master Internet Brno</option>
+				<?php
+					while($loc = $db->findByColumn("locations", "location_type", "production", "location_id"))
+						echo '<option value="'.$loc["location_id"].'">Master Internet '.$loc["location_label"].'</option>';
+				?>
 			 </select>
 			 <span>Měna platby:</span>
 			 <select name="currency" id="currency">
- 			   <option>členský poplatek 900&nbsp;Kč na tři měsíce</option>
- 			   <option>členský poplatek 36&nbsp;eur na tři měsíce</option>			 
+ 			   <option value="CZK">členský poplatek 900&nbsp;Kč na tři měsíce</option>
+ 			   <option value="EUR">členský poplatek 36&nbsp;eur na tři měsíce</option>			 
 			 </select>
 			 
 			 <input type="submit" name="send" class="largeButton" value="Odeslat" onclick="signup(); return false;">
@@ -554,13 +555,10 @@ Za celou historii vpsFree.cz nás opustili pouze dva členové, kterým OpenVZ n
 			(CZ)
 			</div>
 			<div class="bank">
-			<strong>SK15 8330 0000 0022 0004 1594 &nbsp; FIOBCZPPXXX</strong><br />
+			<strong>SK15 8330 0000 0022 0004 1594</strong> &nbsp; FIOBCZPPXXX<br />
 			</div>
 			<div class="c"> </div>
-			</div>
-			
-
-			
+			</div>			
 			
 			<h3>Poštovní adresa</h3>
 			
@@ -576,7 +574,7 @@ Za celou historii vpsFree.cz nás opustili pouze dva členové, kterým OpenVZ n
 			</div>
 			
 			<span class="info">
-				Prosíme, na obálku uvádějte celou adresu, předejte tak možnému nedoručení zásilky.
+				Prosíme, na obálku uvádějte celou adresu, předejdete tak možnému nedoručení zásilky.
 			</span>
 
 			<h3>Údaje sdružení</h3>
@@ -601,5 +599,33 @@ Za celou historii vpsFree.cz nás opustili pouze dva členové, kterým OpenVZ n
 		</div>
 
 	</footer>
+	
+
+
+  <!-- GA -->
+  <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-51951641-1', 'vpsfree.cz');
+      ga('send', 'pageview');
+  </script>
+
+  <!-- Piwik -->
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.vpsfree.cz/" : "http://piwik.vpsfree.cz/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+
+
+    </script><noscript><p><img src="http://piwik.vpsfree.cz/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+  <!-- End Piwik Tracking Code -->
+
 </body>
 </html>
