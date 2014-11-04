@@ -170,21 +170,20 @@ Year of birth: '.$_POST["birth"].'
 
 	// Mail applicant
 	$subject = "[vpsFree.cz] Přihláška přijata";
-	$text = '
-	Ahoj '.$_POST["nick"].',
-	
-	Tvá přihláška byla přijata a bude předložena radě sdružení ke schválení. Do 24 hodin Tě budeme kontaktovat.
-	Pokud by se tak nestalo, obrať se prosím na podpora@vpsfree.cz.
-	
-	Mezitím doporučujeme, aby sis prošel důkladněji náš web na https://www.vpsfree.cz.
-	Další informace, které nezbytně potřebuješ vědět, jsou na https://kb.vpsfree.cz/doku.php?id=sdruzeni:novacci.
-	A konečně, na naší Knowledge Base je kolekce krátkych návodů, které jsou pro vpsFree specifické, je dobré o nich aspoň mít přehled:
-	https://kb.vpsfree.cz
-	
-	Vážíme si Tvého zájmu,
-	
-	vpsFree.cz
-	';
+	$text = 'Ahoj '.$_POST["nick"].',
+
+Tvá přihláška byla přijata a bude předložena radě sdružení ke schválení. Do 24 hodin Tě budeme kontaktovat.
+Pokud by se tak nestalo, obrať se prosím na podpora@vpsfree.cz.
+
+Mezitím doporučujeme, aby sis prošel důkladněji náš web na https://www.vpsfree.cz.
+Další informace, které nezbytně potřebuješ vědět, jsou na https://kb.vpsfree.cz/doku.php?id=sdruzeni:novacci.
+A konečně, na naší Knowledge Base je kolekce krátkych návodů, které jsou pro vpsFree specifické, je dobré o nich aspoň mít přehled:
+https://kb.vpsfree.cz
+
+Vážíme si Tvého zájmu,
+
+vpsFree.cz
+';
 	
 	mail($_POST["email"], $subject, $text, $headers);
 
