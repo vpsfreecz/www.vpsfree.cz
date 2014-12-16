@@ -38,7 +38,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	<!-- potom zmenit link na serverovy, ak by neslo -->
     <link rel="stylesheet" href="css/c.css" type="text/css">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="js/d.js"></script>
     
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
