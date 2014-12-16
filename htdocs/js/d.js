@@ -33,9 +33,8 @@ function show_slide(i, settimer) {
     var anchors = navigation_dots.find("li a");
     var active = navigation_dots.find("li a:eq("+i+")");
 
-    var focusedEl = document.activeElement;
-    window.location.hash = "slide-" + hashtags[i];
-    focusedEl.focus();
+    if (history.pushState)
+        history.pushState(null, null, "#slide-" + hashtags[i]);
 
     $("div.ab").fadeOut({easing:'linear'});
     $("div.ab:eq("+i+")").fadeIn({easing:'linear'});
