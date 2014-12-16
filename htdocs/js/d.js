@@ -99,6 +99,8 @@ function signup() {
 				var errors = jQuery.parseJSON(data);
 				$("#send").attr("value", "Odeslat");
 				
+				$("#order form *").removeClass("error");
+				
 				for (var i in errors) {
 					$('#' + errors[i]).addClass("error");
 				}		
