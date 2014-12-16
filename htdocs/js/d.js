@@ -89,6 +89,26 @@ function signup() {
 
 
 $(document).ready(function() {
+	// Apply JS-specific stylesheet
+	var style = $("<style type='text/css'>").appendTo('head');
+	
+	style.html("\
+		.km { \
+			height: 430px; \
+		} \
+		section.page2 { \
+			height: 780px; \
+		} \
+		section.page2 .ab { \
+			position: absolute; \
+		} \
+	");
+	
+	$("section.page2 div.ab:gt(0)").addClass("n");
+	
+	// Show dots above slides
+	$("section.page2 div.dots").removeClass("n");
+	
     var navigation_dots = $("section.page2 div.dots");
     var anchors = navigation_dots.find("li a");
 

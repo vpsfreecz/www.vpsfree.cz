@@ -336,13 +336,13 @@ div.hearth {
 *************************************************************************************/
 
 section.page2 {
- height:780px;
+/*  height:780px; */ /* applied by JS */
  position: relative;
  background: #f6914b;
  padding: 0px !important;
 }
 section.page2 .ab {
- position: absolute;
+/*  position: absolute; */ /* applied by JS */
  background: #f6914b;
  width: 100%;
  padding: 50px 0;
@@ -571,7 +571,7 @@ section.page2 .whoe p {
  width: 32%;
  margin-left: 1%;
  margin-top:40px;
- height: 430px;
+/*  height: 430px; */ /* applied by JS */
  text-align: center;
  font:400 14px 'Open Sans';
  color:#1f3959;

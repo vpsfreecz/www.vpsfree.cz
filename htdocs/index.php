@@ -79,7 +79,7 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 	<a id="about"></a>	
 	<section class="pg page2">
 		
-		<div class="dots">
+		<div class="dots n">
 		 <ul>
 		  <li><a href="#" class="yes" title="Naše filozofie"><span class="n">0</span></a></li>
 		  <li><a href="#" class="no" title="Prostředky"><span class="n">1</span></a></li>
@@ -133,7 +133,7 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 			
 		</div><!--ab1-->
 		
-		<div class="ab ab2 n">
+		<div class="ab ab2">
 		    <div class="in">
 			<h2>Prostředky</h2>
 			<p>které členstvím získáte</p>
@@ -202,7 +202,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		
 		
 		
-		<div class="ab ab3 n">
+		<div class="ab ab3">
 		    <div class="in">
 			<h2>Kdo je za tím vším</h2>
 			
@@ -257,7 +257,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		
 		
 		
-		<div class="ab ab4 n">
+		<div class="ab ab4">
 		    <div class="in">
 			<h2>Komunita</h2>
 			<p>která vás neodmítne</p>
@@ -296,7 +296,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		</div><!--ab4-->
 		
 		
-		<div class="ab ab5 n">
+		<div class="ab ab5">
 		    <div class="in">
 			<h2>Jsme vidět</h2>
 			<p>Kde se můžeme příště potkat?</p>
@@ -338,7 +338,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		
 		
 		
-		<div class="ab ab6 n">
+		<div class="ab ab6">
 		    <div class="in">
 			<h2>Pomáhame</h2>
 			<p>tyto projekty sponzorujeme</p>
