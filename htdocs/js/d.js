@@ -87,7 +87,8 @@ function signup() {
 			'notes'			:notes,
 			'distribution'	:distribution,
 			'location'		:location,
-			'currency'		:currency
+			'currency'		:currency,
+			'js'  			:true
 			
 		},
 		success: function(data, status, jqxhr) {
@@ -97,7 +98,7 @@ function signup() {
 				$('input[type=text]').removeClass("error");
 				var errors = jQuery.parseJSON(data);
 				$("#send").attr("value", "Odeslat");
-
+				
 				for (var i in errors) {
 					$('#' + errors[i]).addClass("error");
 				}		

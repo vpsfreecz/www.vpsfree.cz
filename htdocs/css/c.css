@@ -802,7 +802,11 @@ border-radius: 7px;
  background: #fff;
 }
 
-.page4 input.error, .page4 textarea.error {
+.page4 p.error {
+ color: #ff0000;
+}
+
+.page4 input.error, .page4 textarea.error, .page4 select.error {
  border: 2px solid #ff0000;
 
 }

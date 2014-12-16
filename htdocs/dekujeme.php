@@ -31,7 +31,7 @@
 	<!-- potom zmenit link na serverovy, ak by neslo -->
     <link rel="stylesheet" href="css/c.css" type="text/css">
     
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="js/d.js"></script>
     
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -43,15 +43,6 @@
 		<section>
 		<h1><a href="/"><span>vpsFree.cz - Virtuální Privátní Servery svobodně</span></a></h1>
 		<a href="#" class="menu-btn">Menu</a>
-		<nav>
-			<ul class="clearfix">
-				<li><a href="#about" title="O vpsFree.cz">O vpsFree.cz</a></li>
-				<li><a href="#howto" title="Ako začať">Ako začať</a></li>
-				<li><a href="#order" title="Objednávka">Objednávka</a></li>
-				<li><a href="#faq" title="Podrobnosti">Podrobnosti</a></li>
-				<li><a href="#contacts" title="Kontakty">Kontakty</a></li>
-			</ul>
-		</nav>
 		<div class="c"> </div>
 		</section>
 	</header>
@@ -59,66 +50,58 @@
 	<section class="pg page1">
 		<div class="in">
 			<div class="hearth"> </div>
-			<h2>Ďakujeme!</h2>
-			<p class="text-center">Prihlášku posúdime a <b>budeme Vás kontaktovať.</b></p>
+			<h2>Děkujeme!</h2>
+			<p class="text-center">Prihlášku posoudíme a&nbsp;<b>budeme Vás kontaktovat.</b></p>
 		</div>
-	</section>	
+	</section>
 	
-	<a name="contacts"></a>
-	<section class="pg page6">
+	<section class="pg page6" id="contacts">
 		<div class="in">
 			<h2>Kontakty</h2>
 			
-			<a href="mailto:podpora@vpsFree.cz" class="support">podpora@vpsFree.cz</a>
-
-				
-			<h3>Predseda rady / Správca serverov</h3>
+			<a href="mailto:podpora@vpsfree.cz" class="support">podpora@vpsFree.cz</a>
 			
-			<div class="predseda">
-			   
-			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
-			   <div class="vizitka">
-			   <b>Pavel Šnajdr</b><br />
-			   Jabber: snajpa (zavináč) snajpa.net<br />
-			   E-mail: pavel.snajdr (zavináč) vpsfree.cz<br />
-			   Lokace: Bratislava<br />
-			   Mobil: +421 948 816 186<br />
-			   </div>
-			   <div class="c"> </div>
-			</div>
-			
-						
 			<div class="ceskoslovensko"> </div>
 			
-			<h3>Bankový účet (Fio Banka)</h3>
+			<h3>Bankovní účet (Fio Banka)</h3>
 			
 			<div class="banks">
 			<div class="bank">
-			<b>2200041594/2010</b><br />
+			<strong>2200041594/2010</strong><br />
 			(CZ)
 			</div>
 			<div class="bank">
-			<b>2200041594/8330</b><br />
-			(SK)
+			<strong>SK15 8330 0000 0022 0004 1594</strong> &nbsp; FIOBCZPPXXX<br />
 			</div>
 			<div class="c"> </div>
-			</div>
-			
-
-			
+			</div>			
 			
 			<h3>Poštovní adresa</h3>
 			
 			<div class="address">
+
 			<address>
-				<b>vpsFree.cz o.s.</b><br />
+				<strong>vpsFree.cz o.s.</strong><br />
 				Nad Dalejským údolím 2699/9<br />
 				155 00 Praha-Stodůlky<br />
-				Česká Republika<br />
+				Česká republika<br />
 			</address>
 			
 			</div>
-			<span class="info">Prosíme, na obálku uvádějte celou adresu, předejte tak možnému nedoručení zásilky.</span>
+			
+			<span class="info">
+				Prosíme, na obálku uvádějte celou adresu, předejdete tak možnému nedoručení zásilky.
+			</span>
+
+			<h3>Údaje sdružení</h3>
+			
+			<div class="business">
+				<strong>IČ:</strong> 26568055<br />
+				<strong>DIČ:</strong> CZ26568055<br />
+				Nejsme plátci <strong>DPH</strong>.<br />
+			</div>
+
+
 
 			
 		</div>

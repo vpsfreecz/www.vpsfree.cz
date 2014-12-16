@@ -1,4 +1,6 @@
 <?php
+define('VPSFREE', true);
+
 header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 	
@@ -13,7 +15,7 @@ function cfg_get($key) {
 	return json_decode($cfg["cfg_value"]);
 }
 
-
+$is_ajax = $_GET['js'] || strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
 
 
 /**
@@ -83,8 +85,13 @@ if ($_POST) {
 	}		
 	
 	if (count($errors) > 0) {
-		echo json_encode($errors);
-		die();
+		if ($is_ajax) {
+			echo json_encode($errors);
+			die();
+			
+		} else {
+			include "form.php";
+		}
 	}
 	
 	$db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);

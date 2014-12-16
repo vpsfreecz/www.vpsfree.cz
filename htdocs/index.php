@@ -1,4 +1,6 @@
 <?php
+define('VPSFREE', true);
+
 header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 
@@ -427,7 +429,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			<p>Vyplň údaje úplně a pravdivě. Uvedené informace nikde nezveřejňujeme, 
 pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 
-			<form method="POST" action="/prihlaska.php">
+			<form method="POST" action="prihlaska.php">
 			 <input type="text" id="nick" name="nick" value="" placeholder="Přezdívka člena">
 			 <input type="text" id="name" name="name" value="" placeholder="Jméno">
 			 <input type="text" id="surname" name="surname" value="" placeholder="Příjmení">
