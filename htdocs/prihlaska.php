@@ -91,6 +91,7 @@ if ($_POST) {
 			
 		} else {
 			include "form.php";
+			exit();
 		}
 	}
 	
@@ -194,5 +195,7 @@ vpsFree.cz
 	
 	mail($_POST["email"], $subject, $text, $headers);
 
+	if (!$is_ajax)
+		header('Location: dekujeme.php');
 }
 ?>
