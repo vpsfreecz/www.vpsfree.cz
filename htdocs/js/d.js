@@ -3,12 +3,37 @@ ANIMATE_DURATION = 5000;
 
 var animate_timeout = null;
 
+var hashtags = ["why", "parameters", "who", "community", "social", "support"];
+
+function switch_slide(i, settimer) {
+	var navigation_dots = $("section.page2 div.dots");
+    var anchors = navigation_dots.find("li a");
+    var active = navigation_dots.find("li a:eq("+i+")");
+	
+	$("div.ab").hide();
+    $("div.ab:eq("+i+")").show();
+    anchors.removeClass("yes").addClass("no");
+    active.removeClass("no").addClass("yes");
+	
+	navigation_dots.data("active", i);
+	
+	if (settimer) {
+        animate_timeout = setTimeout(function() {
+            var next = (navigation_dots.data("active") + 1) % anchors.length;
+            show_slide(next, true);
+
+            navigation_dots.data("active", next);
+        }, ANIMATE_DURATION);
+    }
+}
+
 function show_slide(i, settimer) {
 
     var navigation_dots = $("section.page2 div.dots");
     var anchors = navigation_dots.find("li a");
     var active = navigation_dots.find("li a:eq("+i+")");
 
+    window.location.hash = "slide-" + hashtags[i];
 
     $("div.ab").fadeOut({easing:'linear'});
     $("div.ab:eq("+i+")").fadeIn({easing:'linear'});
@@ -111,13 +136,32 @@ $(document).ready(function() {
 	
     var navigation_dots = $("section.page2 div.dots");
     var anchors = navigation_dots.find("li a");
+    var runSlides = true;
 
     navigation_dots.data("active", 0);
 
-    if($(window).width() > ANIMATE_MIN_WIDTH) {
-        show_slide(0, true);
+    // Set initial hash tag to the top, so that changing hash
+    // when switching slides does not scroll to the tag.
+    if (!window.location.hash) {
+        window.location.hash = "";
+        
+    } else if (window.location.hash.indexOf("slide-")) {
+        // Hash tag is present, show appropriate slide
+        var index = hashtags.indexOf( window.location.hash.substr(7) );
+        
+        if (index != -1) {
+            switch_slide(index, false);
+            runSlides = false;
+        }
+        
     }
 
+    if (runSlides && $(window).width() > ANIMATE_MIN_WIDTH) {
+        setTimeout(function (){
+            show_slide(1, true);
+        }, ANIMATE_DURATION);
+    }
+    
     anchors.each(function(i, el) {
         $(this).click(function() {
 

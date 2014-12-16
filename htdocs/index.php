@@ -76,8 +76,7 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 	
 	
 	
-	<a id="about"></a>	
-	<section class="pg page2">
+	<section class="pg page2" id="about">
 		
 		<div class="dots n">
 		 <ul>
@@ -95,7 +94,7 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 		
 		
 		
-		<div class="ab ab1 ">
+		<div class="ab ab1 " id="slide-why">
 			<div class="in">
 			<h2>Proč to děláme?</h2>
 			
@@ -133,7 +132,7 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 			
 		</div><!--ab1-->
 		
-		<div class="ab ab2">
+		<div class="ab ab2" id="slide-parameters">
 		    <div class="in">
 			<h2>Prostředky</h2>
 			<p>které členstvím získáte</p>
@@ -202,7 +201,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		
 		
 		
-		<div class="ab ab3">
+		<div class="ab ab3" id="slide-who">
 		    <div class="in">
 			<h2>Kdo je za tím vším</h2>
 			
@@ -257,7 +256,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		
 		
 		
-		<div class="ab ab4">
+		<div class="ab ab4" id="slide-community">
 		    <div class="in">
 			<h2>Komunita</h2>
 			<p>která vás neodmítne</p>
@@ -296,7 +295,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		</div><!--ab4-->
 		
 		
-		<div class="ab ab5">
+		<div class="ab ab5" id="slide-social">
 		    <div class="in">
 			<h2>Jsme vidět</h2>
 			<p>Kde se můžeme příště potkat?</p>
@@ -338,7 +337,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		
 		
 		
-		<div class="ab ab6">
+		<div class="ab ab6" id="slide-support">
 		    <div class="in">
 			<h2>Pomáhame</h2>
 			<p>tyto projekty sponzorujeme</p>
@@ -369,8 +368,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 	
 	
 	
-	<a id="howto"></a>
-	<section class="pg page3">
+	<section class="pg page3" id="howto">
 		<div class="in">
 		
 			<h2>Jak začít</h2>
@@ -423,8 +421,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 	</section>
 
 
-	<a id="order"></a>
-	<section class="pg page4">
+	<section class="pg page4" id="order">
 		<div class="in">
 			<h2>Přihláška</h2>
 			<p>Vyplň údaje úplně a pravdivě. Uvedené informace nikde nezveřejňujeme, 
@@ -471,8 +468,7 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 	</section>
 
 	
-	<a id="faq"></a>
-	<section class="pg page5">
+	<section class="pg page5" id="faq">
 		<div class="in">
 			<h2>Časté dotazy</h2>
 			
@@ -516,8 +512,7 @@ Na druhou stranu u&nbsp;nás narazíte na pravděpodobně nejlépe vyladěné na
 	
 	
 	
-	<a id="contacts"></a>
-	<section class="pg page6">
+	<section class="pg page6" id="contacts">
 		<div class="in">
 			<h2>Kontakty</h2>
 			
