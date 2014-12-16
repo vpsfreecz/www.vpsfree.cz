@@ -67,7 +67,7 @@ function signup() {
 	var country			= $("#country").val();
 	var email			= $("#email").val();
 	var how				= $("#how").val();
-	var notes			= $("#notes").val();
+	var note			= $("#note").val();
 	var distribution	= $("#distribution").val();
 	var location		= $("#location").val();
 	var currency		= $("#currency").val();
@@ -86,7 +86,7 @@ function signup() {
 			'country'		:country,
 			'email'			:email,
 			'how'			:how,
-			'notes'			:notes,
+			'note'			:note,
 			'distribution'	:distribution,
 			'location'		:location,
 			'currency'		:currency,
