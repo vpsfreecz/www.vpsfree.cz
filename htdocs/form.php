@@ -83,7 +83,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 			  value="<?= $_POST['email'] ?>" placeholder="E-mail">
 			 <textarea name="how" id="how" class="<?= in_array('how', $errors) ? 'error' : '' ?>"
 			  placeholder="Jak ses o nás dozvěděl?"><?= $_POST['how'] ?></textarea>
-			 <textarea name="notes" id="notes" class="<?= in_array('notes', $errors) ? 'error' : '' ?>"
+			 <textarea name="note" id="note" class="<?= in_array('notes', $errors) ? 'error' : '' ?>"
 			  placeholder="Poznámky"><?= $_POST['notes'] ?></textarea>
 			 
 			 <span>Distribuce 64bit:</span>
