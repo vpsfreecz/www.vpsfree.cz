@@ -34,7 +34,7 @@ function show_slide(i, settimer) {
     var active = navigation_dots.find("li a:eq("+i+")");
 
     if (history.pushState)
-        history.pushState(null, null, "#slide-" + hashtags[i]);
+        history.replaceState(null, null, "#slide-" + hashtags[i]);
 
     $("div.ab").fadeOut({easing:'linear'});
     $("div.ab:eq("+i+")").fadeIn({easing:'linear'});
