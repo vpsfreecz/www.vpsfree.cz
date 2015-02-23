@@ -1079,7 +1079,7 @@ footer a:hover {
     line-height: 1.8em;
   }
   section.page2 {
-    height: auto !important;
+    height: auto;
   }
   section.page2 .ab {
     height: auto !important;
