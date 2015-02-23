@@ -53,6 +53,17 @@ function show_slide(i, settimer) {
     }
 }
 
+function resume_slide() {
+    var navigation_dots = $("section.page2 div.dots");
+    var anchors = navigation_dots.find("li a");
+
+    animate_timeout = setTimeout(function() {
+        var next = (navigation_dots.data("active") + 1) % anchors.length;
+        show_slide(next, true);
+
+        navigation_dots.data("active", next);
+    }, ANIMATE_DURATION);
+}
 
 function signup() {
 	$("#send").attr("value", "Prosím, čekej...");
@@ -164,6 +175,16 @@ $(document).ready(function() {
         setTimeout(function (){
             show_slide(1, true);
         }, ANIMATE_DURATION);
+
+        //Pause and resume animation on mouse hover event
+        $("#about").on({
+            mouseenter: function() {
+                clearTimeout(animate_timeout);
+            },
+            mouseleave: function() {
+                resume_slide();
+            }
+        });
     }
     
     anchors.each(function(i, el) {
