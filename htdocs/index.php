@@ -91,6 +91,8 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 		 </ul>
 		</div>
 		
+		<a href="#" class="arrow left"></a>
+		<a href="#" class="arrow right"></a>
 		
 		<!-- PANELY CO SA SKRYVAJU - Zaciatok -->
 		

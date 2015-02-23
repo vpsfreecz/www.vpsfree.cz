@@ -140,6 +140,7 @@ $(document).ready(function() {
 	
     var navigation_dots = $("section.page2 div.dots");
     var anchors = navigation_dots.find("li a");
+    var arrows = $("section.page2 a.arrow");
     var runSlides = true;
 
     navigation_dots.data("active", 0);
@@ -171,6 +172,30 @@ $(document).ready(function() {
 
             clearTimeout(animate_timeout);
             show_slide(i, false);
+
+            return false;
+        });
+    });
+
+    arrows.each(function() {
+        $(this).click(function() {
+
+            var go_to = navigation_dots.data("active");
+
+            if($(this).hasClass("right")) {
+                go_to = (go_to + 1) % anchors.length;
+                if(go_to > 5) { //fixing "index" -> fixing hashtag
+                    go_to = 0;
+                }
+            } else if($(this).hasClass("left")) {
+                go_to = (go_to - 1) % anchors.length;
+                if(go_to < 0) { //fixing "index" -> fixing hashtag
+                    go_to = anchors.length-1;
+                }
+            }
+
+            clearTimeout(animate_timeout);
+            show_slide(go_to, false);
 
             return false;
         });
