@@ -1152,6 +1152,9 @@ footer a:hover {
     height: auto;
     margin: 0 auto 10px !important;
   }
+  .whoe {
+    height: 219px;
+  }
   .map,
   .kde {
     float: none;
