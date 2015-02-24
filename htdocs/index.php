@@ -214,42 +214,51 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			 <div class="whoe">
 			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
 			   <h3>Pavel Šnajdr</h3>
-			   <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a&nbsp;technickým ředitelem společnosti Relbit. Zabývá se&nbsp;kontejnerovou virtualizací, ZFS a&nbsp;enterprise linuxovými distribucemi. Má rád otevřené prostředí a&nbsp;aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
+			   <div class="bubble">
+			     <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a&nbsp;technickým ředitelem společnosti Relbit. Zabývá se&nbsp;kontejnerovou virtualizací, ZFS a&nbsp;enterprise linuxovými distribucemi. Má rád otevřené prostředí a&nbsp;aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>
+			   </div>
 			 </div>
-			 
-			 
+
 			 <div class="whoe">
 			   <img src="i/tomas-srnka.jpg" alt="Tomáš Srnka" class="avatar">
 			   <h3>Tomáš Srnka</h3>
-			   <p>Tomáš Srnka je členem rady spolku vpsFree.cz od&nbsp;samého počátku. Zajímá se&nbsp;zejména o&nbsp;vysokou dostupnost a&nbsp;škálovatelnost. Spolu s&nbsp;Pavlem Šnajdrem založil společnost Relbit. Kromě technického směru se&nbsp;stará o&nbsp;ekonomickou stránku věci.</p>			  
+			   <div class="bubble">
+			     <p>Tomáš Srnka je členem rady spolku vpsFree.cz od&nbsp;samého počátku. Zajímá se&nbsp;zejména o&nbsp;vysokou dostupnost a&nbsp;škálovatelnost. Spolu s&nbsp;Pavlem Šnajdrem založil společnost Relbit. Kromě technického směru se&nbsp;stará o&nbsp;ekonomickou stránku věci.</p>
+			   </div>
 			 </div>
-			 
+
 			 <div class="whoe">
 			   <img src="i/jiri-medved.jpg" alt="Jiří Medvěd" class="avatar">
 			   <h3>Jiří Medvěd</h3>
-			   <p>Jiří Medvěd pracuje jako system administrátor v&nbsp;Seznam.cz a&nbsp;má rád otevřené technologie, které zvýší dostupnost služeb. Ve vpsFree.cz má na starosti technickou podporu, servery a&nbsp;správu templates pro VPS.</p>			  
+			   <div class="bubble">
+			     <p>Jiří Medvěd pracuje jako system administrátor v&nbsp;Seznam.cz a&nbsp;má rád otevřené technologie, které zvýší dostupnost služeb. Ve vpsFree.cz má na starosti technickou podporu, servery a&nbsp;správu templates pro VPS.</p>
+			   </div>
 			 </div>
 
-		<!--	 <div class="whoe">
+			 <div class="whoe">
 			   <img src="i/jakub-skokan.jpg" alt="Jakub Skokan" class="avatar">
 			   <h3>Jakub Skokan</h3>
-			   <p>Jakub Skokan je programátor a&nbsp;systémový administrátor. Ve vpsFree.cz vyvíjí administrační rozhraní vpsAdmin společně s&nbsp;dalšími projekty. Stará se&nbsp;o&nbsp;jeho provoz a&nbsp;odpovídá na podpoře. Ve&nbsp;volném čase studuje na vysoké škole.</p>
+			   <div class="bubble">
+			     <p>Jakub Skokan je programátor a&nbsp;systémový administrátor. Ve vpsFree.cz vyvíjí administrační rozhraní vpsAdmin společně s&nbsp;dalšími projekty. Stará se&nbsp;o&nbsp;jeho provoz a&nbsp;odpovídá na podpoře. Ve&nbsp;volném čase studuje na vysoké škole.</p>
+			   </div>
 			 </div>
-			 
+
 			 <div class="whoe">
 			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
 			   <h3>Michal Janoušek</h3>
-			   <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a technickým ředitelem společnosti Relbit. Zabývá se kontejnerovou virtualizací, ZFS a enterprise linuxovými distribucemi. Má rád otevřené prostředí a aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
+			   <div class="bubble">
+			     <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a technickým ředitelem společnosti Relbit. Zabývá se kontejnerovou virtualizací, ZFS a enterprise linuxovými distribucemi. Má rád otevřené prostředí a aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>	
+			   </div>
 			 </div>
-		
-			 
+
 			 <div class="whoe">
 			   <img src="i/petr-krcmar.jpg" alt="Petr Krčmář" class="avatar">
 			   <h3>Petr Krčmář</h3>
-			   <p>Petr Krčmář je šéfredaktorem serveru Root.cz a&nbsp;Linuxem se&nbsp;zabývá přes šestnáct let. Má rád otevřený software a&nbsp;transparentní přístup ke&nbsp;světu. Ve&nbsp;vpsFree.cz má na starosti především komunitu a&nbsp;propagaci.</p>
+			   <div class="bubble">
+			     <p>Petr Krčmář je šéfredaktorem serveru Root.cz a&nbsp;Linuxem se&nbsp;zabývá přes šestnáct let. Má rád otevřený software a&nbsp;transparentní přístup ke&nbsp;světu. Ve&nbsp;vpsFree.cz má na starosti především komunitu a&nbsp;propagaci.</p>
+			   </div>
 			 </div>
---> 
-			 
+
 			<div class="c"> </div>
 			</div><!--prostriedky-->
 			
