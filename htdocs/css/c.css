@@ -374,6 +374,24 @@ background: url('../i/vps.png') -431px -183px no-repeat;
 background: url('../i/vps.png') -431px -206px no-repeat;
 }
 
+.arrow {
+  position: absolute;
+  width: 25px;
+  height: 90px;
+  top: 48%;
+  z-index: 10;
+  background-image: url("../i/vps.png");
+  background-repeat: no-repeat;
+}
+.arrow.left {
+  left: 10px;
+  background-position: -515px -410px;
+}
+.arrow.right {
+  right: 10px;
+  background-position: -555px -410px;
+}
+
 .page2 .ab1 p {
  color: #16273f;
 }
