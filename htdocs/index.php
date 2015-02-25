@@ -214,14 +214,14 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			 <div class="whoe">
 			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
 			   <h3>Pavel Šnajdr</h3>
-			   <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a&nbsp;technickým ředitelem společnosti Relbit. Zabývá se&nbsp;kontejnerovou virtualizací, ZFS a&nbsp;enterprise linuxovými distribucemi. Má rád otevřené prostředí a&nbsp;aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
+			   <p>Pavel Šnajdr je zakládajícím členem a předsedou spolku vpsFree.cz. Zabývá se&nbsp;kontejnerovou virtualizací, ZFS a&nbsp;enterprise linuxovými distribucemi. Má rád otevřené prostředí a&nbsp;aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
 			 </div>
 			 
 			 
 			 <div class="whoe">
 			   <img src="i/tomas-srnka.jpg" alt="Tomáš Srnka" class="avatar">
 			   <h3>Tomáš Srnka</h3>
-			   <p>Tomáš Srnka je členem rady spolku vpsFree.cz od&nbsp;samého počátku. Zajímá se&nbsp;zejména o&nbsp;vysokou dostupnost a&nbsp;škálovatelnost. Spolu s&nbsp;Pavlem Šnajdrem založil společnost Relbit. Kromě technického směru se&nbsp;stará o&nbsp;ekonomickou stránku věci.</p>			  
+			   <p>Tomáš Srnka je členem rady spolku vpsFree.cz od&nbsp;samého počátku. Zajímá se&nbsp;zejména o&nbsp;vysokou dostupnost a&nbsp;škálovatelnost. Kromě technického směru se&nbsp;stará především o&nbsp;ekonomickou stránku věci.</p>			  
 			 </div>
 			 
 			 <div class="whoe">
