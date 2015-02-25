@@ -237,7 +237,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			 </div>
 			 
 			 <div class="whoe">
-			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
+			   <img src="i/michal-janousek.jpg" alt="Pavel Šnajdr" class="avatar">
 			   <h3>Michal Janoušek</h3>
 			   <p>Michal Janoušek je aktivním členem od roku 2010 a má ve vpsFree.cz na starosti přihlášky, faktury a podporu. Dálkově studuje střední školu. Má rád Linux a otevřené prostředí, které máme ve sdružení.</p>
 			 </div>
