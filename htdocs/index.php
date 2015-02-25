@@ -239,7 +239,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			 <div class="whoe">
 			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
 			   <h3>Michal Janoušek</h3>
-			   <p>Pavel Šnajdr je předsedou spolku vpsFree.cz a technickým ředitelem společnosti Relbit. Zabývá se kontejnerovou virtualizací, ZFS a enterprise linuxovými distribucemi. Má rád otevřené prostředí a aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
+			   <p>Michal Janoušek je aktivním členem od roku 2010 a má ve vpsFree.cz na starosti přihlášky, faktury a podporu. Dálkově studuje střední školu. Má rád Linux a otevřené prostředí, které máme ve sdružení.</p>
 			 </div>
 		
 			 
