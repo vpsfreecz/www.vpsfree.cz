@@ -12,6 +12,9 @@ function switch_slide(i, settimer) {
 	
 	$("div.ab").hide();
     $("div.ab:eq("+i+")").show();
+    if($(window).width() < ANIMATE_MIN_WIDTH) { //pouze na mobilnich zarizeni kde slider neni aktivni
+        $(".page2").height($("div.ab:eq("+i+")").outerHeight()); //uprvit veliost jednotlivych slideru
+    }
     anchors.removeClass("yes").addClass("no");
     active.removeClass("no").addClass("yes");
 	
@@ -38,6 +41,9 @@ function show_slide(i, settimer) {
 
     $("div.ab").fadeOut({easing:'linear'});
     $("div.ab:eq("+i+")").fadeIn({easing:'linear'});
+    if($(window).width() < ANIMATE_MIN_WIDTH) { //pouze na mobilnich zarizeni kde slider neni aktivni
+        $(".page2").height($("div.ab:eq("+i+")").outerHeight()); //uprvit veliost jednotlivych slideru
+    }
     anchors.removeClass("yes").addClass("no");
     active.removeClass("no").addClass("yes");
 
@@ -186,6 +192,8 @@ $(document).ready(function() {
                 resume_slide();
             }
         });
+    } else {
+        $(".page2").height($("div.ab:eq("+navigation_dots.data("active")+")").outerHeight());
     }
     
     anchors.each(function(i, el) {
@@ -222,19 +230,21 @@ $(document).ready(function() {
         });
     });
 
-    var max_height = 0;
+    if($(window).width() > ANIMATE_MIN_WIDTH) {
+        var max_height = 0;
 
-    var pages = $("div.ab");
-    pages.each(function() {
-    	max_this = $(this).height();
-    	if (max_this > 700) {
-	    	max_this = 700;
-    	}
-        max_height = Math.max(max_height, max_this);
-    });
+        var pages = $("div.ab");
+        pages.each(function() {
+            max_this = $(this).height();
+            if (max_this > 700) {
+                max_this = 700;
+            }
+            max_height = Math.max(max_height, max_this);
+        });
 
-    $("section.page2").height(max_height + 100);
-    pages.height(max_height);
+        $("section.page2").height(max_height + 100);
+        pages.height(max_height);
+    }
 
     $('a.menu-btn').click(function() {
         $('header section nav').slideToggle();

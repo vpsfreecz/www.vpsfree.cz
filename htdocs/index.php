@@ -82,16 +82,18 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 		
 		<div class="dots n">
 		 <ul>
-		  <li><a href="#" class="yes" title="Naše filozofie"><span class="n">0</span></a></li>
-		  <li><a href="#" class="no" title="Prostředky"><span class="n">1</span></a></li>
-		  <li><a href="#" class="no" title="Kdo je za tím vším"><span class="n">2</span></a></li>
-		  <li><a href="#" class="no" title="Komunita"><span class="n">3</span></a></li>
-		  <li><a href="#" class="no" title="Jsme vidět"><span class="n">4</span></a></li>
-		  <li><a href="#" class="no" title="Komunita"><span class="n">5</span></a></li>
+		  <li><a href="#" class="yes" title="Naše filozofie"><span class="n">0</span><span class="t">Proč?</span></a></li>
+		  <li><a href="#" class="no" title="Prostředky"><span class="n">1</span><span class="t">Prostředky</span></a></li>
+		  <li><a href="#" class="no" title="Kdo je za tím vším"><span class="n">2</span><span class="t">Kdo?</span></a></li>
+		  <li><a href="#" class="no" title="Komunita"><span class="n">3</span><span class="t">Komunita</span></a></li>
+		  <li><a href="#" class="no" title="Jsme vidět"><span class="n">4</span><span class="t">Jsme vidět</span></a></li>
+		  <li><a href="#" class="no" title="Poáháme"><span class="n">5</span><span class="t">Pomáháme</span></a></li>
 		 </ul>
 		</div>
-		
+
+		<div class="arrow icon left"></div>
 		<a href="#" class="arrow left"></a>
+		<div class="arrow icon right"></div>
 		<a href="#" class="arrow right"></a>
 		
 		<!-- PANELY CO SA SKRYVAJU - Zaciatok -->
