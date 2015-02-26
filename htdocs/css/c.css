@@ -119,6 +119,13 @@ header, footer {
  background: #16273f;
  padding: 11px 0;
 }
+header {
+ width: 100%;
+ max-width: none;
+ position: fixed;
+ top: 0px;
+ z-index: 20;
+}
 header h1, header strong.h1 {
  margin: 0;
 }
@@ -126,7 +133,7 @@ header h1 a, header strong.h1 {
  display: block;
  background: url('../i/vps.png') 0 0 no-repeat;
  width:320px;
- height:88px;
+ height:56px;
  float: left;
  margin-right: 20px;
 }
@@ -155,14 +162,14 @@ header nav li {
  float: left;
 }
 header nav {
- margin-top: 10px;
+ margin-top: 5px;
 }
 nav li a {
  display: block;
  font:400 18px 'Oswald';
  text-transform: uppercase;
  color:#fff;
- padding:27px 16px 17px 16px;
+ padding:11px 16px 16px 16px;
 }
 
 /************************************************************************************
@@ -309,6 +316,7 @@ section.page1 h2, section.page4 h2, section.page6 h2 {
 section.page1 {
  background: #1f3959;
  padding:60px 0 80px 0;
+ margin-top: 81px;
 }
 section.page1 h2 {
  font-size:65px;
@@ -796,7 +804,7 @@ section.page3 {
 }
 .b3 .ico {
  padding-top: 20px;
-  width:170px;
+  width:auto;
  height: 120px;
 }
 .b3 em, .b3 i {
@@ -1051,17 +1059,25 @@ footer a:hover {
 
 @media screen and (max-width: 960px) {
   header h1 a, header strong.h1 {
-    float: none;
-    margin: 0 auto;
+    float: left;
+    position: relative;
+    width: 202px;
+    left: calc(50% - 101px);
   }
-  header nav, header nav ul {
-    float: none;
-    margin: 0 auto;
-    text-align: center;
+  .menu-btn {
+    display: inline-block;
+    margin: 4px 10px 3px 0;
+  }
+  header nav {
+    display: none;
+    clear: both;
+    padding-top: 10px;
   }
   header nav li {
-    float: none;
-    display: inline-block;
+    display: block;
+  }
+  header nav li a {
+    padding: 10px;
   }
   .filozofia strong {
     margin-top: 20px;
@@ -1123,6 +1139,7 @@ footer a:hover {
   }
   .b3 .ico {
     padding: 0;
+    width: auto;
   }
   .b3 em {
     font-size: 56px;
@@ -1222,7 +1239,7 @@ footer a:hover {
   }
   .menu-btn {
     display: inline-block;
-    margin: 15px 10px 0 0;
+    margin: 4px 10px 3px 0;
   }
   header nav {
     display: none;
@@ -1347,15 +1364,6 @@ footer a:hover {
   section.page2 .ab5 p,
   section.page5 .in {
     width: 85%;
-  }
-  header h1 {
-    width: 184px;
-    left: calc(50% - 92px);
-  }
-  header h1 a {
-    background-size: 355px;
-    width: 184px;
-    height: 52px;
   }
   .menu-btn {
     margin-top: 0px;
