@@ -55,7 +55,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 		<nav>
 			<ul class="clearfix">
 				<li><a href="#about" title="O vpsFree.cz">O vpsFree.cz</a></li>
-				<li><a href="#howto" title="Jak začít">Jak začít</a></li>
+				<li><a href="#slide-parameters" title="Jak začít">Co dostanu</a></li>
 				<li><a href="#order" title="Přihláška">Přihláška</a></li>
 				<li><a href="#faq" title="Časté dotazy">Časté dotazy</a></li>
 				<li><a href="#contacts" title="Kontakty">Kontakty</a></li>
@@ -82,16 +82,18 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 		
 		<div class="dots n">
 		 <ul>
-		  <li><a href="#" class="yes" title="Naše filozofie"><span class="n">0</span></a></li>
-		  <li><a href="#" class="no" title="Prostředky"><span class="n">1</span></a></li>
-		  <li><a href="#" class="no" title="Kdo je za tím vším"><span class="n">2</span></a></li>
-		  <li><a href="#" class="no" title="Komunita"><span class="n">3</span></a></li>
-		  <li><a href="#" class="no" title="Jsme vidět"><span class="n">4</span></a></li>
-		  <li><a href="#" class="no" title="Komunita"><span class="n">5</span></a></li>
+		  <li><a href="#" class="yes" title="Naše filozofie"><span class="n">0</span><span class="t">Proč?</span></a></li>
+		  <li><a href="#" class="no" title="Prostředky"><span class="n">1</span><span class="t">Prostředky</span></a></li>
+		  <li><a href="#" class="no" title="Kdo je za tím vším"><span class="n">2</span><span class="t">Kdo?</span></a></li>
+		  <li><a href="#" class="no" title="Komunita"><span class="n">3</span><span class="t">Komunita</span></a></li>
+		  <li><a href="#" class="no" title="Jsme vidět"><span class="n">4</span><span class="t">Jsme vidět</span></a></li>
+		  <li><a href="#" class="no" title="Poáháme"><span class="n">5</span><span class="t">Pomáháme</span></a></li>
 		 </ul>
 		</div>
-		
+
+		<div class="arrow icon left"></div>
 		<a href="#" class="arrow left"></a>
+		<div class="arrow icon right"></div>
 		<a href="#" class="arrow right"></a>
 		
 		<!-- PANELY CO SA SKRYVAJU - Zaciatok -->
@@ -214,42 +216,51 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			 <div class="whoe">
 			   <img src="i/pavel-snajdr.jpg" alt="Pavel Šnajdr" class="avatar">
 			   <h3>Pavel Šnajdr</h3>
-			   <p>Pavel Šnajdr je zakládajícím členem a předsedou spolku vpsFree.cz. Zabývá se&nbsp;kontejnerovou virtualizací, ZFS a&nbsp;enterprise linuxovými distribucemi. Má rád otevřené prostředí a&nbsp;aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>			  
+			   <div class="bubble">
+			     <p>Pavel Šnajdr je zakládajícím členem a předsedou spolku vpsFree.cz. Zabývá se&nbsp;kontejnerovou virtualizací, ZFS a&nbsp;enterprise linuxovými distribucemi. Má rád otevřené prostředí a&nbsp;aktivní lidi. Nesnáší politikaření místo pořádné práce.</p>
+			   </div>
 			 </div>
-			 
-			 
+
 			 <div class="whoe">
 			   <img src="i/tomas-srnka.jpg" alt="Tomáš Srnka" class="avatar">
 			   <h3>Tomáš Srnka</h3>
-			   <p>Tomáš Srnka je členem rady spolku vpsFree.cz od&nbsp;samého počátku. Zajímá se&nbsp;zejména o&nbsp;vysokou dostupnost a&nbsp;škálovatelnost. Kromě technického směru se&nbsp;stará především o&nbsp;ekonomickou stránku věci.</p>			  
+			   <div class="bubble">
+			     <p>Tomáš Srnka je členem rady spolku vpsFree.cz od&nbsp;samého počátku. Zajímá se&nbsp;zejména o&nbsp;vysokou dostupnost a&nbsp;škálovatelnost. Kromě technického směru se&nbsp;stará především o&nbsp;ekonomickou stránku věci.</p>	
+			   </div>
 			 </div>
-			 
+
 			 <div class="whoe">
 			   <img src="i/jiri-medved.jpg" alt="Jiří Medvěd" class="avatar">
 			   <h3>Jiří Medvěd</h3>
-			   <p>Jiří Medvěd pracuje jako system administrátor v&nbsp;Seznam.cz a&nbsp;má rád otevřené technologie, které zvýší dostupnost služeb. Ve vpsFree.cz má na starosti technickou podporu, servery a&nbsp;správu templates pro VPS.</p>			  
+			   <div class="bubble">
+			     <p>Jiří Medvěd pracuje jako system administrátor v&nbsp;Seznam.cz a&nbsp;má rád otevřené technologie, které zvýší dostupnost služeb. Ve vpsFree.cz má na starosti technickou podporu, servery a&nbsp;správu templates pro VPS.</p>
+			   </div>
 			 </div>
 
 			 <div class="whoe">
 			   <img src="i/jakub-skokan.jpg" alt="Jakub Skokan" class="avatar">
 			   <h3>Jakub Skokan</h3>
-			   <p>Jakub Skokan je programátor a&nbsp;systémový administrátor. Ve vpsFree.cz vyvíjí administrační rozhraní vpsAdmin společně s&nbsp;dalšími projekty. Stará se&nbsp;o&nbsp;jeho provoz a&nbsp;odpovídá na podpoře. Ve&nbsp;volném čase studuje na vysoké škole.</p>
+			   <div class="bubble">
+			     <p>Jakub Skokan je programátor a&nbsp;systémový administrátor. Ve vpsFree.cz vyvíjí administrační rozhraní vpsAdmin společně s&nbsp;dalšími projekty. Stará se&nbsp;o&nbsp;jeho provoz a&nbsp;odpovídá na podpoře. Ve&nbsp;volném čase studuje na vysoké škole.</p>
+			   </div>
 			 </div>
-			 
+
 			 <div class="whoe">
 			   <img src="i/michal-janousek.jpg" alt="Pavel Šnajdr" class="avatar">
 			   <h3>Michal Janoušek</h3>
-			   <p>Michal Janoušek je aktivním členem od roku 2010 a má ve vpsFree.cz na starosti přihlášky, faktury a podporu. Dálkově studuje střední školu. Má rád Linux a otevřené prostředí, které máme ve sdružení.</p>
+			   <div class="bubble">
+			     <p>Michal Janoušek je aktivním členem od roku 2010 a má ve vpsFree.cz na starosti přihlášky, faktury a podporu. Dálkově studuje střední školu. Má rád Linux a otevřené prostředí, které máme ve sdružení.</p>	
+			   </div>
 			 </div>
-		
-			 
+
 			 <div class="whoe">
 			   <img src="i/petr-krcmar.jpg" alt="Petr Krčmář" class="avatar">
 			   <h3>Petr Krčmář</h3>
-			   <p>Petr Krčmář je šéfredaktorem serveru Root.cz a&nbsp;Linuxem se&nbsp;zabývá přes šestnáct let. Má rád otevřený software a&nbsp;transparentní přístup ke&nbsp;světu. Ve&nbsp;vpsFree.cz má na starosti především komunitu a&nbsp;propagaci.</p>
+			   <div class="bubble">
+			     <p>Petr Krčmář je šéfredaktorem serveru Root.cz a&nbsp;Linuxem se&nbsp;zabývá přes šestnáct let. Má rád otevřený software a&nbsp;transparentní přístup ke&nbsp;světu. Ve&nbsp;vpsFree.cz má na starosti především komunitu a&nbsp;propagaci.</p>
+			   </div>
 			 </div>
- 
-			 
+
 			<div class="c"> </div>
 			</div><!--prostriedky-->
 			
