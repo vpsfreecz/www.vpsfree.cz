@@ -1,6 +1,6 @@
 ANIMATE_MIN_WIDTH = 1000;
 ANIMATE_DURATION = 5000;
-HEADER_OFFSET = 81;
+HEADER_OFFSET = 80;
 
 var animate_timeout = null;
 var auto_play = true;

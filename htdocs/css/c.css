@@ -132,7 +132,7 @@ header h1, header strong.h1 {
 header h1 a, header strong.h1 {
  display: block;
  background: url('../i/vps.png') 0 0 no-repeat;
- width:320px;
+ width:202px;
  height:56px;
  float: left;
  margin-right: 20px;
@@ -316,7 +316,7 @@ section.page1 h2, section.page4 h2, section.page6 h2 {
 section.page1 {
  background: #1f3959;
  padding:60px 0 80px 0;
- margin-top: 81px;
+ margin-top: 80px;
 }
 section.page1 h2 {
  font-size:65px;
@@ -1061,8 +1061,7 @@ footer a:hover {
   header h1 a, header strong.h1 {
     float: left;
     position: relative;
-    width: 202px;
-    left: calc(50% - 101px);
+    left: calc(50% - 111px);
   }
   .menu-btn {
     display: inline-block;
@@ -1234,8 +1233,7 @@ footer a:hover {
   header h1 {
     float: left;
     position: relative;
-    width: 320px;
-    left: calc(50% - 160px);
+    left: calc(50% - 111px);
   }
   .menu-btn {
     display: inline-block;
@@ -1365,9 +1363,6 @@ footer a:hover {
   section.page5 .in {
     width: 85%;
   }
-  .menu-btn {
-    margin-top: 0px;
-  }
   .pg h2 {
     font-size: 24px;
     width: 180px;
@@ -1472,22 +1467,20 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 319px),
 only screen and (                min-resolution: 192dpi) and (min-width: 319px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 319px) {
 
-
-
 header h1 a, header strong.h1 {
  background: url('../i/vps@2x.png') 0 0 no-repeat;
- background-size:355px;
+ background-size:600px 800px;
 }
 div.hearth {
  background: url('../i/vps@2x.png') 0 -38px no-repeat;
  background-size:260px;
 }
 .dots a.yes {
-background: url('../i/vps@2x.png') -431px -183px no-repeat;
+background: url('../i/vps@2x.png') -575px -181px no-repeat;
  background-size:600px 800px;
 }
 .dots a.no {
-background: url('../i/vps@2x.png') -431px -206px no-repeat;
+background: url('../i/vps@2x.png') -575px -204px no-repeat;
  background-size:600px 800px;
 }
 a.newsletter {
