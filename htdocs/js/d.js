@@ -64,15 +64,16 @@ function show_slide(i, settimer) {
 function resume_slide() {
     var navigation_dots = $("section.page2 div.dots");
     var anchors = navigation_dots.find("li a");
-    auto_play = true;
 
-    animate_timeout = setTimeout(function() {
+    if(auto_play) {
+        animate_timeout = setTimeout(function() {
 
-        var next = (navigation_dots.data("active") + 1) % anchors.length;
-        show_slide(next, true);
+            var next = (navigation_dots.data("active") + 1) % anchors.length;
+            show_slide(next, auto_play);
 
-        navigation_dots.data("active", next);
-    }, ANIMATE_DURATION);
+            navigation_dots.data("active", next);
+        }, ANIMATE_DURATION);
+    }
 }
 
 function signup() {

@@ -55,7 +55,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 		<nav>
 			<ul class="clearfix">
 				<li><a href="#about" title="O vpsFree.cz">O vpsFree.cz</a></li>
-				<li><a href="#slide-parameters" title="Jak začít">Co dostanu</a></li>
+				<li><a href="#slide-parameters" title="Co dostanu za prostředky">Co dostanu</a></li>
 				<li><a href="#order" title="Přihláška">Přihláška</a></li>
 				<li><a href="#faq" title="Časté dotazy">Časté dotazy</a></li>
 				<li><a href="#contacts" title="Kontakty">Kontakty</a></li>
