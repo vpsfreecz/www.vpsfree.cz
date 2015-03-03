@@ -534,6 +534,7 @@ a.facebook:hover {
 
 
 .prostriedky .pr {
+ position: relative;
  float: left;
  width: 32%;
  margin-left: 2%;
@@ -573,6 +574,25 @@ section.page2 .ab2 .prostriedky .pr p {
 .prostriedky .pr1 {
  margin-left: 0px !important;
 }
+
+.prostriedky .pr a.info {
+ position: absolute;
+ display: block;
+ bottom: 0px;
+ width: 100%;
+ color: #ffffff;
+ font:400 16px 'Oswald';
+ text-transform: uppercase;
+ padding-top: 8px;
+ padding-bottom: 6px;
+ background: #f6914b;
+-webkit-transition: all 0.25s linear; -moz-transition: all 0.25s linear; -ms-transition: all 0.25s linear; -o-transition: all 0.25s linear; transition: all 0.25s linear;
+}
+
+.prostriedky .pr a.info:hover { text-decoration: none; background-color: #ED7521;  }
+
+.prostriedky .pr a.info::after { content: " \007e"; }
+.prostriedky .pr a.info::before { content: "\007e "; }
 
 
 .whoe {
