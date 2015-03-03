@@ -390,7 +390,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		<div class="in">
 		
 			<h2>Jak začít</h2>
-			<p>Staň se členem sdružení <strong><span class="orange">vps</span>Free<span class="orange">.cz</span></strong>, které poskytuje hosting virtuálních serverů</p>
+			<p>Staň se členem sdružení <strong>vpsFree.cz</strong>, které poskytuje hosting virtuálních serverů</p>
 			<div class="boxes">
 			
 			<a href="#order" class="box b1">
