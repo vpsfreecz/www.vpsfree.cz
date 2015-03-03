@@ -64,6 +64,7 @@ function show_slide(i, settimer) {
 function resume_slide() {
     var navigation_dots = $("section.page2 div.dots");
     var anchors = navigation_dots.find("li a");
+    auto_play = true;
 
     animate_timeout = setTimeout(function() {
 
