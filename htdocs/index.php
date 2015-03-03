@@ -320,8 +320,8 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			
 			<div class="videt">
 			
-			 <div class="mapcontainer"> 
-			 	<iframe src="https://www.google.com/maps/embed/v1/place?q=Bo%C5%BEet%C4%9Bchova%202A%2C%20Brno%2C%20Czech%20Republic&amp;key=AIzaSyBVGe6gxyoMu1HNWbR7y213-z26o_cYowM&amp;zoom=16;ll=49.226726,16.595277" width="400" height="400" style="border:0"></iframe>
+			 <div class="mapcontainer">
+			 	<iframe src="https://www.google.com/maps/embed/v1/place?q=Školící+centrum+klubu+Silicon+Hill&amp;key=AIzaSyBVGe6gxyoMu1HNWbR7y213-z26o_cYowM&amp;zoom=16;ll=50.08182,14.393427,17" width="400" height="400" style="border:0"></iframe>
 <!--<iframe width="425" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=14.423847198486326%2C50.061850048296876%2C14.447193145751951%2C50.07439740796158&amp;layer=mapnik&amp;marker=50.06812413845372%2C14.43552017211914" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=50.0681&amp;mlon=14.4355#map=16/50.0681/14.4355">Zobrazit větší mapu</a></small>-->
 			  <!--<div class="marker" style="top:80px;left:140px;"> </div>-->
 			 </div>
@@ -331,14 +331,14 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			   <span> </span>
 			   <h3>Nejbližší akce</h3>
 			   <p>
-			   1. 11. 2014 - 2. 11. 2014
+			   7. 3. 2015 - 8. 3. 2015
 			   <br />
-			   <br />OpenAlt 2014
-			   <br />FIT VUT v Brně
-			   <br />Božetěchova 2
-			   <br />Brno
+			   <br />InstallFest 2015
+			   <br />Školící centrum klubu Silicon Hill
+			   <br />Olympijská
+			   <br />Praha 6
 			   <br />
-			   <br /><a href="http://www.openalt.cz/" target="_blank">www.openalt.cz</a>
+			   <br /><a href="http://www.installfest.cz/" target="_blank">www.installfest.cz</a>
 			   
 			   </p>	  
 			 </div>
@@ -493,7 +493,7 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 			<div class="buttons">
 			<a href="https://vpsadmin.vpsfree.cz" target="_blank" class="mediumButton1">vpsAdmin</a>
 			<a href="https://prasiatko.vpsfree.cz/munin" target="_blank" class="mediumButton2">Grafy provozu</a>
-			<a href="http://kb.vpsfree.cz" target="_blank" class="mediumButton3">Wiki</a>
+			<a href="http://kb.vpsfree.cz" target="_blank" class="mediumButton3">Knowledge Base</a>
 			</div>
 			
 			<div class="c"> </div>
