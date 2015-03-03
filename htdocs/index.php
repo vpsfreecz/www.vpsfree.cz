@@ -55,7 +55,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 		<nav>
 			<ul class="clearfix">
 				<li><a href="#about" title="O vpsFree.cz">O vpsFree.cz</a></li>
-				<li><a href="#slide-parameters" title="Jak začít">Co dostanu</a></li>
+				<li><a href="#slide-parameters" title="Co dostanu za prostředky">Co dostanu</a></li>
 				<li><a href="#order" title="Přihláška">Přihláška</a></li>
 				<li><a href="#faq" title="Časté dotazy">Časté dotazy</a></li>
 				<li><a href="#contacts" title="Kontakty">Kontakty</a></li>
@@ -185,17 +185,20 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 						<td class="dolava"><strong>podpora</strong></td>
 					</tr>				
 				</table>
+				<a class="info" href="https://kb.vpsfree.cz/informace/parametry_vps" target="_blank">Více informací</a>
 			 </div>
 			 <div class="pr pr2">
 			 	<h3>NAS Storage</h3>
 			 	<p>V&nbsp;době cloud computingu a&nbsp;obecně trendu přesouvat data z&nbsp;desktopů do&nbsp;
 datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme všem svým členům 
 <strong>250&nbsp;GB prostoru</strong> jako standardní součást členských výhod.<br /><br /> V&nbsp;blízké budoucnosti přibude možnost rozšířít kapacitu externího úložiště až na <strong>2&nbsp;TB</strong> a&nbsp;také možnost jeho pravidelného zálohování.</p>
+				<a class="info" href="https://kb.vpsfree.cz/navody/vps/nas" target="_blank">Více informací</a>
 			 </div>
 			 <div class="pr pr3">
 			 	<h3>Playground VPS</h3>
 			 	<p>Playground VPS jsou virtuální servery v&nbsp;podobné konfiguraci, jako klasické námi poskytované virtuální servery, jen mají životnost omezenou na 
 <strong>jeden měsíc</strong>. Běží na post-produkčním hardware a&nbsp;mají jiné rozsahy <strong>IP adres</strong>.<br /><br /> Do&nbsp;Playgroundu lze naklonovat produkční virtuální server, není tedy nutné jej nastavovat od&nbsp;nuly, když potřebujete vyzkoušet jenom drobnou změnu konfigurace.</p>
+				<a class="info" href="https://kb.vpsfree.cz/navody/vps/playgroundvps" target="_blank">Více informací</a>
 			 </div>
 			<div class="c"> </div>
 			</div><!--prostriedky-->

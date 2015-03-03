@@ -1,8 +1,9 @@
 ANIMATE_MIN_WIDTH = 1000;
 ANIMATE_DURATION = 5000;
-HEADER_OFFSET = 81;
+HEADER_OFFSET = 80;
 
 var animate_timeout = null;
+var auto_play = true;
 
 var hashtags = ["why", "parameters", "who", "community", "social", "support"];
 
@@ -21,7 +22,7 @@ function switch_slide(i, settimer) {
 	
 	navigation_dots.data("active", i);
 	
-	if (settimer) {
+	if (settimer && auto_play) {
         animate_timeout = setTimeout(function() {
             var next = (navigation_dots.data("active") + 1) % anchors.length;
             show_slide(next, true);
@@ -50,7 +51,7 @@ function show_slide(i, settimer) {
 
     navigation_dots.data("active", i);
 
-    if(settimer) {
+    if(settimer && auto_play) {
         animate_timeout = setTimeout(function() {
             var next = (navigation_dots.data("active") + 1) % anchors.length;
             show_slide(next, true);
@@ -64,12 +65,15 @@ function resume_slide() {
     var navigation_dots = $("section.page2 div.dots");
     var anchors = navigation_dots.find("li a");
 
-    animate_timeout = setTimeout(function() {
-        var next = (navigation_dots.data("active") + 1) % anchors.length;
-        show_slide(next, true);
+    if(auto_play) {
+        animate_timeout = setTimeout(function() {
 
-        navigation_dots.data("active", next);
-    }, ANIMATE_DURATION);
+            var next = (navigation_dots.data("active") + 1) % anchors.length;
+            show_slide(next, auto_play);
+
+            navigation_dots.data("active", next);
+        }, ANIMATE_DURATION);
+    }
 }
 
 function signup() {
@@ -200,6 +204,8 @@ $(document).ready(function() {
     anchors.each(function(i, el) {
         $(this).click(function() {
 
+			auto_play = false;
+
             clearTimeout(animate_timeout);
             show_slide(i, false);
 
@@ -210,6 +216,7 @@ $(document).ready(function() {
     arrows.each(function() {
         $(this).click(function() {
 
+            auto_play = true;
             var go_to = navigation_dots.data("active");
 
             if($(this).hasClass("right")) {
@@ -253,20 +260,16 @@ $(document).ready(function() {
     });
 
     $('header a[href^="#"]').on("click", function(event) {
-        event.preventDefault();
 
-        if (runSlides && $(window).width() > ANIMATE_MIN_WIDTH) {
-            auto_play = true;
-        } else {
-            auto_play = false
-        }
+        event.preventDefault();
+        clearTimeout(animate_timeout);
 
         var scroll_to = $(this).attr("href");
         if(scroll_to == "#slide-parameters") {
             scroll_to = "#about";
-            show_slide(1, auto_play);
+            show_slide(1, false);
         } else if(scroll_to == "#about") {
-            show_slide(0, auto_play);
+            show_slide(0, false);
         }
 
         $('html, body').animate({scrollTop:$(scroll_to).offset().top-HEADER_OFFSET}, 1500);
