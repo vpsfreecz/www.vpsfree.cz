@@ -4,5 +4,5 @@ RewriteEngine On
 RewriteBase /
 
 # presmerovanie vpsfree.cz na www.vpsfree.cz
-# RewriteCond %{HTTP_HOST} !^vpsfree\.cz$ [NC]
-# RewriteRule .? https://vpsfree.cz%{REQUEST_URI} [R=301,L]
+ RewriteCond %{HTTP_HOST} !^vpsfree\.cz$ [NC]
+ RewriteRule .? https://vpsfree.cz%{REQUEST_URI} [R=301,L]
