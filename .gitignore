@@ -1,3 +1,4 @@
 htdocs/config.php
 htdocs/slides/*
+htdocs/.htpasswd
 htdocs/.htaccess
