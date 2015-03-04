@@ -390,10 +390,10 @@ display: inline-block;
  -webkit-transition: border 0.25s linear; -moz-transition: border 0.25s linear; -ms-transition: border 0.25s linear; -o-transition: border 0.25s linear; transition: border 0.25s linear;
 }
 .dots a.yes {
-background: url('../i/vps.png') -575px -181px no-repeat;
+background: url('../i/vps.png') -575px -347px no-repeat;
 }
 .dots a.no {
-background: url('../i/vps.png') -575px -204px no-repeat;
+background: url('../i/vps.png') -575px -370px no-repeat;
 }
 .dots li a:hover { text-decoration: none; border: 2px solid #1F3959; }
 .dots span.t {
@@ -1496,11 +1496,11 @@ div.hearth {
  background-size:260px;
 }
 .dots a.yes {
-background: url('../i/vps@2x.png') -575px -181px no-repeat;
+background: url('../i/vps@2x.png') -575px -347px no-repeat;
  background-size:600px 800px;
 }
 .dots a.no {
-background: url('../i/vps@2x.png') -575px -204px no-repeat;
+background: url('../i/vps@2x.png') -575px -370px no-repeat;
  background-size:600px 800px;
 }
 a.newsletter {
