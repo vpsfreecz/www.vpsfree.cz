@@ -445,19 +445,21 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			<p>Vyplň údaje úplně a pravdivě. Uvedené informace nikde nezveřejňujeme, 
 pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 
-			<form method="POST" action="prihlaska.php">
-			 <input type="text" id="nick" name="nick" value="" placeholder="Přezdívka člena">
-			 <input type="text" id="name" name="name" value="" placeholder="Jméno">
-			 <input type="text" id="surname" name="surname" value="" placeholder="Příjmení">
-			 <input type="text" id="birth" name="birth" value="" placeholder="Rok narození">
+			<button class="largeButton larger js-show-form">Vyplňit přihlášku</button>
+
+			<form method="POST" action="prihlaska.php" class="clearfix hidden">
+			<input type="text" id="name" name="name" value="" placeholder="Jméno">
+			<input type="text" id="surname" name="surname" value="" placeholder="Příjmení">
+			<input type="text" id="nick" name="nick" value="" placeholder="Přezdívka člena">
+			<input type="text" id="birth" name="birth" value="" placeholder="Rok narození">
 			 
 			 <input type="text" id="address" name="address" placeholder="Ulice, č.p.">
 			 <input type="text" id="city" name="city" value="" placeholder="Město">
 			 <input type="text" id="zip" name="zip" value="" placeholder="PSČ">
 			 <input type="text" id="country" name="country" value="" placeholder="Stát">
-			 <input type="text" id="email" name="email" value="" placeholder="E-mail">
-			 <textarea name="how" id="how" placeholder="Jak ses o nás dozvěděl?"></textarea>
-			 <textarea name="note" id="note" placeholder="Poznámky"></textarea>
+			 <input type="text" id="email" name="email" value="" placeholder="E-mail" class="wide">
+			 <textarea class="wide" name="how" id="how" placeholder="Jak ses o nás dozvěděl?"></textarea>
+			 <textarea class="wide" name="note" id="note" placeholder="Poznámky"></textarea>
 			 
 			 <span>Distribuce 64bit:</span>
  		 	 <select name="distribution" id="distribution">
