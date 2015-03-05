@@ -603,8 +603,6 @@ Na druhou stranu u&nbsp;nás narazíte na pravděpodobně nejlépe vyladěné na
 	<footer>
 		<div>
 			Copyright &copy; vpsFree.cz o.s. 2009-<?php echo date("Y"); ?>. vpsFree na <a href="https://www.facebook.com/vpsfree">Facebooku</a> a <a href="https://twitter.com/vpsfree_cz">Twitteru</a> &bull;
-			
-			Web site by <a href="https://www.abaffydesign.com/">Abaffy Design</a>
 		</div>
 
 	</footer>
