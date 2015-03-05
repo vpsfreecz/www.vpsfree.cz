@@ -202,6 +202,7 @@ $(document).ready(function() {
     }
     
     anchors.each(function(i, el) {
+        $(this).attr("href", "#slide-" + hashtags[i]);
         $(this).click(function() {
 
 			auto_play = false;
