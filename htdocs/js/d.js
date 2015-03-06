@@ -277,6 +277,11 @@ $(document).ready(function() {
 
     });
 
+    $('.js-show-form').click(function () {
+        $('.page4 form').slideDown();
+        $(this).slideUp();
+    });
+
     //fix initial anchor move
     if (window.location.hash) {
         $('html, body').animate({scrollTop:$(window.location.hash).offset().top-HEADER_OFFSET}, 1500);
