@@ -331,14 +331,14 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			   <span> </span>
 			   <h3>Nejbližší akce</h3>
 			   <p>
-			   7. 3. 2015 - 8. 3. 2015
+			   2. 6. 2015
 			   <br />
-			   <br />InstallFest 2015
-			   <br />Školící centrum klubu Silicon Hill
-			   <br />Olympijská
-			   <br />Praha 6
+			   <br />Docker Meetup Prague
+			   <br />Microsoft
+			   <br />Vyskočilova 1461/2a
+			   <br />Praha
 			   <br />
-			   <br /><a href="http://www.installfest.cz/" target="_blank">www.installfest.cz</a>
+			   <br /><a href="http://www.meetup.com/Docker-Prague-Czech-Republic/events/221530131/" target="_blank">www.meetup.com</a>
 			   
 			   </p>	  
 			 </div>
