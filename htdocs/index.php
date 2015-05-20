@@ -321,7 +321,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			<div class="videt">
 			
 			 <div class="mapcontainer">
-			 	<iframe src="https://www.google.com/maps/embed/v1/place?q=Školící+centrum+klubu+Silicon+Hill&amp;key=AIzaSyBVGe6gxyoMu1HNWbR7y213-z26o_cYowM&amp;zoom=16;ll=50.08182,14.393427,17" width="400" height="400" style="border:0"></iframe>
+			 	<iframe src="https://www.google.com/maps/place/Budova+Alpha,+Vysko%C4%8Dilova+1461%2F2a,+140+00+Praha+4,+Czech+Republic/@50.0474824,14.4543118,17z/data=!3m1!4b1!4m2!3m1!1s0x470b9392858a810b:0xbd5913c72b3800aa" width="400" height="400" style="border:0"></iframe>
 <!--<iframe width="425" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=14.423847198486326%2C50.061850048296876%2C14.447193145751951%2C50.07439740796158&amp;layer=mapnik&amp;marker=50.06812413845372%2C14.43552017211914" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=50.0681&amp;mlon=14.4355#map=16/50.0681/14.4355">Zobrazit větší mapu</a></small>-->
 			  <!--<div class="marker" style="top:80px;left:140px;"> </div>-->
 			 </div>
