@@ -117,6 +117,8 @@ class sql_db {
   $this->sock = $sock;
   if ($this->db->connect_errno)
 		die ('Unable to connect to the database. Error: '.$this->db->errno.' '.$this->db->error);
+	
+	$this->query('SET NAMES UTF8');
 
 	return true;
     }
@@ -278,6 +280,11 @@ class sql_db {
 			$out = false;
 	} else {
 	    $out = $this->db->query($sql);
+	    if($this->db->errno) {
+			echo $sql."\n:<br>\n";
+			echo $this->db->error."\n<br><br>\n";
+			$out = false;
+		}
 	}
 
 	return $out;
@@ -453,42 +460,3 @@ class sql_db {
 		return mysql_real_escape_string($string);
 	}
   };*/
-
-function db_check_version() {
-	global $cluster_cfg;
-	
-	$rev = $cluster_cfg->get("db_version");
-	
-	if(!$rev) {
-		$rev = 1;
-		$cluster_cfg->set("db_version", 1);
-	}
-	
-	return $rev == DB_VERSION;
-}
-
-function db_build_upgrade_code($from, $to) {
-	$sql = "";
-	
-	for($i = $from+1; $i <= $to; $i++)
-	{
-		$sql .= "-- Upgrade v".($i-1)." to v$i\n";
-		$sql .= file_get_contents(WWW_ROOT."/scripts/upgrade/db/$i.sql");
-		$sql .= "\n";
-	}
-	
-	return $sql;
-}
-
-function db_do_upgrade($to, $sql, &$error) {
-	global $db, $cluster_cfg;
-	
-	if($db->query_trans($sql, $error, true)) {
-		$cluster_cfg->set("db_version", $to);
-		
-		return true;
-	}
-	
-	return false;
-}
-  
