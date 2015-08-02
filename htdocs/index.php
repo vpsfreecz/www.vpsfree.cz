@@ -472,7 +472,14 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 			 <span>Preferovaná lokace pro VPS:</span>
 			 <select name="location" id="location">
 				<?php
-					while($loc = $db->findByColumn("locations", "location_type", "production", "location_id"))
+					$sql = 'SELECT location_id, location_label
+						FROM locations l
+						INNER JOIN servers s ON l.location_id = s.server_location
+						WHERE s.environment_id = '.$db->check(ENVIRONMENT_ID).'
+						GROUP BY location_id
+						ORDER BY location_id';
+					$rs = $db->query($sql);
+				  while($loc = $db->fetch_array($rs))
 						echo '<option value="'.$loc["location_id"].'">Master Internet '.$loc["location_label"].'</option>';
 				?>
 			 </select>
