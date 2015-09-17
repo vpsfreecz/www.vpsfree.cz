@@ -321,7 +321,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			<div class="videt">
 			
 			 <div class="mapcontainer">
-			 	<iframe src="https://www.google.com/maps/place/Budova+Alpha,+Vysko%C4%8Dilova+1461%2F2a,+140+00+Praha+4,+Czech+Republic/@50.0474824,14.4543118,17z/data=!3m1!4b1!4m2!3m1!1s0x470b9392858a810b:0xbd5913c72b3800aa" width="400" height="400" style="border:0"></iframe>
+			 	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:400px;'><div id='gmap_canvas' style='height:400px;width:400px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://www.maps-generator.com/'>http://www.maps-generator.com</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=14a73b476a22029518c3066cde68eadc715d27f4'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(50.10510290000001,14.389739100000043),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.10510290000001,14.389739100000043)});infowindow = new google.maps.InfoWindow({content:'<strong>LinuxDays.cz</strong><br>Thákurova 9<br> Prague, Czech republic<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 <!--<iframe width="425" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=14.423847198486326%2C50.061850048296876%2C14.447193145751951%2C50.07439740796158&amp;layer=mapnik&amp;marker=50.06812413845372%2C14.43552017211914" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=50.0681&amp;mlon=14.4355#map=16/50.0681/14.4355">Zobrazit větší mapu</a></small>-->
 			  <!--<div class="marker" style="top:80px;left:140px;"> </div>-->
 			 </div>
@@ -331,14 +331,14 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			   <span> </span>
 			   <h3>Nejbližší akce</h3>
 			   <p>
-			   2. 6. 2015
+			   10-11. 10. 2015
 			   <br />
-			   <br />Docker Meetup Prague
-			   <br />Microsoft
-			   <br />Vyskočilova 1461/2a
+			   <br />LinuxDays 2015
+			   <br />FIT ČVUT v Praze
+			   <br />Thákurova 9
 			   <br />Praha
 			   <br />
-			   <br /><a href="http://www.meetup.com/Docker-Prague-Czech-Republic/events/221530131/" target="_blank">www.meetup.com</a>
+			   <br /><a href="https://www.linuxdays.cz/2015/" target="_blank">LinuxDays.cz</a>
 			   
 			   </p>	  
 			 </div>
