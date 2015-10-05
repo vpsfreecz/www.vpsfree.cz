@@ -17,13 +17,13 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="keywords" content="VPS, hosting, virtualni server, linux, server, privatni server, virtual, virtualny">    
-    <meta name="description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
+    <meta name="description" content="vpsFree.cz je spolek, který provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
 
 	<!-- Meta tagy pre socialne siete-->
 	<meta property="og:site_name" content="vpsFree.cz">
 	<meta property="og:url" content="https://www.vpsfree.cz">	
 	<meta property="og:title" content="vpsFree.cz - Virtuální Privátní Servery svobodně">
-	<meta property="og:description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
+	<meta property="og:description" content="vpsFree.cz je spolek, který provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
 	<meta name="author" content="vpsFree.cz"/>
 	<meta property="og:type" content="article">
 	<!--<meta property="og:image" content="/assets/linka-na-konkretny-obrazok-predvoleny-pre-facebook.jpg">-->
@@ -72,7 +72,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 			<p>Pokud chceš mít svůj vlastní <strong>virtuální server</strong>, který si&nbsp;přizpůsobíš svým potřebám
 a&nbsp;nechceš se&nbsp;trápit hardwarovým a&nbsp;technickým řešením, chceš sdílet
 naši <strong>společnou infrastrukturu</strong> a&nbsp;společný hardware, pojď k&nbsp;nám! Nejsme klasický komerční 
-webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&nbsp;ty&hellip;</p>
+webhosting, jsme spolek, jehož členem se&nbsp;můžeš stát i&nbsp;ty&hellip;</p>
 		</div>
 	</section>
 	
@@ -582,7 +582,7 @@ Na druhou stranu u&nbsp;nás narazíte na pravděpodobně nejlépe vyladěné na
 			<div class="address">
 
 			<address>
-				<strong>vpsFree.cz o.s.</strong><br />
+				<strong>vpsFree.cz z.s.</strong><br />
 				Nad Dalejským údolím 2699/9<br />
 				155 00 Praha-Stodůlky<br />
 				Česká republika<br />
@@ -610,7 +610,7 @@ Na druhou stranu u&nbsp;nás narazíte na pravděpodobně nejlépe vyladěné na
 
 	<footer>
 		<div>
-			Copyright &copy; vpsFree.cz o.s. 2009-<?php echo date("Y"); ?>. vpsFree na <a href="https://www.facebook.com/vpsfree">Facebooku</a> a <a href="https://twitter.com/vpsfree_cz">Twitteru</a> &bull;
+			Copyright &copy; vpsFree.cz z.s. 2009-<?php echo date("Y"); ?>. vpsFree na <a href="https://www.facebook.com/vpsfree">Facebooku</a> a <a href="https://twitter.com/vpsfree_cz">Twitteru</a> &bull;
 		</div>
 
 	</footer>
