@@ -511,7 +511,7 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 
 <h3>Proč tolik prosazujete OpenVZ?</h3>
 
-<p>To, co aktuálně umí plná virtualizace dostupná pod Linuxem (KVM, Xen), pro nás v&nbsp;porovnání s&nbsp;OpenVZ kontejnery není dostatečné. U&nbsp;nás například nelimitujeme CPU, což by s&nbsp;jakoukoliv jinou technologií nebylo možné. Ze&nbsp;všech zmíněných možností virtualizace má OpenVZ také nejmenší režii (zejména proto, že jde o kontejnery.)</p>
+<p>To, co aktuálně umí plná virtualizace dostupná pod Linuxem (KVM, Xen), pro nás v&nbsp;porovnání s&nbsp;OpenVZ kontejnery není dostatečné. U&nbsp;nás například nelimitujeme CPU, což by s&nbsp;jakoukoliv jinou technologií nebylo možné. Ze&nbsp;všech zmíněných možností virtualizace má OpenVZ také nejmenší režii (zejména proto, že jde o kontejnery).</p>
 
 <h3>Co pro mě znamená použití OpenVZ?</h3>
 
