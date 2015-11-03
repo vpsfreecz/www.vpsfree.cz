@@ -27,7 +27,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	<meta property="og:description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
 	<meta name="author" content="vpsFree.cz"/>
 	<meta property="og:type" content="article">
-	<!--<meta property="og:image" content="/assets/linka-na-konkretny-obrazok-predvoleny-pre-facebook.jpg">-->
+	<meta property="og:image" content="i/servery_logo.jpg">
 	<meta property="og:image:type" content="image/jpeg" />
 
 
