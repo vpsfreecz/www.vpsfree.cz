@@ -832,10 +832,7 @@ section.page3 {
  text-align: center;
 }
 .b3 em {
- font:100 75px/75px 'Open Sans';
-}
-.b3 i {
- font:100 24px/24px 'Open Sans';
+ font:3em Open Sans';
 }
 .page3 .box p {
   text-align: center;
