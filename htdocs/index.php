@@ -322,7 +322,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			<div class="videt">
 			
 			 <div class="mapcontainer">
-	<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=16.595768630504608%2C49.22571689763878%2C16.59775346517563%2C49.22732317961828&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="//www.openstreetmap.org/#map=19/49.22652/16.59676">Zobrazit větší mapu</a></small>
+	<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=16.595768630504608%2C49.22571689763878%2C16.59775346517563%2C49.22732317961828&amp;layer=mapnik"></iframe><br/><small><a href="//www.openstreetmap.org/#map=19/49.22652/16.59676">Zobrazit větší mapu</a></small>
 			  <!--<div class="marker" style="top:80px;left:140px;"> </div>-->
 			 </div>
 			 
@@ -640,7 +640,7 @@ Na druhou stranu u&nbsp;nás narazíte na pravděpodobně nejlépe vyladěné na
     } catch( err ) {}
 
 
-    </script><noscript><p><img src="http://piwik.vpsfree.cz/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+    </script><noscript><p><img src="http://piwik.vpsfree.cz/piwik.php?idsite=1" alt="" /></p></noscript>
   <!-- End Piwik Tracking Code -->
 
 </body>
