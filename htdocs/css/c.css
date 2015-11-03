@@ -283,7 +283,7 @@ nav li a {
     padding:14px 36px;
 }
 
-.orange, nav li a:hover, .page1 p b {
+.orange, nav li a:hover, .page1 p strong {
  color:#f6914b;
 }
 
@@ -322,7 +322,7 @@ section.page1 h2 {
  font-size:65px;
  border: none;
 }
-section.page1 h2, .pg p {
+section.page1 h2, .pg strong {
  width: 700px;
  margin: 5px auto;
 }
@@ -332,11 +332,11 @@ div.hearth {
  background: url('../i/vps.png') 0 -89px no-repeat;
  margin: 0px auto;
 }
-.page1 p {
+.page1 strong {
  font:300 19px/32px 'Open Sans';
  color:#fff;
 }
-.page1 p b {
+.page1 p strong {
  font-weight: 300;
 }
 /************************************************************************************
@@ -777,7 +777,7 @@ section.page3 {
 .page5 p {
   text-align: left;
 }
-.page3 p b, .page5 p b {
+.page3 p strong, .page5 p strong {
  font-weight: 700;
 }
 .boxes {
@@ -796,7 +796,7 @@ section.page3 {
  font: 400 14px/1.3em 'Open Sans';
  margin-top:7px;
 }
-.box p b {
+.box p strong {
  font: 400 22px/33px 'Oswald';
  text-transform: uppercase;
 
@@ -1001,7 +1001,7 @@ div.ceskoslovensko {
  width:220px;
  text-align: center;
 }
-.bank b {
+.bank strong {
  font:300 22px 'Oswald';
  letter-spacing: 1px;
 }

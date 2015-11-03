@@ -18,6 +18,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
     <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="keywords" content="VPS, hosting, virtualni server, linux, server, privatni server, virtual, virtualny">    
     <meta name="description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
+    <link rel="apple-touch-icon" href="i/ctverec.png" />
 
 	<!-- Meta tagy pre socialne siete-->
 	<meta property="og:site_name" content="vpsFree.cz">
@@ -26,7 +27,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	<meta property="og:description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
 	<meta name="author" content="vpsFree.cz"/>
 	<meta property="og:type" content="article">
-	<!--<meta property="og:image" content="/assets/linka-na-konkretny-obrazok-predvoleny-pre-facebook.jpg">-->
+	<meta property="og:image" content="i/servery_logo.jpg">
 	<meta property="og:image:type" content="image/jpeg" />
 
 
@@ -43,7 +44,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
     <script src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="js/d.js"></script>
     
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
     
 </head>
 
@@ -321,7 +322,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			<div class="videt">
 			
 			 <div class="mapcontainer">
-				<iframe width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=14.384429454803467%2C50.09924828877667%2C14.393634796142578%2C50.1112629562821&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/#map=16/50.1053/14.3890">View Larger Map</a></small>				<!--<iframe width="425" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=14.423847198486326%2C50.061850048296876%2C14.447193145751951%2C50.07439740796158&amp;layer=mapnik&amp;marker=50.06812413845372%2C14.43552017211914" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=50.0681&amp;mlon=14.4355#map=16/50.0681/14.4355">Zobrazit větší mapu</a></small>-->
+	<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=16.595768630504608%2C49.22571689763878%2C16.59775346517563%2C49.22732317961828&amp;layer=mapnik"></iframe><br/><small><a href="//www.openstreetmap.org/#map=19/49.22652/16.59676">Zobrazit větší mapu</a></small>
 			  <!--<div class="marker" style="top:80px;left:140px;"> </div>-->
 			 </div>
 			 
@@ -330,14 +331,14 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			   <span> </span>
 			   <h3>Nejbližší akce</h3>
 			   <p>
-			   10-11. 10. 2015
+			   7.-8. 11. 2015
 			   <br />
-			   <br />LinuxDays 2015
-			   <br />FIT ČVUT v Praze
-			   <br />Thákurova 9
-			   <br />Praha
+			   <br />OpenALt 2015
+			   <br />FIT VUT v Brně
+			   <br />Božetěchova 1/2
+			   <br />Brno
 			   <br />
-			   <br /><a href="https://www.linuxdays.cz/2015/" target="_blank">LinuxDays.cz</a>
+			   <br /><a href="https://www.openalt.cz/" target="_blank">OpenAlt.cz</a>
 			   
 			   </p>	  
 			 </div>
@@ -414,11 +415,11 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
             <div class="box b3">
                     <div class="ico">
                             <em>900&nbsp;Kč</em>
-                            <i>na tři měsíce</i>
+                            <em>na tři měsíce</em>
                     </div>
-                    <p><b><span class="orange">Do 7&nbsp;dnů zaplať</span><br />
+                    <p><strong><span class="orange">Do 7&nbsp;dnů zaplať</span><br />
                     čtvrtletní členský<br />
-                    poplatek</b><br />
+                    poplatek</strong><br />
                     36&euro; nebo 900 Kč</p>
             </div>
 			
@@ -639,7 +640,7 @@ Na druhou stranu u&nbsp;nás narazíte na pravděpodobně nejlépe vyladěné na
     } catch( err ) {}
 
 
-    </script><noscript><p><img src="http://piwik.vpsfree.cz/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+    </script><noscript><p><img src="http://piwik.vpsfree.cz/piwik.php?idsite=1" alt="" /></p></noscript>
   <!-- End Piwik Tracking Code -->
 
 </body>
