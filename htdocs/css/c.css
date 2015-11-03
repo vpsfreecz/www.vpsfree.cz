@@ -181,6 +181,7 @@ nav li a {
 }
 .page1 .in p {
  text-align: left;
+ margin: 3em;
 }
 .circleButton {
     background:#f6914b;
