@@ -322,7 +322,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			<div class="videt">
 			
 			 <div class="mapcontainer">
-				<iframe width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=14.384429454803467%2C50.09924828877667%2C14.393634796142578%2C50.1112629562821&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/#map=16/50.1053/14.3890">View Larger Map</a></small>				<!--<iframe width="425" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=14.423847198486326%2C50.061850048296876%2C14.447193145751951%2C50.07439740796158&amp;layer=mapnik&amp;marker=50.06812413845372%2C14.43552017211914" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=50.0681&amp;mlon=14.4355#map=16/50.0681/14.4355">Zobrazit větší mapu</a></small>-->
+	<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=16.595768630504608%2C49.22571689763878%2C16.59775346517563%2C49.22732317961828&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="//www.openstreetmap.org/#map=19/49.22652/16.59676">Zobrazit větší mapu</a></small>
 			  <!--<div class="marker" style="top:80px;left:140px;"> </div>-->
 			 </div>
 			 
@@ -331,14 +331,14 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			   <span> </span>
 			   <h3>Nejbližší akce</h3>
 			   <p>
-			   10-11. 10. 2015
+			   7.-8. 11. 2015
 			   <br />
-			   <br />LinuxDays 2015
-			   <br />FIT ČVUT v Praze
-			   <br />Thákurova 9
-			   <br />Praha
+			   <br />OpenALt 2015
+			   <br />FIT VUT v Brně
+			   <br />Božetěchova 1/2
+			   <br />Brno
 			   <br />
-			   <br /><a href="https://www.linuxdays.cz/2015/" target="_blank">LinuxDays.cz</a>
+			   <br /><a href="https://www.openalt.cz/" target="_blank">OpenAlt.cz</a>
 			   
 			   </p>	  
 			 </div>
