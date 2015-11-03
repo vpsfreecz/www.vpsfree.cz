@@ -18,6 +18,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
     <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="keywords" content="VPS, hosting, virtualni server, linux, server, privatni server, virtual, virtualny">    
     <meta name="description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Členům poskytujeme virtuální server za 300 Kč měsíčně.">
+    <link rel="apple-touch-icon" href="i/ctverec.png" />
 
 	<!-- Meta tagy pre socialne siete-->
 	<meta property="og:site_name" content="vpsFree.cz">
