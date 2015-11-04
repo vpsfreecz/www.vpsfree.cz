@@ -181,6 +181,7 @@ nav li a {
 }
 .page1 .in p {
  text-align: left;
+ margin: 3em;
 }
 .circleButton {
     background:#f6914b;
@@ -480,7 +481,7 @@ margin: 0px auto;
  text-align: left;
 }
 .filozofia strong {
- font:400 120px/140px 'Oswald';
+ font:5em 'Oswald';
  color:#fff;
  letter-spacing: 3px;
  text-transform: uppercase;
@@ -832,10 +833,7 @@ section.page3 {
  text-align: center;
 }
 .b3 em {
- font:100 75px/75px 'Open Sans';
-}
-.b3 i {
- font:100 24px/24px 'Open Sans';
+ font:3em Open Sans';
 }
 .page3 .box p {
   text-align: center;
