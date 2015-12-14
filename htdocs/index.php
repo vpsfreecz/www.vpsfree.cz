@@ -161,7 +161,7 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 
 					<tr>
 						<td class="doprava">HDD:</td>
-						<td class="dolava"><strong>60&nbsp;GB</strong></td>
+						<td class="dolava"><strong>120&nbsp;GB</strong></td>
 					</tr>
 					<tr>
 						<td class="doprava">adresa</td>
