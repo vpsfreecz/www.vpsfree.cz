@@ -180,7 +180,7 @@ nav li a {
  text-align: center;
 }
 .page1 .in p {
- text-align: left;
+ text-align: center;
  margin: 3em;
 }
 .circleButton {
@@ -431,6 +431,7 @@ background: url('../i/vps.png') -575px -370px no-repeat;
 
 .page2 .ab1 p {
  color: #16273f;
+ margin: 0 auto;
 }
 
 .principy {
@@ -562,6 +563,9 @@ section.page2 .ab2 .prostriedky .pr p {
  padding:20px 10%;
  color: #fff;
  font:400 15px/1.6em 'Open Sans';
+}
+section.page2 .ab2 p {
+ margin: 0 auto;
 }
 
 .prostriedky .pr table {
@@ -774,6 +778,7 @@ section.page3 {
  font:300 19px/32px 'Open Sans';
  color:#16273f;
  width: 900px;
+ margin: 0 auto;
 }
 .page5 p {
   text-align: left;
