@@ -164,12 +164,12 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 						<td class="dolava"><strong>120&nbsp;GB</strong></td>
 					</tr>
 					<tr>
-						<td class="doprava">adresa</td>
-						<td class="dolava"><strong>IPv4</strong></td>
+						<td class="doprava">IPv4</td>
+						<td class="dolava"><strong>1&times;</strong></td>
 					</tr>
 					<tr>
-						<td class="doprava">adresa</td>
-						<td class="dolava"><strong>IPv6</strong></td>
+						<td class="doprava">IPv6</td>
+						<td class="dolava"><strong>32&times;</strong></td>
 					</tr>
 					
 					<tr>
@@ -178,12 +178,10 @@ webhosting, jsme občanské sdružení, jehož členem se&nbsp;můžeš stát i&
 					</tr>
 					
 					<tr>
-						<td class="doprava"><strong>Vzdálená</strong></td>
-						<td class="dolava"><strong>konzole</strong></td>
+						<td class="text-center" colspan="2"><strong>Vzdálená konzole</strong></td>
 					</tr>
 					<tr>
-						<td class="doprava"><strong>On-line</strong></td>
-						<td class="dolava"><strong>podpora</strong></td>
+						<td class="text-center" colspan="2"><strong>On-line podpora</strong></td>
 					</tr>				
 				</table>
 				<a class="info" href="https://kb.vpsfree.cz/informace/parametry_vps" target="_blank">Více informací</a>
