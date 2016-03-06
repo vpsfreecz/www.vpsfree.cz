@@ -121,7 +121,7 @@ webhosting, jsme spolek, jehož členem se&nbsp;můžeš stát i&nbsp;ty&hellip;
 			<div class="c"> </div>
 			<p>
 			Naprostá většina informací o&nbsp;<strong>vpsFree.cz</strong> je veřejná.<br />
-			Chceme, aby členové i&nbsp;veřejnost měli přehled o&nbsp;dění v&nbsp;našem sdružení,<br />
+			Chceme, aby členové i&nbsp;veřejnost měli přehled o&nbsp;dění v&nbsp;našem spolku,<br />
 			sleduj naše informační kanály a&nbsp;sociální sítě:<br />
 			</p>
 			
@@ -251,7 +251,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			   <img src="i/michal-janousek.jpg" alt="Pavel Šnajdr" class="avatar">
 			   <h3>Michal Janoušek</h3>
 			   <div class="bubble">
-			     <p>Michal Janoušek je aktivním členem od roku 2010 a má ve vpsFree.cz na starosti přihlášky, faktury a podporu. Dálkově studuje střední školu. Má rád Linux a otevřené prostředí, které máme ve sdružení.</p>	
+			     <p>Michal Janoušek je aktivním členem od roku 2010 a má ve vpsFree.cz na starosti přihlášky, faktury a podporu. Dálkově studuje střední školu. Má rád Linux a otevřené prostředí, které máme ve spolku.</p>	
 			   </div>
 			 </div>
 
@@ -300,7 +300,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 			 <div class="km srazy">
 			   <span> </span>
 			   <h3>Děláme srazy</h3>
-			   <p>Pravidelně se&nbsp;potkáváme na srazech, kde se&nbsp;dozvíte o&nbsp;směřování sdružení, ale popovídáte si&nbsp;i&nbsp;o&nbsp;denních problémech ostatních adminů.</p>			  
+			   <p>Pravidelně se&nbsp;potkáváme na srazech, kde se&nbsp;dozvíte o&nbsp;směřování spolku, ale popovídáte si&nbsp;i&nbsp;o&nbsp;denních problémech ostatních adminů.</p>			  
 			 </div>
 			 
 			<div class="c"> </div>
@@ -388,7 +388,7 @@ datacenter se&nbsp;hodí úložný prostor navíc.<br /><br /> My nabízíme vš
 		<div class="in">
 		
 			<h2>Jak začít</h2>
-			<p>Staň se členem sdružení <strong>vpsFree.cz</strong>, které poskytuje hosting virtuálních serverů</p>
+			<p>Staň se členem spolku <strong>vpsFree.cz</strong>, které poskytuje hosting virtuálních serverů</p>
 			<div class="boxes">
 			
 			<a href="#order" class="box b1">
@@ -506,7 +506,7 @@ pouze nám slouží k&nbsp;lepšímu posouzení přihlášky.</p>
 			<div class="c"> </div>
 			<h3>Jak je to u nás s&nbsp;platbou?</h3>
 
-<p>Z rozhodnutí Rady sdružení se&nbsp;platí vždy na období minimálně tří měsíců dopředu, číslo účtu je uvedeno v&nbsp;sekci Kontakt, jako variabilní symbol se&nbsp;uvádí členské číslo, které člen vidí ve&nbsp;vpsAdminu, sekce Admin Členů jako první sloupeček (ID) (Ne ID virtuálního serveru!).</p>
+<p>Z rozhodnutí Rady spolku se&nbsp;platí vždy na období minimálně tří měsíců dopředu, číslo účtu je uvedeno v&nbsp;sekci Kontakt, jako variabilní symbol se&nbsp;uvádí členské číslo, které člen vidí ve&nbsp;vpsAdminu, sekce Admin Členů jako první sloupeček (ID) (Ne ID virtuálního serveru!).</p>
 
 <h3>Proč tolik prosazujete OpenVZ?</h3>
 
@@ -593,7 +593,7 @@ Na druhou stranu u&nbsp;nás narazíte na pravděpodobně nejlépe vyladěné na
 				Prosíme, na obálku uvádějte celou adresu, předejdete tak možnému nedoručení zásilky.
 			</span>
 
-			<h3>Údaje sdružení</h3>
+			<h3>Údaje spolku</h3>
 			
 			<div class="business">
 				<strong>IČ:</strong> 26568055<br />

@@ -93,7 +93,7 @@
 				Prosíme, na obálku uvádějte celou adresu, předejdete tak možnému nedoručení zásilky.
 			</span>
 
-			<h3>Údaje sdružení</h3>
+			<h3>Údaje spolku</h3>
 			
 			<div class="business">
 				<strong>IČ:</strong> 26568055<br />
