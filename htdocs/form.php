@@ -15,13 +15,13 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
   <meta name="keywords" content="VPS, hosting, VPS hosting, virtualni server, linux, server, privatni server, virtual server, virtualny server">    
 	<meta name="description" content="Fajný, či už raňajkový,alebo len tak ku kávičke.">
-    <meta name="description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Pro naše členy poskytujeme virtuální server za 300 Kč měsíčně.">
+    <meta name="description" content="vpsFree.cz je spolek, který provozuje virtuální servery pro své členy. Pro naše členy poskytujeme virtuální server za 300 Kč měsíčně.">
 
 	<!-- Meta tagy pre socialne siete-->
 	<meta property="og:site_name" content="vpsFree.cz">
 	<meta property="og:url" content="http://www.vpsfree.cz">	
 	<meta property="og:title" content="vpsFree.cz - Virtuální Privátní Servery svobodně">
-	<meta property="og:description" content="vpsFree.cz je občanské sdružení, které provozuje virtuální servery pro své členy. Pro naše členy poskytujeme virtuální server za 300 Kč měsíčně.">	
+	<meta property="og:description" content="vpsFree.cz je spolek, který provozuje virtuální servery pro své členy. Pro naše členy poskytujeme virtuální server za 300 Kč měsíčně.">	
 	<meta property="og:type" content="article">
 	<!--<meta property="og:image" content="/assets/linka-na-konkretny-obrazok-predvoleny-pre-facebook.jpg">-->
 	<meta property="og:image:type" content="image/jpeg" />
@@ -140,7 +140,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 			<div class="address">
 
 			<address>
-				<strong>vpsFree.cz o.s.</strong><br />
+				<strong>vpsFree.cz z.s.</strong><br />
 				Nad Dalejským údolím 2699/9<br />
 				155 00 Praha-Stodůlky<br />
 				Česká republika<br />
@@ -168,7 +168,7 @@ $db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 	<footer>
 		<div>
-			Copyright &copy; vpsFree.cz o.s. 2009-2014. vpsFree na <a href="https://www.facebook.com/vpsfree">Facebooku</a> a <a href="https://twitter.com/vpsfree_cz">Twitteri</a> &bull;
+			Copyright &copy; vpsFree.cz z.s. 2009-2014. vpsFree na <a href="https://www.facebook.com/vpsfree">Facebooku</a> a <a href="https://twitter.com/vpsfree_cz">Twitteri</a> &bull;
 			
 			Web site by <a href="http://www.abaffydesign.com/">Abaffy Design</a>
 		</div>
