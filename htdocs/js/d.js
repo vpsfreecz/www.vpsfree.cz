@@ -92,28 +92,33 @@ function signup() {
 	var distribution	= $("#distribution").val();
 	var location		= $("#location").val();
 	var currency		= $("#currency").val();
+        var mock                        = $('#_mock').val();
+
+        data = {
+            'nick'			:nick,
+            'name'			:name,
+            'surname'		:surname,
+            'birth'			:birth,
+            'address'		:address,
+            'city'			:city,
+            'zip'			:zip,
+            'country'		:country,
+            'email'			:email,
+            'how'			:how,
+            'note'			:note,
+            'distribution'	:distribution,
+            'location'		:location,
+            'currency'		:currency,
+            'js'  			:true
+        };
+
+        if (mock)
+            data['_mock'] = mock;
 	
 	$.ajax({
 		type : "POST",
 		url : "/prihlaska.php",
-		data : {
-			'nick'			:nick,
-			'name'			:name,
-			'surname'		:surname,
-			'birth'			:birth,
-			'address'		:address,
-			'city'			:city,
-			'zip'			:zip,
-			'country'		:country,
-			'email'			:email,
-			'how'			:how,
-			'note'			:note,
-			'distribution'	:distribution,
-			'location'		:location,
-			'currency'		:currency,
-			'js'  			:true
-			
-		},
+		data : data,
 		success: function(data, status, jqxhr) {
 			if(data.length == 0) {
 				$('section.pg.page4 > div.in').hide().html('<h2>Děkujeme - Odesláno</h2>Měl bys obdržet e-mail potvrzující přijetí přihlášky - pokud se tak nestane do deseti minut, pošli přihlášku prosím znova.<br />Pokud ani přes to nic nepřichází, obrať se prosím na podporu - podpora @ vpsfree.cz<br /><br/>Děkujeme za Tvůj zájem přidat se k nám.').fadeIn('slow');

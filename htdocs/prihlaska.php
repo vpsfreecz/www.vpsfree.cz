@@ -93,7 +93,14 @@ if ($_POST) {
 			include "form.php";
 			exit();
 		}
-	}
+        }
+
+        if ($_POST['_mock']) {
+	    if (!$is_ajax)
+                header('Location: dekujeme.php');
+
+            exit();
+        }
 	
 	$db = new sql_db (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	
